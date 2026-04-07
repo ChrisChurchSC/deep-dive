@@ -1,0 +1,92 @@
+.section {
+  padding: var(--sp-8) 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.label {
+  font-size: 9px;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--subtle);
+  text-align: center;
+  margin: 0 0 var(--sp-6);
+}
+
+/* ── Marquee track ── */
+.track {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Fade edges */
+.track::before,
+.track::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.track::before {
+  left: 0;
+  background: linear-gradient(to right, var(--surface), transparent);
+}
+
+.track::after {
+  right: 0;
+  background: linear-gradient(to left, var(--surface), transparent);
+}
+
+/* Scrolling strip — translateX(-50%) moves exactly one copy's width */
+.strip {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-16);
+  width: max-content;
+  animation: marquee 28s linear infinite;
+}
+
+.strip:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* ── Items ── */
+.item {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo {
+  height: 22px;
+  width: auto;
+  filter: saturate(0);
+  opacity: 0.3;
+}
+
+.name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--subtle);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .strip { animation: none; }
+}

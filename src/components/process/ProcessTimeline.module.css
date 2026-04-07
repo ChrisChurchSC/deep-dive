@@ -1,0 +1,127 @@
+.table {
+  border-top: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+}
+
+/* ─── Header row ─── */
+
+.tableHead {
+  display: grid;
+  grid-template-columns: 72px 200px 1fr 1fr 220px;
+}
+
+.headCell {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--subtle);
+  padding: var(--sp-3) var(--sp-5);
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+/* ─── Stage rows ─── */
+
+.row {
+  display: grid;
+  grid-template-columns: 72px 200px 1fr 1fr 220px;
+}
+
+.numCell {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--sp-8) var(--sp-5);
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.num {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--subtle);
+}
+
+.nameCell {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding: var(--sp-8) var(--sp-5);
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.stageName {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 2.5vw, 30px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.duration {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--subtle);
+  margin-top: var(--sp-1);
+}
+
+.cell {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--muted);
+  padding: var(--sp-8) var(--sp-5);
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.outputCell {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--text);
+  padding: var(--sp-8) var(--sp-5);
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+@media (max-width: 900px) {
+  .tableHead { display: none; }
+
+  .row {
+    grid-template-columns: 48px 1fr;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .numCell {
+    grid-row: 1;
+    grid-column: 1;
+    padding: var(--sp-6) var(--sp-4);
+    border-bottom: none;
+  }
+
+  .nameCell {
+    grid-row: 1;
+    grid-column: 2;
+    padding: var(--sp-6) var(--sp-4) var(--sp-4);
+    border-right: none;
+  }
+
+  .cell, .outputCell {
+    grid-column: 1 / -1;
+    padding: var(--sp-3) var(--sp-4);
+    border-right: none;
+  }
+
+  .cell:last-child, .outputCell {
+    padding-bottom: var(--sp-6);
+  }
+}

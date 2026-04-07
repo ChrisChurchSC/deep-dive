@@ -1,0 +1,15 @@
+.insight {
+  border-left: 2px solid var(--accent);
+  background: var(--accent-bg);
+  padding: 16px 22px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.text {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(16px, 2vw, 22px);
+  line-height: 1.4;
+  color: var(--text);
+  font-style: normal;
+}

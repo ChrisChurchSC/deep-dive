@@ -1,0 +1,70 @@
+.root {
+  overflow-x: auto;
+}
+
+.table {
+  min-width: 640px;
+}
+
+.head,
+.row {
+  display: grid;
+  grid-template-columns: 180px 1fr 1fr 1fr;
+  gap: 1px;
+  background: var(--border);
+}
+
+.head {
+  background: var(--surface3);
+  border-radius: var(--radius) var(--radius) 0 0;
+  overflow: hidden;
+}
+
+.colHead {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--subtle);
+  padding: var(--sp-4) var(--sp-5);
+  background: var(--surface2);
+}
+
+.colHead.us {
+  background: var(--text);
+  color: rgba(222,220,195,0.6);
+}
+
+.row {
+  background: var(--border);
+}
+
+.row:last-child {
+  border-radius: 0 0 var(--radius) var(--radius);
+  overflow: hidden;
+}
+
+.rowLabel {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  padding: var(--sp-4) var(--sp-5);
+  background: var(--surface2);
+  display: flex;
+  align-items: center;
+}
+
+.cell {
+  font-size: 12px;
+  color: var(--muted);
+  padding: var(--sp-4) var(--sp-5);
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+}
+
+.cell.us {
+  background: #111110;
+  color: rgba(222,220,195,0.7);
+  font-weight: 700;
+}

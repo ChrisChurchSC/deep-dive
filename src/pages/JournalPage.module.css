@@ -1,0 +1,154 @@
+/* ─── JournalPage ─── */
+
+/* ── Newsletter ── */
+
+.subscribe {
+  background: var(--surface2);
+  border-bottom: 1px solid var(--border);
+  padding: var(--sp-10) 0;
+}
+
+.subscribeInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-8);
+}
+
+.subscribeTitle {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin-bottom: var(--sp-1);
+}
+
+.subscribeBody {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0;
+}
+
+.subscribeForm {
+  display: flex;
+  gap: var(--sp-2);
+  flex-shrink: 0;
+}
+
+.subscribeInput {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  outline: none;
+  width: 240px;
+  transition: border-color var(--t-fast);
+}
+
+.subscribeInput:focus {
+  border-color: var(--accent);
+}
+
+.subscribeInput::placeholder {
+  color: var(--subtle);
+}
+
+.subscribeBtn {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--bg);
+  background: var(--text);
+  border: none;
+  border-radius: var(--radius);
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity var(--t-fast);
+}
+
+.subscribeBtn:hover {
+  opacity: 0.8;
+}
+
+.subThanks {
+  font-size: 14px;
+  color: var(--text);
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* ── Articles ── */
+
+.articles {
+  padding: var(--sp-12) 0 var(--sp-20);
+  background: var(--bg);
+}
+
+.filterBar {
+  display: flex;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-8);
+  flex-wrap: wrap;
+}
+
+.filterBtn {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: color var(--t-fast), background var(--t-fast), border-color var(--t-fast);
+}
+
+.filterBtn:hover {
+  color: var(--text);
+  border-color: var(--border-hover);
+}
+
+.filterBtn.active {
+  color: var(--bg);
+  background: var(--text);
+  border-color: var(--text);
+}
+
+.featuredWrap {
+  margin-bottom: var(--sp-4);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--sp-4);
+}
+
+.empty {
+  text-align: center;
+  padding: var(--sp-20) 0;
+  color: var(--subtle);
+  font-size: 14px;
+}
+
+@media (max-width: 640px) {
+  .subscribeInner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .subscribeForm {
+    width: 100%;
+  }
+
+  .subscribeInput {
+    width: 100%;
+    flex: 1;
+  }
+}

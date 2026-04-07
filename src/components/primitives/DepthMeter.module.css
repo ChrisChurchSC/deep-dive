@@ -1,0 +1,72 @@
+.meter {
+  position: fixed;
+  left: var(--sp-10);
+  top: 0;
+  bottom: 0;
+  width: 48px;
+  z-index: 40;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.track {
+  position: relative;
+  height: calc(100vh - 100px);
+  width: 100%;
+}
+
+/* Vertical rule */
+.line {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--border);
+}
+
+/* Each depth tick */
+.tick {
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  flex-direction: row-reverse;
+}
+
+.tickMark {
+  width: 4px;
+  height: 1px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+
+.label {
+  font-size: 7px;
+  font-family: var(--font-mono);
+  letter-spacing: 0.05em;
+  color: var(--subtle);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* Scroll indicator dot */
+.indicator {
+  position: absolute;
+  left: calc(50% - 2px);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  transform: translateY(-50%);
+  transition: top 0.08s linear;
+}
+
+/* Hide on small screens — not enough margin */
+@media (max-width: 1100px) {
+  .meter { display: none; }
+}

@@ -1,0 +1,29 @@
+.root {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.svg {
+  display: block;
+  width: 100%;
+  height: 260px;
+}
+
+/* Optional label centred at the top of the graphic */
+.label {
+  position: absolute;
+  top: var(--sp-5);
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.labelText {
+  font-size: 9px;
+  font-family: var(--font-mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--subtle);
+}

@@ -1,0 +1,51 @@
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--sp-8) var(--sp-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-6);
+}
+
+.quote p {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(16px, 1.8vw, 20px);
+  line-height: 1.45;
+  color: var(--text);
+  font-style: normal;
+}
+
+.attribution {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+  border-top: 1px solid var(--border);
+  padding-top: var(--sp-5);
+}
+
+.logo {
+  height: 20px;
+  width: auto;
+  opacity: 0.5;
+  filter: saturate(0);
+  flex-shrink: 0;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.name {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.role {
+  font-size: 11px;
+  color: var(--subtle);
+}

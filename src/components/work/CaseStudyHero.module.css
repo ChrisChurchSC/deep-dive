@@ -1,0 +1,84 @@
+.hero {
+  position: relative;
+  padding: calc(var(--nav-h) + var(--sp-20)) 0 var(--sp-16);
+  background: var(--text);
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(8,8,8,0.92) 0%,
+    rgba(8,8,8,0.5) 50%,
+    rgba(8,8,8,0.2) 100%
+  );
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  max-width: 720px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.client {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(222,220,195,0.5);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(28px, 4vw, 52px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--cream);
+}
+
+.desc {
+  font-size: 15px;
+  color: rgba(222,220,195,0.6);
+  line-height: 1.7;
+  max-width: 540px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: var(--sp-2);
+}
+
+.statVal {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--cream);
+}
+
+.statLbl {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(222,220,195,0.45);
+}

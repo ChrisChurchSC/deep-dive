@@ -1,0 +1,48 @@
+.hero {
+  padding: calc(var(--nav-h) + var(--sp-16)) 0 var(--sp-16);
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-5);
+  max-width: 680px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+.tagline {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.35;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.desc {
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.examples {
+  display: flex;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}

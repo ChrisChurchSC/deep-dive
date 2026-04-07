@@ -1,0 +1,15 @@
+/* ─── ProcessPage ─── */
+
+.timeline {
+  padding: var(--sp-20) 0;
+  background: var(--bg);
+}
+
+.faq {
+  padding: var(--sp-20) 0;
+  border-top: 1px solid var(--border);
+}
+
+.faqHead {
+  margin-bottom: var(--sp-10);
+}

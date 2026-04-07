@@ -1,0 +1,98 @@
+/* ─── ContactPage ─── */
+
+.body {
+  padding: var(--sp-20) 0 var(--sp-24);
+  background: var(--bg);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: var(--sp-16);
+  align-items: start;
+}
+
+/* ─── Left column ─── */
+
+.left {
+  position: sticky;
+  top: calc(var(--nav-h) + var(--sp-8));
+}
+
+.reasons {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-6);
+  margin: var(--sp-6) 0 var(--sp-10);
+}
+
+.reason {
+  display: flex;
+  gap: var(--sp-4);
+  align-items: flex-start;
+}
+
+.reasonIcon {
+  font-size: 16px;
+  color: var(--accent);
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.reasonTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: var(--sp-1);
+  letter-spacing: -0.01em;
+}
+
+.reasonBody {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0;
+}
+
+.turnaround {
+  padding: var(--sp-6);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.turnaroundLabel {
+  font-size: 11px;
+  font-family: var(--font-mono);
+  letter-spacing: 0.08em;
+  color: var(--subtle);
+  text-transform: uppercase;
+  margin-bottom: var(--sp-1);
+}
+
+.turnaroundVal {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin-bottom: var(--sp-3);
+}
+
+.turnaroundNote {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--sp-10);
+  }
+
+  .left {
+    position: static;
+  }
+}

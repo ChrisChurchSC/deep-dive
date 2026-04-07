@@ -1,0 +1,22 @@
+.workSection {
+  padding: var(--sp-16) 0;
+  background: var(--bg);
+}
+
+.workHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--sp-6);
+}
+
+.viewAll {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--subtle);
+  transition: color var(--t-fast);
+}
+
+.viewAll:hover { color: var(--text); }
