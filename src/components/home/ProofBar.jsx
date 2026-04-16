@@ -3,19 +3,19 @@ import Reveal from '../primitives/Reveal'
 
 const stats = [
   {
-    value: '55%',
-    label: 'Average view-through rate',
-    note: 'vs 2% industry benchmark',
-  },
-  {
     value: '131%',
-    label: 'Purchase lift from educational content',
+    label: 'more likely to buy after consuming educational content',
     note: 'Conductor / Cornell University',
   },
   {
     value: '89%',
     label: 'of B2B buyers say thought leadership builds trust',
     note: 'Edelman-LinkedIn B2B Study',
+  },
+  {
+    value: '47%',
+    label: 'of total ad sales lift is driven by creative quality alone',
+    note: 'Nielsen',
   },
 ]
 

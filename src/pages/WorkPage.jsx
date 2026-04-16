@@ -1,7 +1,8 @@
 import SEO from '../components/global/SEO'
 import PageHero from '../components/shared/PageHero'
 import WorkGrid from '../components/work/WorkGrid'
-import { projects } from '../data/projects'
+import { projects as allProjects } from '../data/projects'
+const projects = allProjects.filter(p => p.videoUrl)
 import styles from './WorkPage.module.css'
 
 export default function WorkPage() {
@@ -9,12 +10,12 @@ export default function WorkPage() {
     <>
       <SEO
         title="The Work"
-        description="A portfolio of branded documentary films for Google, SurvivorNet, and more. Customer stories, founder films, and expert series with an average 55% view-through rate."
+        description="A portfolio of branded documentary films for Google, SurvivorNet, Arbitrum, and more. Customer stories, founder films, and expert series."
         canonical="/work"
       />
       <PageHero
         eyebrow="The work"
-        title="Films that educate. Brands that earn trust."
+        title="What we make."
         description="Every project starts with a story worth telling. Here's what that looks like in practice."
       />
       <section className={styles.grid}>

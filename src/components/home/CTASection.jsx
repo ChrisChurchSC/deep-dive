@@ -8,9 +8,15 @@ export default function CTASection() {
     <section className={styles.section}>
       <div className="shell">
         <div className={styles.inner}>
+          <img
+            src="/cta-illustration.png"
+            alt=""
+            className={styles.illustration}
+            aria-hidden="true"
+          />
           <div className={styles.content}>
             <Reveal><h2 className={styles.heading}>
-              Are you not edutained!?
+              Ready to make something people actually finish?
             </h2></Reveal>
             <Reveal delay={1}><p className={styles.body}>
               Tell us what your audience needs to know. We'll make them want to watch it.

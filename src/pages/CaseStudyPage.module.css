@@ -1,7 +1,7 @@
 /* ─── Header ─── */
 
 .header {
-  padding: var(--sp-20) 0 var(--sp-12);
+  padding: calc(var(--sp-20) * 1.75) 0 var(--sp-12);
 }
 
 .eyebrow {

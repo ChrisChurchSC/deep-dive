@@ -6,14 +6,18 @@ import ServicesGrid from '../components/home/ServicesGrid'
 import CTASection from '../components/home/CTASection'
 import ProofBar from '../components/home/ProofBar'
 import ClientLogos from '../components/shared/ClientLogos'
-import { projects } from '../data/projects'
+import { projects as allProjects } from '../data/projects'
+const projects = allProjects.filter(p => p.videoUrl)
 
 const clients = [
-  { name: 'Google' },
-  { name: 'SurvivorNet' },
-  { name: 'Meta' },
-  { name: 'Harlem Capital' },
-  { name: 'Ethereum' },
+  { name: 'Google', logo: '/logos/google.png', scale: 1.3 },
+  { name: 'Walmart', logo: '/logos/walmart.png', scale: 1.45 },
+  { name: 'YouTube', logo: '/logos/youtube.png', scale: 1.3 },
+  { name: 'Barnes & Noble', logo: '/logos/barnes-noble.png', scale: 0.85 },
+  { name: 'Brooklyn Brewery', logo: '/logos/brooklyn-brewery.svg', scale: 1.4 },
+  { name: 'SurvivorNet', logo: '/logos/survivornet.png', scale: 0.75 },
+  { name: 'SingleCare', logo: '/logos/singlecare.png', scale: 0.75 },
+  { name: 'RTPI', logo: '/logos/rtpi.webp', scale: 1.15 },
 ]
 
 const homeJsonLd = [
@@ -21,7 +25,7 @@ const homeJsonLd = [
     '@context': 'https://schema.org',
     '@type': ['Organization', 'LocalBusiness'],
     '@id': 'https://deepdivefilms.com/#organization',
-    name: 'Deep Dive Films',
+    name: 'Deep Dive',
     url: 'https://deepdivefilms.com',
     logo: 'https://deepdivefilms.com/og-default.jpg',
     description: 'Brooklyn-based branded edutainment video production studio. Documentary films that educate your audience and build your brand.',
@@ -56,7 +60,7 @@ const homeJsonLd = [
     '@type': 'WebSite',
     '@id': 'https://deepdivefilms.com/#website',
     url: 'https://deepdivefilms.com',
-    name: 'Deep Dive Films',
+    name: 'Deep Dive',
     publisher: { '@id': 'https://deepdivefilms.com/#organization' },
     speakable: {
       '@type': 'SpeakableSpecification',
@@ -70,7 +74,7 @@ export default function HomePage() {
     <>
       <SEO
         canonical="/"
-        description="Brooklyn-based branded edutainment studio. We make documentary films that educate your audience and build your brand. 55% average view-through rate."
+        description="Brooklyn-based branded edutainment studio. We make documentary films that educate your audience and build your brand. Documentary craft. Brand outcomes."
         jsonLd={homeJsonLd}
       />
       <WorkHero src="/hero.mp4" />

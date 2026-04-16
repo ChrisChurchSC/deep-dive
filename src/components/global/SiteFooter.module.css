@@ -1,8 +1,9 @@
 .footer {
-  background: linear-gradient(to bottom, #00bbff 0%, #000cff 40%, #000898 70%, #080808 100%);
+  background: linear-gradient(to bottom, #e8e7e2 0, #d6e8ef 40px, #9fdcff 120px, #00bbff 220px, #000cff 70%, #000898 86%, #080808 100%);
   color: #fff;
-  padding: var(--sp-16) 0 var(--sp-10);
-  margin-top: var(--sp-20);
+  padding: 260px 0 var(--sp-10);
+  margin-top: 0;
+  border-top: 1px solid #d4d3ce;
 }
 
 .inner {
@@ -40,7 +41,7 @@
   line-height: 1.15;
 }
 
-.link:hover { color: #ffffff; }
+.link:hover { color: #000000; }
 
 /* ─── Mid row ─── */
 
@@ -194,7 +195,7 @@
   transition: color var(--t-fast);
 }
 
-.email:hover { color: #fff; }
+.email:hover { color: #000; }
 
 @media (max-width: 768px) {
   .mid { grid-template-columns: 1fr; gap: var(--sp-10); }

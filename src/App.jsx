@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect, useRef, useState } from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import SiteNav from './components/global/SiteNav'
 import SiteFooter from './components/global/SiteFooter'
+import LoadingScreen from './components/global/LoadingScreen'
 
 // Route-level code splitting — each page is a separate chunk
 const HomePage          = lazy(() => import('./pages/HomePage'))
@@ -58,6 +59,17 @@ function PageFade({ children }) {
 function Layout({ children }) {
   return (
     <>
+      <div
+        style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          height: '6px',
+          background: 'linear-gradient(to right, #00bbff 0%, #000cff 50%, #080808 100%)',
+          zIndex: 101,
+        }}
+      />
       <SiteNav />
       <main>{children}</main>
       <SiteFooter />
@@ -73,6 +85,7 @@ function PageLoader() {
 export default function App() {
   return (
     <BrowserRouter>
+      <LoadingScreen />
       <Analytics />
       <ScrollToTop />
       <Suspense fallback={<PageLoader />}>

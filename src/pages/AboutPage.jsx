@@ -2,7 +2,25 @@ import SEO from '../components/global/SEO'
 import PageHero from '../components/shared/PageHero'
 import CTASection from '../components/home/CTASection'
 import SectionLabel from '../components/primitives/SectionLabel'
+import BTSStrip from '../components/shared/BTSStrip'
 import styles from './AboutPage.module.css'
+
+const btsImages = [
+  '/bts/yur08884.jpg',
+  '/bts/sadie_bts_092025-7.jpg',
+  '/bts/l1000855.jpg',
+  '/bts/img_6350.jpg',
+  '/bts/yur08912.jpg',
+  '/bts/sadie_bts_092025-8.jpg',
+  '/bts/l1000857.jpg',
+  '/bts/img-2987.jpg',
+  '/bts/yur08914.jpg',
+  '/bts/sadie_bts_092025-12.jpg',
+  '/bts/l1000860.jpg',
+  '/bts/img-4903.jpg',
+  '/bts/yur08922.jpg',
+  '/bts/img_2114.jpg',
+]
 
 const values = [
   {
@@ -31,6 +49,12 @@ const press = [
     href: '#',
   },
   {
+    outlet: 'Webby Awards',
+    title: 'Nominee — Best Corporate Social Responsibility Video',
+    year: '2023',
+    href: '#',
+  },
+  {
     outlet: 'Digiday',
     title: 'How branded documentary is reshaping content marketing',
     year: '2023',
@@ -48,6 +72,12 @@ const press = [
     year: '2024',
     href: '#',
   },
+  {
+    outlet: 'Adweek',
+    title: 'The case for long-form branded content in a short-form world',
+    year: '2024',
+    href: '#',
+  },
 ]
 
 export default function AboutPage() {
@@ -55,12 +85,12 @@ export default function AboutPage() {
     <>
       <SEO
         title="About"
-        description="Deep Dive Films is a Brooklyn-based documentary studio. Our work has aired on HBO. Now we make films for brands."
+        description="Deep Dive is a Brooklyn-based branded edutainment studio. Emmy-winning documentary filmmakers who now make films for brands."
         canonical="/about"
       />
       <PageHero
         eyebrow="About"
-        title="Documentary filmmakers. HBO alumni."
+        title="Documentary filmmakers. Emmy-winning team."
         description="We've spent years making films about real people and complex ideas. Now we make them for brands."
       />
 
@@ -73,7 +103,7 @@ export default function AboutPage() {
             </div>
             <div className={styles.introRight}>
               <p className={styles.body}>
-                Deep Dive was founded by documentary filmmakers whose work has screened on HBO. We know how to find a true story, earn access, and make something people actually finish watching.
+                Deep Dive was founded by documentary filmmakers with Emmy-winning credentials. We know how to find a true story, earn access, and make something people actually finish watching.
               </p>
               <p className={styles.body}>
                 Brands started asking us to do the same thing for them. When you make brand content the way you make documentary — with real subjects and genuine craft — it performs like nothing else. That's the studio we built.
@@ -111,6 +141,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <BTSStrip images={btsImages} label="On set — behind the scenes" />
 
       {/* Press */}
       <section className={styles.pressSection}>

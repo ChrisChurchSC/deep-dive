@@ -8,7 +8,7 @@ export const articles = [
     date: '2025-10-15',
     readTime: '7 min read',
     featured: true,
-    relatedProjects: ['survivornet', 'google', 'harlem-capital'],
+    relatedProjects: ['survivornet', 'google-language-ai', 'harlem-capital'],
   },
   {
     slug: 'the-view-through-rate-that-changed-how-we-think-about-video',
@@ -48,7 +48,7 @@ export const articles = [
     date: '2025-07-30',
     readTime: '10 min read',
     featured: false,
-    relatedProjects: ['google', 'harlem-capital'],
+    relatedProjects: ['google-language-ai', 'harlem-capital'],
   },
   {
     slug: 'episodic-vs-single-film-which-format-is-right-for-your-brand',

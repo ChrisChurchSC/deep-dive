@@ -20,7 +20,7 @@ export default function ServiceDetailPage() {
     description: service.description,
     provider: {
       '@type': 'Organization',
-      name: 'Deep Dive Films',
+      name: 'Deep Dive',
       url: 'https://deepdivefilms.com',
     },
     serviceType: 'Branded Documentary Video Production',

@@ -15,7 +15,8 @@ const categories = [
     tagline: 'The brand made visible. The people behind it made human.',
     description: 'Founder origin stories, culture documents, leadership profiles — the brand brought to life through the people who built it. When audiences understand why a company exists, they trust it differently.',
     examples: ['Founder origin stories', 'Culture & hiring films', 'Executive profiles', '"Why We Exist" films'],
-    video: '/videos/sample-brand.mp4',
+    video: '/previews/brooklyn-brewery.mp4',
+    thumbnail: '/thumbnails/brooklyn-brewery.jpg',
   },
   {
     slug: 'customer-community',
@@ -23,7 +24,8 @@ const categories = [
     tagline: 'Real people, real results. Social proof that feels earned, not staged.',
     description: 'Long-form customer success stories, transformation narratives, and community films that build genuine trust. Not "testimonials" — full stories with stakes, struggle, and resolution.',
     examples: ['Customer success stories', '"Day in the Life" films', 'Before/after narratives', 'Community impact docs'],
-    video: '/videos/sample-customer.mp4',
+    video: '/previews/survivornet.mp4',
+    thumbnail: '/thumbnails/survivornet.jpg',
   },
   {
     slug: 'industry-platform',
@@ -31,7 +33,8 @@ const categories = [
     tagline: 'Authority-building content that makes your brand the authority.',
     description: 'Expert interview series, industry trend documentaries, and episodic content that positions your brand as the definitive voice in your space. The kind of content people cite.',
     examples: ['Expert interview series', 'Industry trend docs', 'Episodic docu-series', 'Conference & event capture'],
-    video: '/videos/sample-industry.mp4',
+    video: '/previews/think-with-google.mp4',
+    thumbnail: '/thumbnails/think-with-google.jpg',
   },
 ]
 
@@ -67,11 +70,14 @@ const formats = [
 ]
 
 const clients = [
-  { name: 'Google' },
-  { name: 'SurvivorNet' },
-  { name: 'Vitalik / ETH' },
-  { name: 'Harlem Capital' },
-  { name: 'Meta' },
+  { name: 'Google', logo: '/logos/google.png', scale: 1.3 },
+  { name: 'Walmart', logo: '/logos/walmart.png', scale: 1.45 },
+  { name: 'YouTube', logo: '/logos/youtube.png', scale: 1.3 },
+  { name: 'Barnes & Noble', logo: '/logos/barnes-noble.png', scale: 0.85 },
+  { name: 'Brooklyn Brewery', logo: '/logos/brooklyn-brewery.svg', scale: 1.4 },
+  { name: 'SurvivorNet', logo: '/logos/survivornet.png', scale: 0.75 },
+  { name: 'SingleCare', logo: '/logos/singlecare.png', scale: 0.75 },
+  { name: 'RTPI', logo: '/logos/rtpi.webp', scale: 1.15 },
 ]
 
 export default function ServicesPage() {
@@ -109,6 +115,7 @@ export default function ServicesPage() {
                   <div className={styles.catVideo}>
                     <video
                       src={cat.video}
+                      poster={cat.thumbnail}
                       autoPlay
                       muted
                       loop
@@ -136,7 +143,7 @@ export default function ServicesPage() {
           </div>
           <div className={styles.assetGrid}>
             {[
-              { num: '01', label: 'Hero film', desc: 'The anchor piece — 3 to 12 minutes, built for owned channels and long-form distribution.' },
+              { num: '01', label: 'Hero film', desc: 'The anchor piece — 2 to 12 minutes, built for owned channels and long-form distribution.' },
               { num: '02', label: 'Social cuts', desc: '15s, 30s, and 60s edits optimized for LinkedIn, Instagram, and paid social.' },
               { num: '03', label: 'Audiogram & quote cards', desc: 'Key moments pulled for static and motion assets across organic and paid.' },
               { num: '04', label: 'Interview transcripts', desc: 'Full transcripts for blog posts, newsletters, and SEO content.' },

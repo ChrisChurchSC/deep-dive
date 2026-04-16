@@ -7,14 +7,14 @@ export default function PrivacyPage() {
     <>
       <SEO
         title="Privacy Policy"
-        description="How Deep Dive Films collects, uses, and protects your information."
+        description="How Deep Dive collects, uses, and protects your information."
         canonical="/privacy"
         noIndex={true}
       />
       <PageHero
         eyebrow="Legal"
         title="Privacy Policy"
-        description="How Deep Dive Films collects, uses, and protects your information."
+        description="How Deep Dive collects, uses, and protects your information."
       />
 
       <section className={styles.body}>

@@ -12,7 +12,13 @@ export default function ClientLogos({ clients = [], label = 'Trusted by' }) {
           {repeated.map((client, i) => (
             <div key={i} className={styles.item}>
               {client.logo ? (
-                <img src={client.logo} alt={client.name} className={styles.logo} loading="lazy" />
+                <img
+                  src={client.logo}
+                  alt={client.name}
+                  className={styles.logo}
+                  loading="lazy"
+                  style={client.scale ? { height: `${32 * client.scale}px` } : undefined}
+                />
               ) : (
                 <span className={styles.name}>{client.name}</span>
               )}

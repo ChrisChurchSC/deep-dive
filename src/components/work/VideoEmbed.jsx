@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import styles from './VideoEmbed.module.css'
 
-// embedUrl: a Vimeo or YouTube embed URL (iframe src)
+// embedUrl: Vimeo or YouTube iframe src
+// videoUrl: direct mp4/video file path
 // thumbnail: optional poster image
 // title: accessible label
-export default function VideoEmbed({ embedUrl, thumbnail, title = 'Project film' }) {
+export default function VideoEmbed({ embedUrl, videoUrl, thumbnail, title = 'Project film' }) {
   const [active, setActive] = useState(false)
 
-  const handleActivate = () => setActive(true)
+  const hasVideo = embedUrl || videoUrl
 
   return (
     <div className={styles.root}>
@@ -19,19 +20,28 @@ export default function VideoEmbed({ embedUrl, thumbnail, title = 'Project film'
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
         />
+      ) : active && videoUrl ? (
+        <video
+          className={styles.frame}
+          src={videoUrl}
+          autoPlay
+          controls
+          playsInline
+          title={title}
+        />
       ) : (
         <div
           className={styles.poster}
-          onClick={embedUrl || thumbnail ? handleActivate : undefined}
-          role={embedUrl ? 'button' : undefined}
-          tabIndex={embedUrl ? 0 : undefined}
-          onKeyDown={embedUrl ? (e) => e.key === 'Enter' && handleActivate() : undefined}
-          aria-label={embedUrl ? `Play ${title}` : undefined}
+          onClick={hasVideo ? () => setActive(true) : undefined}
+          role={hasVideo ? 'button' : undefined}
+          tabIndex={hasVideo ? 0 : undefined}
+          onKeyDown={hasVideo ? (e) => e.key === 'Enter' && setActive(true) : undefined}
+          aria-label={hasVideo ? `Play ${title}` : undefined}
         >
           {thumbnail && <img src={thumbnail} alt={title} className={styles.thumb} loading="lazy" />}
           {!thumbnail && <div className={styles.gradient} />}
 
-          {embedUrl && (
+          {hasVideo && (
             <div className={styles.playWrap}>
               <div className={styles.playBtn}>
                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden>
@@ -42,7 +52,7 @@ export default function VideoEmbed({ embedUrl, thumbnail, title = 'Project film'
             </div>
           )}
 
-          {!embedUrl && (
+          {!hasVideo && (
             <div className={styles.unavail}>
               <span>Film coming soon</span>
             </div>

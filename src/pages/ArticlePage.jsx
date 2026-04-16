@@ -88,10 +88,10 @@ export default function ArticlePage() {
     headline: article.title,
     description: article.excerpt,
     datePublished: article.date,
-    author: { '@type': 'Organization', name: 'Deep Dive Films' },
+    author: { '@type': 'Organization', name: 'Deep Dive' },
     publisher: {
       '@type': 'Organization',
-      name: 'Deep Dive Films',
+      name: 'Deep Dive',
       url: 'https://deepdivefilms.com',
     },
   }

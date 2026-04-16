@@ -18,7 +18,7 @@ export default function ComparisonBlock() {
           <div className={styles.rowLabel} />
           <div className={styles.colHead}>Generic Video Agency</div>
           <div className={styles.colHead}>Documentary Filmmaker</div>
-          <div className={`${styles.colHead} ${styles.us}`}>Deep Dive Films</div>
+          <div className={`${styles.colHead} ${styles.us}`}>Deep Dive</div>
         </div>
         {rows.map(row => (
           <div key={row.label} className={styles.row}>

@@ -1,7 +1,7 @@
 /* ─── ArticlePage ─── */
 
 .header {
-  padding: var(--sp-16) 0 var(--sp-12);
+  padding: calc(var(--sp-20) * 1.75) 0 var(--sp-12);
   background: var(--bg);
   border-bottom: 1px solid var(--border);
 }

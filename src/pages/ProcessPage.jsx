@@ -28,12 +28,8 @@ const faqs = [
     answer: 'Two structured feedback rounds in post-production. We front-load alignment in discovery and pre-production so by the time you see a cut, it\'s close. Revisions beyond two rounds are scoped separately.',
   },
   {
-    question: "What's your minimum budget?",
-    answer: 'Our projects start at $25k for a single mini-film. Most clients land between $50k–$150k depending on scope, travel, and deliverable count. Series are scoped per-episode with volume efficiencies.',
-  },
-  {
     question: 'Do you work with clients outside New York?',
-    answer: "Yes. We're Brooklyn-based but produce globally. Remote-first communication with on-site production wherever the story lives. Travel and logistics are factored into every quote.",
+    answer: "Yes. We're Brooklyn-based but produce globally. If the story is in Antarctica, that's where we go. Remote-first communication with on-site production wherever the story lives. Travel and logistics are factored into every quote.",
   },
   {
     question: 'Can we own the footage?',

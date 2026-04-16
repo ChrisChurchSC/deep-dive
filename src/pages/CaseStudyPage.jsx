@@ -14,7 +14,7 @@ export default function CaseStudyPage() {
 
   if (!project) return <Navigate to="/work" replace />
 
-  const related = projects.filter(p => p.slug !== slug).slice(0, 3)
+  const related = projects.filter(p => p.slug !== slug && p.videoUrl).slice(0, 3)
 
   const seoDesc = project.stat
     ? `${project.client} — ${project.format}. ${project.stat} ${project.statLabel}. ${project.description}`
@@ -51,6 +51,7 @@ export default function CaseStudyPage() {
         <div className="shell">
           <VideoEmbed
             embedUrl={project.embedUrl}
+            videoUrl={project.videoUrl}
             thumbnail={project.thumbnail}
             title={`${project.client} — ${project.title}`}
           />

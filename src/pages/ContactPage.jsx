@@ -44,7 +44,7 @@ export default function ContactPage() {
     <>
       <SEO
         title="Start a Project"
-        description="Tell us what you're trying to say — we'll tell you if there's a film in it. Deep Dive Films responds within 48 hours."
+        description="Tell us what you're trying to say — we'll tell you if there's a film in it. Deep Dive responds within 48 hours."
         canonical="/contact"
         noIndex={false}
       />
