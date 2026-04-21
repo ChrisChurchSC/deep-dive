@@ -1,6 +1,7 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
 import SEO from '../components/global/SEO'
 import VideoEmbed from '../components/work/VideoEmbed'
+import VideoCarousel from '../components/work/VideoCarousel'
 import WorkCard from '../components/work/WorkCard'
 import SectionLabel from '../components/primitives/SectionLabel'
 import CTASection from '../components/home/CTASection'
@@ -48,14 +49,22 @@ export default function CaseStudyPage() {
 
       {/* Video */}
       <section className={styles.film}>
-        <div className="shell">
-          <VideoEmbed
-            embedUrl={project.embedUrl}
-            videoUrl={project.videoUrl}
+        {project.videos?.length > 1 ? (
+          <VideoCarousel
+            videos={project.videos}
             thumbnail={project.thumbnail}
             title={`${project.client} — ${project.title}`}
           />
-        </div>
+        ) : (
+          <div className="shell">
+            <VideoEmbed
+              embedUrl={project.embedUrl ?? project.videos?.[0]?.embedUrl ?? null}
+              videoUrl={project.videoUrl ?? project.videos?.[0]?.url ?? null}
+              thumbnail={project.thumbnail}
+              title={`${project.client} — ${project.title}`}
+            />
+          </div>
+        )}
       </section>
 
       {/* Info */}

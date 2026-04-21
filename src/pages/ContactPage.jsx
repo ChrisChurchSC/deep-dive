@@ -75,9 +75,9 @@ export default function ContactPage() {
 
               <div className={styles.turnaround}>
                 <div className={styles.turnaroundLabel}>Response time</div>
-                <div className={styles.turnaroundVal}>Within 48 hours</div>
+                <div className={styles.turnaroundVal}>Within 24 hours</div>
                 <p className={styles.turnaroundNote}>
-                  Every inquiry gets a real reply — not an auto-responder. We'll let you know honestly if we think there's a film in it.
+                  Every inquiry gets a real reply, not an auto-responder.
                 </p>
               </div>
             </div>

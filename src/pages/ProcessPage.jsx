@@ -9,7 +9,7 @@ import styles from './ProcessPage.module.css'
 const faqs = [
   {
     question: 'How long does a typical production take?',
-    answer: 'A single mini-film runs 6–10 weeks start to finish: 1–2 weeks of story discovery, 1–3 weeks pre-production, 1–5 shoot days, and 2–4 weeks in post. Series are phased across 3–6 months depending on episode count.',
+    answer: 'A single mini-film runs 6–10 weeks start to finish: 1–2 weeks of story discovery, 1–3 weeks pre-production, 1–5 shoot days, and 2–4 weeks in post. Series are phased across 3–6 months depending on episode count. Rush timelines are available.',
   },
   {
     question: 'How involved does our team need to be?',

@@ -18,8 +18,8 @@ const services = [
     name: 'Customer & Community',
     tagline: 'Real people, real results. Social proof that feels earned, not staged.',
     formats: ['Customer success stories', 'Community spotlights', 'Patient & user journeys', 'Testimonial series'],
-    video: '/previews/survivornet.mp4',
-    poster: '/thumbnails/survivornet.jpg',
+    video: '/previews/tonga.mp4',
+    poster: '/thumbnails/tonga.jpg',
   },
   {
     slug: 'industry-platform',

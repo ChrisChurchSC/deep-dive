@@ -106,7 +106,7 @@ export default function AboutPage() {
                 Deep Dive was founded by documentary filmmakers with Emmy-winning credentials. We know how to find a true story, earn access, and make something people actually finish watching.
               </p>
               <p className={styles.body}>
-                Brands started asking us to do the same thing for them. When you make brand content the way you make documentary — with real subjects and genuine craft — it performs like nothing else. That's the studio we built.
+                Brands started asking us to do the same thing for them. When you make brand content the way you make documentary, with real subjects and genuine craft, it performs like nothing else. That's the studio we built.
               </p>
             </div>
           </div>

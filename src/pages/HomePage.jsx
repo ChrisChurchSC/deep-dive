@@ -7,7 +7,7 @@ import CTASection from '../components/home/CTASection'
 import ProofBar from '../components/home/ProofBar'
 import ClientLogos from '../components/shared/ClientLogos'
 import { projects as allProjects } from '../data/projects'
-const projects = allProjects.filter(p => p.videoUrl)
+const projects = allProjects.filter(p => p.videoUrl || p.embedUrl || p.videos?.some(v => v.url || v.embedUrl))
 
 const clients = [
   { name: 'Google', logo: '/logos/google.png', scale: 1.3 },

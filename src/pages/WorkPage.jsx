@@ -2,7 +2,7 @@ import SEO from '../components/global/SEO'
 import PageHero from '../components/shared/PageHero'
 import WorkGrid from '../components/work/WorkGrid'
 import { projects as allProjects } from '../data/projects'
-const projects = allProjects.filter(p => p.videoUrl)
+const projects = allProjects.filter(p => p.videoUrl || p.embedUrl || p.videos?.some(v => v.url || v.embedUrl))
 import styles from './WorkPage.module.css'
 
 export default function WorkPage() {
@@ -20,7 +20,7 @@ export default function WorkPage() {
       />
       <section className={styles.grid}>
         <div className="shell">
-          <WorkGrid projects={projects} showFilter />
+          <WorkGrid projects={projects} />
         </div>
       </section>
     </>

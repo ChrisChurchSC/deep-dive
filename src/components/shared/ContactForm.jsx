@@ -6,19 +6,6 @@ import Button from '../primitives/Button'
 // Replace with your Formspree form ID — https://formspree.io/forms
 const FORMSPREE_ID = 'YOUR_FORM_ID'
 
-const budgetOptions = [
-  { value: '25-50k',   label: '$25k – $50k' },
-  { value: '50-100k',  label: '$50k – $100k' },
-  { value: '100-250k', label: '$100k – $250k' },
-  { value: '250k+',    label: '$250k+' },
-]
-
-const serviceOptions = [
-  { value: 'brand-people',        label: 'Brand & People' },
-  { value: 'customer-community',  label: 'Customer & Community' },
-  { value: 'industry-platform',   label: 'Industry & Platform' },
-  { value: 'not-sure',            label: 'Not sure yet' },
-]
 
 const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term']
 
@@ -33,7 +20,7 @@ function getUTMs() {
 
 export default function ContactForm() {
   const [fields, setFields] = useState({
-    name: '', company: '', email: '', service: '', budget: '', message: '',
+    name: '', company: '', email: '', message: '',
   })
   const [errors, setErrors]   = useState({})
   const [status, setStatus]   = useState('idle') // idle | submitting | success | error
@@ -85,7 +72,7 @@ export default function ContactForm() {
         <div className={styles.successIcon}>✓</div>
         <h3 className={styles.successTitle}>Message sent.</h3>
         <p className={styles.successBody}>
-          Thanks, {fields.name.split(' ')[0]}. We'll be in touch within 48 hours.
+          Thanks, {fields.name.split(' ')[0]}. We'll be in touch within 24 hours.
         </p>
       </div>
     )
@@ -103,19 +90,10 @@ export default function ContactForm() {
       <FormField label="Email" name="email" type="email" placeholder="jane@acme.com"
         value={fields.email} onChange={set('email')} error={errors.email} required />
 
-      <div className={styles.row}>
-        <FormField label="Service interest" name="service" type="select"
-          placeholder="Choose one" options={serviceOptions}
-          value={fields.service} onChange={set('service')} />
-        <FormField label="Budget range" name="budget" type="select"
-          placeholder="Choose one" options={budgetOptions}
-          value={fields.budget} onChange={set('budget')} />
-      </div>
-
       <FormField label="Tell us about your project" name="message" type="textarea"
-        placeholder="What are you trying to say? Who are you trying to reach? What's at stake?"
+        placeholder="What are you trying to say? Who are you trying to reach? What's at stake? What budget are you working with?"
         value={fields.message} onChange={set('message')} error={errors.message} required
-        hint="The more context you give us, the better we can tell you if there's a film in it." />
+        hint="The more context you give us, the better we can tell you how to film it." />
 
       {status === 'error' && (
         <p className={styles.errorMsg}>
@@ -128,7 +106,7 @@ export default function ContactForm() {
         <Button type="submit" variant="primary" disabled={status === 'submitting'}>
           {status === 'submitting' ? 'Sending…' : 'Send message'}
         </Button>
-        <p className={styles.note}>We respond within 48 hours.</p>
+        <p className={styles.note}>We respond within 24 hours.</p>
       </div>
     </form>
   )
