@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 
-const SITE_NAME = 'Deep Dive'
+const SITE_NAME = 'Deep Dive — Branded Edutainment'
 const SITE_URL  = 'https://deepdivefilms.com'
 const OG_IMAGE  = `${SITE_URL}/og-default.png`
 
