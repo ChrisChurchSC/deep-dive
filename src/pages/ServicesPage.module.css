@@ -190,6 +190,14 @@
   border-radius: var(--radius-lg);
 }
 
+.repurposeImage {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  display: block;
+}
+
 .repurposeImageLabel {
   font-family: var(--font-mono);
   font-size: 10px;

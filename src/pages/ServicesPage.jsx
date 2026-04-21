@@ -158,14 +158,8 @@ export default function ServicesPage() {
             ))}
           </div>
           <div className={styles.repurposeImages}>
-            <div className={styles.repurposeImageWrap}>
-              <div className={styles.repurposeImagePlaceholder} />
-              <span className={styles.repurposeImageLabel}>On set</span>
-            </div>
-            <div className={styles.repurposeImageWrap}>
-              <div className={styles.repurposeImagePlaceholder} />
-              <span className={styles.repurposeImageLabel}>One shoot, six assets</span>
-            </div>
+            <img src="/bts/sadie_bts_092025-7.jpg" alt="On set" className={styles.repurposeImage} loading="lazy" />
+            <img src="/bts/yur08922.jpg" alt="On set" className={styles.repurposeImage} loading="lazy" />
           </div>
         </div>
       </section>
