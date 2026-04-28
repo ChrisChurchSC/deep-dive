@@ -2,10 +2,11 @@ import { useState } from 'react'
 import styles from './VideoCarousel.module.css'
 import VideoEmbed from './VideoEmbed'
 
-export default function VideoCarousel({ videos = [], thumbnail, title = 'Project film' }) {
+export default function VideoCarousel({ videos = [], thumbnail, title = 'Project film', portrait = false }) {
   const [activeIdx, setActiveIdx] = useState(0)
 
   if (!videos.length) return null
+
   if (videos.length === 1) {
     const v = videos[0]
     return (
@@ -14,7 +15,27 @@ export default function VideoCarousel({ videos = [], thumbnail, title = 'Project
         videoUrl={v.url ?? null}
         thumbnail={v.thumb ?? thumbnail}
         title={v.label || title}
+        portrait={portrait}
       />
+    )
+  }
+
+  if (portrait) {
+    return (
+      <div className={styles.portraitGrid}>
+        {videos.map((v, i) => (
+          <div key={i} className={styles.portraitCell}>
+            <VideoEmbed
+              embedUrl={v.embedUrl ?? null}
+              videoUrl={v.url ?? null}
+              thumbnail={v.thumb ?? (i === 0 ? thumbnail : null)}
+              title={v.label || `${title} ${i + 1}`}
+              portrait
+            />
+            {v.label && <p className={styles.portraitLabel}>{v.label}</p>}
+          </div>
+        ))}
+      </div>
     )
   }
 

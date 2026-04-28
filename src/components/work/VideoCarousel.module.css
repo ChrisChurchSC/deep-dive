@@ -48,6 +48,38 @@
   transition: border-color var(--t-fast), opacity var(--t-fast);
 }
 
+.portraitGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sp-5);
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 var(--sp-10);
+}
+
+.portraitCell {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.portraitLabel {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--muted);
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .portraitGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--sp-3);
+    padding: 0 var(--sp-5);
+  }
+}
+
 .item:not(.active) .imgWrap {
   opacity: 0.4;
 }

@@ -43,6 +43,9 @@ export default function CaseStudyPage() {
             {project.format && <span className={styles.chip}>{project.format}</span>}
             {project.category && <span className={styles.chip}>{project.category}</span>}
             {project.industry && <span className={styles.chip}>{project.industry}</span>}
+            {project.tags?.map(tag => (
+              <span key={tag} className={styles.chip}>{tag}</span>
+            ))}
           </div></Reveal>
         </div>
       </section>
@@ -54,6 +57,7 @@ export default function CaseStudyPage() {
             videos={project.videos}
             thumbnail={project.thumbnail}
             title={`${project.client} — ${project.title}`}
+            portrait={project.portrait ?? false}
           />
         ) : (
           <div className="shell">
@@ -62,6 +66,7 @@ export default function CaseStudyPage() {
               videoUrl={project.videoUrl ?? project.videos?.[0]?.url ?? null}
               thumbnail={project.thumbnail}
               title={`${project.client} — ${project.title}`}
+              portrait={project.portrait ?? false}
             />
           </div>
         )}

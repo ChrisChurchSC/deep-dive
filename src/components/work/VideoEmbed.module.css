@@ -7,6 +7,10 @@
   position: relative;
 }
 
+.portrait {
+  aspect-ratio: 9 / 16;
+}
+
 /* ── Active iframe ── */
 .frame {
   width: 100%;

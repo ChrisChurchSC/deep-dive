@@ -23,4 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 hero-original.mp4.bak
-public/videos
+public/videos/
+*.mov
+.vercel

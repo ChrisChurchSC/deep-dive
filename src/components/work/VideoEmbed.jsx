@@ -5,13 +5,13 @@ import styles from './VideoEmbed.module.css'
 // videoUrl: direct mp4/video file path
 // thumbnail: optional poster image
 // title: accessible label
-export default function VideoEmbed({ embedUrl, videoUrl, thumbnail, title = 'Project film' }) {
+export default function VideoEmbed({ embedUrl, videoUrl, thumbnail, title = 'Project film', portrait = false }) {
   const [active, setActive] = useState(false)
 
   const hasVideo = embedUrl || videoUrl
 
   return (
-    <div className={styles.root}>
+    <div className={`${styles.root} ${portrait ? styles.portrait : ''}`}>
       {active && embedUrl ? (
         <iframe
           className={styles.frame}
