@@ -43,27 +43,21 @@ const values = [
 
 const press = [
   {
-    outlet: 'HBO',
-    title: 'Featured documentary production',
-    year: '2022',
+    outlet: 'Hollywood Reporter',
+    title: "Harper Steele Boards Deep Dive Berlin-Premiering Doc 'What Will I Become?' as Executive Producer (Exclusive)",
+    year: '2026',
     href: '#',
   },
   {
-    outlet: 'Webby Awards',
-    title: 'Nominee — Best Corporate Social Responsibility Video',
-    year: '2023',
+    outlet: 'Axios',
+    title: "From Oberlin to CIFF: Deep Dive's 'Big Bass' hooks a personal story",
+    year: '2026',
     href: '#',
   },
   {
-    outlet: 'Digiday',
-    title: 'How branded documentary is reshaping content marketing',
-    year: '2023',
-    href: '#',
-  },
-  {
-    outlet: 'AdAge',
-    title: 'The studios bringing documentary craft to brand storytelling',
-    year: '2023',
+    outlet: 'Variety',
+    title: "2025 Palm Springs International ShortFest Winners: Deep Dive's 'Big Bass' Wins Jury Prize",
+    year: '2025',
     href: '#',
   },
   {
@@ -73,9 +67,15 @@ const press = [
     href: '#',
   },
   {
-    outlet: 'Adweek',
-    title: 'The case for long-form branded content in a short-form world',
-    year: '2024',
+    outlet: 'Digiday',
+    title: 'Why so many brands are making documentaries',
+    year: '2023',
+    href: '#',
+  },
+  {
+    outlet: 'Fireboys',
+    title: "Praise for Deep Dive's HBO Doc 'Fireboys'",
+    year: '2022',
     href: '#',
   },
 ]
@@ -111,14 +111,11 @@ export default function AboutPage() {
             </div>
           </div>
           <div className={styles.introVideo}>
-            <video
-              src="/videos/about-intro.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="none"
+            <img
+              src="/about/team.png"
+              alt="The Deep Dive team"
               className={styles.introVideoEl}
+              loading="lazy"
             />
           </div>
         </div>

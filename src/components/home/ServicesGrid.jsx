@@ -18,16 +18,16 @@ const services = [
     name: 'Customer & Community',
     tagline: 'Real people, real results. Social proof that feels earned, not staged.',
     formats: ['Customer success stories', 'Community spotlights', 'Patient & user journeys', 'Testimonial series'],
-    video: '/previews/tonga.mp4',
-    poster: '/thumbnails/tonga.jpg',
+    video: '/previews/customer-community.mp4',
+    poster: null,
   },
   {
     slug: 'industry-platform',
     name: 'Industry & Platform',
     tagline: 'Authority-building content that makes your brand the authority.',
     formats: ['Explainer & education films', 'Thought leadership series', 'Product deep-dives', 'Conference & event content'],
-    video: '/previews/think-with-google.mp4',
-    poster: '/thumbnails/think-with-google.jpg',
+    video: '/previews/industry-platform.mp4',
+    poster: null,
   },
 ]
 

@@ -135,35 +135,39 @@ const articleBodies = {
   `,
 
   'the-difference-between-a-video-that-goes-viral-and-one-that-converts': `
-    Almost every client we work with eventually asks some version of the same question. Can we make this thing go viral? It is a fair question. Virality looks like the holy grail from the outside, because it promises massive reach for a fixed production cost. The math is irresistible on a slide. The math is also misleading.
+    Almost every client we work with eventually asks some version of the same question. Can we make this thing go viral? It is a fair question. Virality looks like the holy grail from the outside, because it promises massive reach for a fixed production cost. The math is irresistible on a slide.
 
-    Viral videos and converting videos are designed against fundamentally different objectives, and trying to optimize for both at once usually produces a piece of content that fails at both. Once you understand what each one is actually doing, you can make a clearer decision about which one your business needs right now.
+    The math is also misleading. Viral videos and converting videos are designed against fundamentally different objectives, and trying to optimize for both at once usually produces a piece of content that fails at both. Once you understand what each one is actually doing, you can make a clearer decision about which one your business needs right now, and you can stop spending money on the wrong format.
 
 **Virality is an emotional spike**
 
-    A video goes viral when it produces a strong, immediate, shareable emotion. Surprise, delight, outrage, recognition. The viewer feels something within the first few seconds and is compelled to pass the feeling along. The video is the carrier for the emotion.
+    A video goes viral when it produces a strong, immediate, shareable emotion. Surprise, delight, outrage, recognition. The viewer feels something within the first few seconds and is compelled to pass the feeling along by sharing the video to their network. The video is the carrier for the emotion.
 
-    This is why most viral brand videos function as entertainment with a logo at the end. The structure is built to deliver an emotional payload as efficiently as possible. The brand connection is grafted on, and the viewer often forgets which brand made the video within hours, or never registers it in the first place.
+    This is why most viral brand videos function as entertainment with a logo at the end. The structure is built to deliver an emotional payload as efficiently as possible. The brand connection is grafted on, and the viewer often forgets which brand made the video within hours, or never registers it in the first place. There is research on this, and it is brutal. Recall rates on viral branded content are catastrophically low compared to the reach numbers that get celebrated in case studies.
 
-    Recall rates on viral branded content are catastrophically low compared to the reach numbers that get celebrated in case studies. The view count goes up. The team celebrates. The pipeline does not move. This is the most expensive outcome in branded video, because everyone involved interprets the surface metric as proof that the work worked.
+    The view count goes up. The team celebrates. The pipeline does not move. This is the most expensive outcome in branded video, because everyone involved interprets the surface metric as proof that the work worked.
 
 **Conversion is a trust transfer**
 
-    A converting video does something completely different. It takes a viewer who is already somewhere in your funnel, gives them information they actually need, and increases their confidence that working with you is the right decision. The viewer may not share it. The viewer may not even watch it through on the first pass. The next time they show up in your CRM, however, their behavior is different. They book a demo. They reply to the email. They forward it to their boss with a sentence about why this is the partner they want to use.
+    A converting video does something completely different. It takes a viewer who is already somewhere in your funnel, gives them information they actually need, and increases their confidence that working with you is the right decision. The viewer may not share it. The viewer may not even watch it through the end on the first pass. The next time they show up in your CRM, however, their behavior is different. They book a demo. They reply to the email. They forward it to their boss with a sentence about why this is the partner they want to use.
 
-    This kind of video tends to be slower, longer, and quieter than viral content. The numbers look unimpressive on a dashboard. The view count might be in the four or five figure range. The completion rate, however, will be unusually high, often above forty percent on a piece that runs eight to twelve minutes. Those finishers are seriously evaluating whether to do business with you. The economic value of one of those finishers is in some cases hundreds of times the value of a casual viral viewer.
+    This kind of video tends to be slower, longer, and quieter than viral content. The numbers look unimpressive on a dashboard. The view count might be in the four or five figure range. The completion rate, however, will be unusually high, often above forty percent on a piece that runs eight to twelve minutes. Those finishers are the kind of people who are seriously evaluating whether to do business with you. The economic value of one of those finishers is in some cases hundreds of times the value of a casual viral viewer.
 
 **Why brands keep choosing the wrong objective**
 
-    Most marketing teams choose the viral objective because it produces big numbers, and big numbers produce internal political wins. A million views on a brand video is something you can put in a quarterly review. Twelve thousand finishes from procurement leaders at target accounts is harder to translate into a celebratory slide, even when the second outcome moved more revenue.
+    Most marketing teams choose the viral objective because the viral objective produces big numbers, and big numbers produce internal political wins. A million views on a brand video is something you can put in a quarterly review. Twelve thousand finishes from procurement leaders at target accounts is harder to translate into a celebratory slide, even when the second outcome moved more revenue.
 
-    The fix is not to demand virality from every video. The fix is to build internal reporting that surfaces the metrics that actually correspond to pipeline impact, and then to commission content against those metrics. Once a team starts measuring finish rate, downstream conversion, and assisted pipeline rather than impressions and views, the kind of content they ask for changes. The briefs get longer. The arc gets more careful. The casting gets more selective.
+    This is a structural problem inside marketing organizations, and it pushes content decisions toward the wrong format. The fix isn't to demand virality from every video. The fix is to build internal reporting that surfaces the metrics that actually correspond to pipeline impact, and then to commission content against those metrics.
+
+    Once a team starts measuring finish rate, downstream conversion, and assisted pipeline rather than just impressions and views, the kind of content they ask for changes. The briefs get longer. The arc gets more careful. The casting gets more selective. The work stops being designed to be passed around and starts being designed to be finished.
 
 **The two formats serve different stages**
 
-    There is a real role for short, high-emotion content at the top of a funnel. If a brand has a real distribution problem and needs awareness, a piece designed for shareability can be the right tool. That piece is doing brand awareness work, and it should be measured and scoped accordingly. It will not do conversion work, and pretending otherwise is malpractice.
+    There is a real role for short, high-emotion content at the top of a funnel. If a brand has a real distribution problem and needs awareness, a piece designed for shareability can be the right tool. That piece is doing brand awareness work, however, and it should be measured and scoped accordingly. It will not do conversion work, and pretending otherwise is malpractice.
 
-    Conversion content operates on a different audience entirely. It belongs in sales sequences, on solutions pages, in outbound emails to specific accounts. It does not need a million views. It needs the right ten thousand viewers, and it needs to do real work on those viewers' confidence levels. A well-made converting video can carry a sales conversation for years.
+    Conversion content operates on a different audience entirely. It belongs in sales sequences, on solutions pages, in outbound emails to specific accounts, in webinar replay slots. It does not need a million views. It needs the right ten thousand viewers, and it needs to do real work on those viewers' confidence levels. A well-made converting video can carry a sales conversation for years.
+
+    Most brands need more conversion content than they think and less viral content than they think. The pull of virality is so strong because the numbers are so visible. The actual leverage usually sits with the quieter format.
 
 **How we structure for one or the other**
 
@@ -171,7 +175,9 @@ const articleBodies = {
 
     We almost never recommend a single piece that tries to do both, because the structural decisions for each are incompatible. A film built to be shared has to deliver its emotional payload in the first ten seconds. A film built to convert has to earn the viewer's investment over the first two minutes and then reward it. You cannot do both in the same piece without weakening both.
 
-    The good news is that one well-made converting video usually generates enough raw material for several short, awareness-oriented cuts. Most brands need more conversion content than they think and less viral content than they think. The actual leverage usually sits with the quieter format.
+    The good news is that one well-made converting video usually generates enough raw material for several short, awareness-oriented cuts. That is the production model we run. One shoot, one long-form anchor designed for trust, and a suite of shorter cuts pulled from the same footage and built for distribution. The math works because the upstream work was done once and serves both objectives, in their proper formats.
+
+    If you are mapping content plans for 2026 and you are not sure whether the brief in front of you is asking for awareness or conversion, send it over. We will read it and tell you which format it is actually built for, and what would need to change if you wanted the other one. Email contact@deepdivefilms.com.
   `,
 
   'why-authenticity-in-branded-content-is-harder-than-it-looks': `

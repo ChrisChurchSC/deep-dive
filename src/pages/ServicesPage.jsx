@@ -24,8 +24,8 @@ const categories = [
     tagline: 'Real people, real results. Social proof that feels earned, not staged.',
     description: 'Long-form customer success stories, transformation narratives, and community films that build genuine trust. Not "testimonials" — full stories with stakes, struggle, and resolution.',
     examples: ['Customer success stories', '"Day in the Life" films', 'Before/after narratives', 'Community impact docs'],
-    video: '/previews/survivornet.mp4',
-    thumbnail: '/thumbnails/survivornet.jpg',
+    video: '/previews/customer-community.mp4',
+    thumbnail: null,
   },
   {
     slug: 'industry-platform',
@@ -33,8 +33,8 @@ const categories = [
     tagline: 'Authority-building content that makes your brand the authority.',
     description: 'Expert interview series, industry trend documentaries, and episodic content that positions your brand as the definitive voice in your space. The kind of content people cite.',
     examples: ['Expert interview series', 'Industry trend docs', 'Episodic docu-series', 'Conference & event capture'],
-    video: '/previews/think-with-google.mp4',
-    thumbnail: '/thumbnails/think-with-google.jpg',
+    video: '/previews/industry-platform.mp4',
+    thumbnail: null,
   },
 ]
 
