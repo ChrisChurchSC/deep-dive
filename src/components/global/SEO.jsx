@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async'
 
-const SITE_NAME = 'Deep Dive — Branded Edutainment'
+const SITE_NAME = 'Deep Dive'
+const SITE_TAGLINE = 'Branded Edutainment Video Production'
 const SITE_URL  = 'https://deepdivefilms.com'
 const OG_IMAGE  = `${SITE_URL}/og-default.png`
 
@@ -19,7 +20,7 @@ export default function SEO({
 }) {
   const fullTitle = title
     ? `${title} | ${SITE_NAME}`
-    : `${SITE_NAME} — Branded Edutainment Video Production`
+    : `${SITE_NAME} — ${SITE_TAGLINE}`
 
   const resolvedCanonical = canonical ? `${SITE_URL}${canonical}` : null
 

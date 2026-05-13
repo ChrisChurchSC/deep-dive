@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Core pages -->
   <url>
     <loc>https://deepdivefilms.com/</loc>
     <changefreq>weekly</changefreq>
@@ -28,17 +26,130 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deepdivefilms.com/contact</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://deepdivefilms.com/journal</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- Service detail pages -->
+  <url>
+    <loc>https://deepdivefilms.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/survivornet</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/google-language-ai</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/arbitrum-everywhere</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/blockchain</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/rtpi</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/barnes-and-noble</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/singlecare</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/google-ads</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/spot-and-tango</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/google-champions-place</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/youtube</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/think-with-google</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/brooklyn-brewery</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/google-maps</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/google-small-business</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/harlem-capital</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/harlem-capital-portfolio</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/survivornet-doctors</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/cancer-clinical-trials</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/meta-creators</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/ethereum-foundation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/google-dei</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deepdivefilms.com/work/defi-explained</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://deepdivefilms.com/services/brand-people</loc>
     <changefreq>monthly</changefreq>
@@ -54,99 +165,64 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Case studies -->
   <url>
-    <loc>https://deepdivefilms.com/work/survivornet</loc>
+    <loc>https://deepdivefilms.com/journal/why-authenticity-in-branded-content-is-harder-than-it-looks</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://deepdivefilms.com/work/google</loc>
+    <loc>https://deepdivefilms.com/journal/the-difference-between-a-video-that-goes-viral-and-one-that-converts</loc>
+    <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://deepdivefilms.com/work/vitalik-blockchain</loc>
+    <loc>https://deepdivefilms.com/journal/how-to-cast-non-actors-for-video</loc>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://deepdivefilms.com/work/harlem-capital</loc>
+    <loc>https://deepdivefilms.com/journal/why-your-brand-film-needs-a-narrative-arc</loc>
+    <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://deepdivefilms.com/work/meta-creators</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://deepdivefilms.com/work/pfas-water</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://deepdivefilms.com/work/survivornet-doctors</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://deepdivefilms.com/work/ethereum-foundation</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://deepdivefilms.com/work/google-dei</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://deepdivefilms.com/work/harlem-capital-portfolio</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://deepdivefilms.com/work/cancer-clinical-trials</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://deepdivefilms.com/work/defi-explained</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Journal articles -->
   <url>
     <loc>https://deepdivefilms.com/journal/why-educational-content-outperforms-branded-advertising</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2025-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://deepdivefilms.com/journal/the-view-through-rate-that-changed-how-we-think-about-video</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://deepdivefilms.com/journal/the-difference-between-a-testimonial-and-a-trust-film</loc>
-    <changefreq>yearly</changefreq>
+    <lastmod>2025-09-05</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://deepdivefilms.com/journal/what-documentary-filmmaking-taught-us-about-b2b-content</loc>
-    <changefreq>yearly</changefreq>
+    <lastmod>2025-08-18</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://deepdivefilms.com/journal/how-to-brief-a-video-production-that-wont-disappoint-you</loc>
-    <changefreq>yearly</changefreq>
+    <lastmod>2025-07-30</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://deepdivefilms.com/journal/episodic-vs-single-film-which-format-is-right-for-your-brand</loc>
-    <changefreq>yearly</changefreq>
+    <lastmod>2025-07-08</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-
 </urlset>
