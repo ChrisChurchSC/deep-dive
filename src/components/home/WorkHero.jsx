@@ -1,8 +1,9 @@
 import { useState, useEffect, useRef } from 'react'
 import styles from './WorkHero.module.css'
 import ReelPlayer from './ReelPlayer'
+import { siteSettings } from '../../data/siteSettings'
 
-export default function WorkHero({ src }) {
+export default function WorkHero({ src, line = siteSettings.heroLine }) {
   const [reelOpen, setReelOpen] = useState(false)
   const videoRef = useRef(null)
 
@@ -35,7 +36,7 @@ export default function WorkHero({ src }) {
         <ReelPlayer src={src} />
 
         <div className={styles.overlay}>
-          <p className={styles.line}>Edutain your audience.</p>
+          <p className={styles.line}>{line}</p>
           <button className={styles.playBtn} onClick={open} aria-label="Play reel">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
               <polygon points="5,2 18,10 5,18" fill="currentColor" />

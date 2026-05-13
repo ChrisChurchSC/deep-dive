@@ -5,16 +5,12 @@ import styles from './SiteNav.module.css'
 import wordmark from '../../assets/dd-wordmark.svg'
 import icon from '../../assets/dd-icon.svg'
 import MobileNav from './MobileNav'
-
-const links = [
-  { label: 'Services', to: '/services' },
-  { label: 'Work',     to: '/work' },
-  { label: 'Process',  to: '/process' },
-  { label: 'About',    to: '/about' },
-  { label: 'Journal',  to: '/journal' },
-]
+import { siteSettings } from '../../data/siteSettings'
 
 export default function SiteNav() {
+  const links = siteSettings.nav?.links ?? []
+  const ctaLabel = siteSettings.nav?.ctaLabel ?? 'Contact'
+  const ctaHref = siteSettings.nav?.ctaHref ?? '/contact'
   const { pathname } = useLocation()
   const [scrolled, setScrolled]   = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -50,7 +46,7 @@ export default function SiteNav() {
           </nav>
 
           <div className={styles.actions}>
-            <Button href="/contact" variant="primary">Contact</Button>
+            <Button href={ctaHref} variant="primary">{ctaLabel}</Button>
           </div>
 
           <button

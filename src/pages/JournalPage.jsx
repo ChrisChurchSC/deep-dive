@@ -3,12 +3,13 @@ import SEO from '../components/global/SEO'
 import PageHero from '../components/shared/PageHero'
 import ArticleCard from '../components/shared/ArticleCard'
 import { articles } from '../data/articles'
+import { journalPage } from '../data/journalPage'
 import { subscribeToKlaviyo } from '../hooks/useKlaviyoSubscribe'
 import styles from './JournalPage.module.css'
 
 export default function JournalPage() {
-  const [subEmail, setSubEmail]       = useState('')
-  const [subDone, setSubDone]         = useState(false)
+  const [subEmail, setSubEmail] = useState('')
+  const [subDone, setSubDone]   = useState(false)
 
   const handleSubscribe = async e => {
     e.preventDefault()
@@ -32,9 +33,9 @@ export default function JournalPage() {
         canonical="/journal"
       />
       <PageHero
-        eyebrow="Journal"
-        title="On the craft of making people care."
-        description="Strategy, storytelling, and the business case for content that actually gets watched."
+        eyebrow={journalPage.heroEyebrow}
+        title={journalPage.heroTitle}
+        description={journalPage.heroDescription}
       />
 
       {/* Newsletter signup */}
@@ -42,13 +43,11 @@ export default function JournalPage() {
         <div className="shell">
           <div className={styles.subscribeInner}>
             <div className={styles.subscribeCopy}>
-              <div className={styles.subscribeTitle}>Get The Brief.</div>
-              <p className={styles.subscribeBody}>
-                Monthly — strategy, new work, and one insight worth remembering.
-              </p>
+              <div className={styles.subscribeTitle}>{journalPage.newsletterTitle}</div>
+              <p className={styles.subscribeBody}>{journalPage.newsletterBody}</p>
             </div>
             {subDone ? (
-              <p className={styles.subThanks}>You're in. First issue lands soon.</p>
+              <p className={styles.subThanks}>{journalPage.newsletterThanks}</p>
             ) : (
               <form className={styles.subscribeForm} onSubmit={handleSubscribe}>
                 <input
@@ -59,7 +58,7 @@ export default function JournalPage() {
                   onChange={e => setSubEmail(e.target.value)}
                   required
                 />
-                <button type="submit" className={styles.subscribeBtn}>Subscribe</button>
+                <button type="submit" className={styles.subscribeBtn}>{journalPage.newsletterButton}</button>
               </form>
             )}
           </div>

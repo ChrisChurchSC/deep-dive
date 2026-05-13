@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import styles from './FilmStrip.module.css'
 import SectionRule from '../shared/SectionRule'
+import { homepage } from '../../data/homepage'
 
 const SPEED = 0.5 // px per frame
 const NAV_PAUSE = 2500 // ms to pause auto-scroll after nav click
@@ -76,7 +77,7 @@ function StripItem({ item, i, isCenter }) {
   )
 }
 
-export default function FilmStrip({ projects = [], label = 'Selected work' }) {
+export default function FilmStrip({ projects = [], label = homepage.filmStripLabel }) {
   const stripRef      = useRef(null)
   const rafRef        = useRef(null)
   const pausedRef     = useRef(false)
@@ -170,7 +171,11 @@ export default function FilmStrip({ projects = [], label = 'Selected work' }) {
     <div className={styles.root}>
       <SectionRule counter="02" label={label} />
       <div className={styles.heading}>
-        <h2 className={styles.headingText}>Films that educate.<br />Brands that earn trust.</h2>
+        <h2 className={styles.headingText}>
+          {(homepage.filmStripHeading ?? '').split('\n').map((line, i, arr) => (
+            <span key={i}>{line}{i < arr.length - 1 && <br />}</span>
+          ))}
+        </h2>
       </div>
       <div className={styles.track}>
         <div className={styles.strip} ref={stripRef}>

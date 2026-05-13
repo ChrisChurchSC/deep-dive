@@ -1,49 +1,7 @@
 import styles from './ProcessTimeline.module.css'
+import { processPage } from '../../data/processPage'
 
-const stages = [
-  {
-    num: '01',
-    name: 'Discover',
-    duration: '1–2 weeks',
-    client: 'Brief, brand docs, access to stakeholders',
-    deepDive: 'Story mining, audience research, narrative framework, editorial plan',
-    output: 'Story treatment + production brief',
-  },
-  {
-    num: '02',
-    name: 'Pre-Production',
-    duration: '1–3 weeks',
-    client: 'Approvals, talent coordination, logistics support',
-    deepDive: 'Scripting, location scouting, crew assembly, talent prep, shot list',
-    output: 'Shoot-ready package',
-  },
-  {
-    num: '03',
-    name: 'Production',
-    duration: '1–5 days on-site',
-    client: 'Point of contact on shoot days',
-    deepDive: 'Direction, cinematography, interview facilitation, B-roll capture',
-    output: 'Rushes + selects',
-  },
-  {
-    num: '04',
-    name: 'Post-Production',
-    duration: '2–4 weeks',
-    client: 'Two rounds of feedback',
-    deepDive: 'Narrative edit, color grade, sound design, motion graphics, platform cuts',
-    output: 'Master file + all deliverables',
-  },
-  {
-    num: '05',
-    name: 'Delivery',
-    duration: '1 week',
-    client: 'Platform access, rollout decisions',
-    deepDive: 'Format exports, distribution strategy, performance tracking setup',
-    output: 'Launch-ready asset package',
-  },
-]
-
-export default function ProcessTimeline() {
+export default function ProcessTimeline({ stages = processPage.stages ?? [] }) {
   return (
     <div className={styles.table}>
       <div className={styles.tableHead}>

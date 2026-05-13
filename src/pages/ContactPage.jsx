@@ -5,8 +5,8 @@ import PageHero from '../components/shared/PageHero'
 import ContactForm from '../components/shared/ContactForm'
 import SectionLabel from '../components/primitives/SectionLabel'
 import styles from './ContactPage.module.css'
+import { contactPage } from '../data/contactPage'
 
-// Capture UTM params into sessionStorage for form attribution
 function useUTMCapture() {
   const location = useLocation()
   useEffect(() => {
@@ -19,26 +19,9 @@ function useUTMCapture() {
   }, [location.search])
 }
 
-const reasons = [
-  {
-    icon: '◎',
-    title: 'You have a story that needs a film.',
-    body: 'A customer transformation, a founder journey, an industry truth — something real that your audience would actually watch.',
-  },
-  {
-    icon: '◎',
-    title: 'You want trust, not just traffic.',
-    body: "You're not looking for views. You're looking for the kind of content that changes how people think about your brand.",
-  },
-  {
-    icon: '◎',
-    title: "You're done with generic video.",
-    body: 'You\'ve seen what "branded content" usually looks like. You want something that earns attention rather than interrupting it.',
-  },
-]
-
 export default function ContactPage() {
   useUTMCapture()
+  const reasons = contactPage.reasons ?? []
 
   return (
     <>
@@ -49,9 +32,9 @@ export default function ContactPage() {
         noIndex={false}
       />
       <PageHero
-        eyebrow="Contact"
-        title="Tell us what you're trying to say."
-        description="We'll tell you if there's a film in it."
+        eyebrow={contactPage.heroEyebrow}
+        title={contactPage.heroTitle}
+        description={contactPage.heroDescription}
       />
 
       <section className={styles.body}>
@@ -60,10 +43,10 @@ export default function ContactPage() {
 
             {/* Left: context */}
             <div className={styles.left}>
-              <SectionLabel>Who this is for</SectionLabel>
+              <SectionLabel>{contactPage.reasonsLabel}</SectionLabel>
               <div className={styles.reasons}>
-                {reasons.map(r => (
-                  <div key={r.title} className={styles.reason}>
+                {reasons.map((r, i) => (
+                  <div key={i} className={styles.reason}>
                     <span className={styles.reasonIcon}>{r.icon}</span>
                     <div>
                       <div className={styles.reasonTitle}>{r.title}</div>
@@ -74,11 +57,9 @@ export default function ContactPage() {
               </div>
 
               <div className={styles.turnaround}>
-                <div className={styles.turnaroundLabel}>Response time</div>
-                <div className={styles.turnaroundVal}>Within 24 hours</div>
-                <p className={styles.turnaroundNote}>
-                  Every inquiry gets a real reply, not an auto-responder.
-                </p>
+                <div className={styles.turnaroundLabel}>{contactPage.responseTimeLabel}</div>
+                <div className={styles.turnaroundVal}>{contactPage.responseTimeValue}</div>
+                <p className={styles.turnaroundNote}>{contactPage.responseTimeNote}</p>
               </div>
             </div>
 

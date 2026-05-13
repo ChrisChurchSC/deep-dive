@@ -2,28 +2,32 @@ import { Link } from 'react-router-dom'
 import styles from './CTASection.module.css'
 import Button from '../primitives/Button'
 import Reveal from '../primitives/Reveal'
+import { siteSettings } from '../../data/siteSettings'
 
 export default function CTASection() {
+  const cta = siteSettings.cta ?? {}
   return (
     <section className={styles.section}>
       <div className="shell">
         <div className={styles.inner}>
-          <img
-            src="/cta-illustration.png"
-            alt=""
-            className={styles.illustration}
-            aria-hidden="true"
-          />
+          {cta.illustration && (
+            <img
+              src={cta.illustration}
+              alt=""
+              className={styles.illustration}
+              aria-hidden="true"
+            />
+          )}
           <div className={styles.content}>
-            <Reveal><h2 className={styles.heading}>
-              Ready to make something people actually finish?
-            </h2></Reveal>
-            <Reveal delay={1}><p className={styles.body}>
-              Tell us what your audience needs to know. We'll make them want to watch it.
-            </p></Reveal>
+            <Reveal><h2 className={styles.heading}>{cta.heading}</h2></Reveal>
+            <Reveal delay={1}><p className={styles.body}>{cta.body}</p></Reveal>
             <Reveal delay={2}><div className={styles.actions}>
-              <Button href="/contact" variant="cream">Start a project</Button>
-              <Link to="/work" className={styles.seeWork}>See the work first →</Link>
+              {cta.primaryLabel && (
+                <Button href={cta.primaryHref || '#'} variant="cream">{cta.primaryLabel}</Button>
+              )}
+              {cta.secondaryLabel && (
+                <Link to={cta.secondaryHref || '#'} className={styles.seeWork}>{cta.secondaryLabel}</Link>
+              )}
             </div></Reveal>
           </div>
         </div>

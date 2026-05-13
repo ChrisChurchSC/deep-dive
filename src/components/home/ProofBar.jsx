@@ -1,25 +1,9 @@
 import styles from './ProofBar.module.css'
 import Reveal from '../primitives/Reveal'
-
-const stats = [
-  {
-    value: '131%',
-    label: 'more likely to buy after consuming educational content',
-    note: 'Conductor / Cornell University',
-  },
-  {
-    value: '89%',
-    label: 'of B2B buyers say thought leadership builds trust',
-    note: 'Edelman-LinkedIn B2B Study',
-  },
-  {
-    value: '47%',
-    label: 'of total ad sales lift is driven by creative quality alone',
-    note: 'Nielsen',
-  },
-]
+import { homepage } from '../../data/homepage'
 
 export default function ProofBar() {
+  const stats = homepage.proofStats ?? []
   return (
     <section className={styles.section}>
       <div className="shell">

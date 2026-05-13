@@ -3,33 +3,7 @@ import { Link } from 'react-router-dom'
 import styles from './ServicesGrid.module.css'
 import SectionRule from '../shared/SectionRule'
 import Reveal from '../primitives/Reveal'
-
-const services = [
-  {
-    slug: 'brand-people',
-    name: 'Brand & People',
-    tagline: 'The brand made visible. The people behind it made human.',
-    formats: ['Founder origin stories', 'Culture & hiring films', 'Executive profiles', '"Why We Exist" films'],
-    video: '/previews/brooklyn-brewery.mp4',
-    poster: '/thumbnails/brooklyn-brewery.jpg',
-  },
-  {
-    slug: 'customer-community',
-    name: 'Customer & Community',
-    tagline: 'Real people, real results. Social proof that feels earned, not staged.',
-    formats: ['Customer success stories', 'Community spotlights', 'Patient & user journeys', 'Testimonial series'],
-    video: '/previews/customer-community.mp4',
-    poster: null,
-  },
-  {
-    slug: 'industry-platform',
-    name: 'Industry & Platform',
-    tagline: 'Authority-building content that makes your brand the authority.',
-    formats: ['Explainer & education films', 'Thought leadership series', 'Product deep-dives', 'Conference & event content'],
-    video: '/previews/industry-platform.mp4',
-    poster: null,
-  },
-]
+import { homepage } from '../../data/homepage'
 
 function ServiceCard({ s }) {
   const videoRef = useRef(null)
@@ -81,20 +55,26 @@ function ServiceCard({ s }) {
   )
 }
 
+function renderMultiline(text) {
+  return (text ?? '').split('\n').map((line, i, arr) => (
+    <span key={i}>
+      {line}
+      {i < arr.length - 1 && <br />}
+    </span>
+  ))
+}
+
 export default function ServicesGrid() {
+  const services = homepage.servicesCards ?? []
   return (
     <section className={styles.section}>
-      <SectionRule counter="04" label="What we make" />
+      <SectionRule counter="04" label={homepage.servicesLabel} />
       <div className="shell">
         <Reveal className={styles.header}>
           <div className={styles.headerLeft}>
-            <p className={styles.eyebrow}>What we make</p>
-            <h2 className={styles.heading}>
-              Real people. Real expertise.<br />Real trust.
-            </h2>
-            <p className={styles.sub}>
-              Three formats, all built around what your audience wants to know — and what you need them to believe.
-            </p>
+            <p className={styles.eyebrow}>{homepage.servicesEyebrow}</p>
+            <h2 className={styles.heading}>{renderMultiline(homepage.servicesHeading)}</h2>
+            <p className={styles.sub}>{homepage.servicesSub}</p>
           </div>
         </Reveal>
 

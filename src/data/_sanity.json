@@ -1,0 +1,1482 @@
+{
+  "projects": [
+    {
+      "category": "Customer & Community",
+      "challenge": "SurvivorNet needed a team to craft a story so compelling viewers would watch through the first commercial.",
+      "client": "SurvivorNet",
+      "description": "A documentary series for a leading cancer information platform — authentic patient stories that drove extraordinary engagement in a space typically crowded with clinical material.",
+      "embedUrl": null,
+      "format": "Documentary Series",
+      "industry": "Healthcare",
+      "result": "55% view-through rate across the series — against a 2% industry benchmark. High audience retention in a category where men don't typically stop to listen.",
+      "slug": "survivornet",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": "/thumbnails/survivornet.jpg",
+      "title": "From a Whisper to a Roar: Mellve's Mission",
+      "videoPreview": "/previews/survivornet.mp4",
+      "videoUrl": "/videos/survivornet/mellves-mission.mp4",
+      "videos": []
+    },
+    {
+      "category": "Brand & People",
+      "challenge": "Translating complex, technical systems into something human and relatable, making the impact of language AI feel immediate, personal, and understandable.",
+      "client": "Google Research",
+      "description": "Centering global voices to highlight the importance of language in AI, and how expanding datasets across languages can make technology more accessible and inclusive for billions of people.",
+      "embedUrl": null,
+      "format": "Documentary",
+      "industry": "Technology",
+      "result": "Distributed across Google's owned channels.",
+      "slug": "google-language-ai",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": "/thumbnails/google-language-ai.jpg",
+      "title": "Language AI at Google",
+      "videoPreview": "/previews/google-language-ai.mp4",
+      "videoUrl": null,
+      "videos": [
+        {
+          "label": "Language AI Hero",
+          "thumb": "/video-thumbs/google-language-ai/language-ai-hero.jpg",
+          "url": "/videos/google-language-ai/language-ai-hero.mp4"
+        },
+        {
+          "label": "Language AI Anthem",
+          "thumb": "/video-thumbs/google-language-ai/language-ai-anthem.jpg",
+          "url": "/videos/google-language-ai/language-ai-anthem-web.mp4"
+        },
+        {
+          "label": "Waxal — African Languages",
+          "thumb": "/video-thumbs/google-language-ai/waxal.jpg",
+          "url": "/videos/google-language-ai/waxal-african-languages-web.mp4"
+        }
+      ]
+    },
+    {
+      "category": "Industry & Platform",
+      "challenge": "Explain a technical and often misunderstood technology to a general audience without dumbing it down.",
+      "client": "Arbitrum",
+      "description": "An exploration of blockchain technology featuring Vitalik Buterin — making the complex genuinely compelling.",
+      "embedUrl": null,
+      "format": "Documentary Series",
+      "industry": "Web3 / Finance",
+      "result": "Widely shared in the crypto community and cited as a reference piece for onboarding new audiences to the space.",
+      "slug": "arbitrum-everywhere",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": "/thumbnails/arbitrum-everywhere.jpg",
+      "title": "Arbitrum Everywhere",
+      "videoPreview": "/previews/arbitrum-everywhere.mp4",
+      "videoUrl": "/videos/arbitrum/arbitrum-everywhere-trailer.mp4",
+      "videos": []
+    },
+    {
+      "category": "Industry & Platform",
+      "challenge": "Introduce new product features in a way that feels native to crypto culture, balancing clarity with humor to engage an audience that is quick to dismiss traditional marketing.",
+      "client": "Arbitrum",
+      "description": "Humorous, social-first videos built to speak directly to Arbitrum's community on X, using comedy to launch product features while deepening engagement within a highly opinionated and passionate space.",
+      "embedUrl": null,
+      "format": "Short Series",
+      "industry": "Web3 / Finance",
+      "result": "600K+ organic views on X in under 48 hours.",
+      "slug": "blockchain",
+      "stat": "600K+",
+      "statLabel": "Organic views in 48 hours",
+      "stills": [],
+      "thumbnail": "/thumbnails/blockchain.jpg",
+      "title": "The Marketing Department",
+      "videoPreview": "/previews/blockchain.mp4",
+      "videoUrl": null,
+      "videos": [
+        {
+          "label": "Leaderboard",
+          "thumb": "/video-thumbs/arbitrum/leaderboard.jpg",
+          "url": "/videos/arbitrum-marketing/leaderboard.mp4"
+        },
+        {
+          "label": "Dinner Talk",
+          "thumb": "/video-thumbs/arbitrum/dinner-talk.jpg",
+          "url": "/videos/arbitrum-marketing/dinner-talk.mp4"
+        }
+      ]
+    },
+    {
+      "category": "Brand & People",
+      "challenge": "Honoring a rich, decades-long legacy while making it feel alive and forward-looking, balancing archival history with a sense of momentum.",
+      "client": "Roger Tory Peterson Institute",
+      "description": "A brand film for RTPI celebrating the legacy of the Field Guide to the Birds — a landmark publication that transformed how people engage with the natural world.",
+      "embedUrl": null,
+      "format": "Documentary",
+      "industry": "Cultural Institution",
+      "result": "Shared widely through their social channels — now installed permanently in the museum space for visitors to view year-round.",
+      "slug": "rtpi",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": "/thumbnails/rtpi.jpg",
+      "title": "Spark Birds",
+      "videoPreview": "/previews/rtpi.mp4",
+      "videoUrl": "/videos/rtpi/spark-birds.mp4",
+      "videos": []
+    },
+    {
+      "category": "Customer & Community",
+      "challenge": "Make in-store content feel dynamic and culturally relevant, using humor and timely themes to drive foot traffic and discovery.",
+      "client": "Barnes & Noble",
+      "description": "A series of humorous, in-store videos built around pop culture tentpoles and seasonal releases, designed to tap into what readers are already excited about and turn Barnes & Noble into a destination for discovery.",
+      "embedUrl": null,
+      "format": "Short Series",
+      "industry": "Retail",
+      "result": "Viral across Barnes & Noble's social channels, reinforcing the brand as a culturally in-tune destination for readers.",
+      "slug": "barnes-and-noble",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": "/thumbnails/barnes-and-noble.jpg",
+      "title": "Social Series",
+      "videoPreview": "/previews/barnes-and-noble.mp4",
+      "videoUrl": null,
+      "videos": [
+        {
+          "label": "BTS",
+          "thumb": "/video-thumbs/barnes-and-noble/bts.jpg",
+          "url": "/videos/barnes-and-noble/bts.mp4"
+        },
+        {
+          "label": "Game of Thrones",
+          "thumb": "/video-thumbs/barnes-and-noble/game-of-thrones.jpg",
+          "url": "/videos/barnes-and-noble/game-of-thrones.mp4"
+        },
+        {
+          "label": "Summer Reading",
+          "thumb": "/video-thumbs/barnes-and-noble/summer-reading.jpg",
+          "url": "/videos/barnes-and-noble/summer-reading.mp4"
+        },
+        {
+          "label": "King",
+          "thumb": "/video-thumbs/barnes-and-noble/king.jpg",
+          "url": "/videos/barnes-and-noble/king.mp4"
+        },
+        {
+          "label": "Summer Reading Kid",
+          "thumb": "/video-thumbs/barnes-and-noble/summer-reading-kid.jpg",
+          "url": "/videos/barnes-and-noble/summer-reading-kid.mp4"
+        },
+        {
+          "label": "Mothers",
+          "thumb": "/video-thumbs/barnes-and-noble/mothers.jpg",
+          "url": "/videos/barnes-and-noble/mothers.mp4"
+        }
+      ]
+    },
+    {
+      "category": "Customer & Community",
+      "challenge": "Bring visibility to the human side of pharmacy through authentic, experience-driven storytelling that resonates with practitioners who have no patience for content that doesn't respect their expertise.",
+      "client": "SingleCare",
+      "description": "A series built by pharmacists, for pharmacists — spotlighting the triumphs, challenges, and hard-earned lived experience behind the counter.",
+      "embedUrl": null,
+      "format": "Documentary Series",
+      "industry": "Pharmaceutical",
+      "result": "813K views across 15 episodes on YouTube, building a loyal audience of pharmacy professionals in a category that rarely earns one.",
+      "slug": "singlecare",
+      "stat": "813K",
+      "statLabel": "Views across 15 episodes",
+      "stills": [],
+      "thumbnail": "/thumbnails/singlecare.jpg",
+      "title": "Ask a Pharmacist",
+      "videoPreview": "/previews/singlecare.mp4",
+      "videoUrl": null,
+      "videos": [
+        {
+          "label": "EP01 — Customer Interventions",
+          "thumb": "/video-thumbs/singlecare/ep01.jpg",
+          "url": "/videos/singlecare/ep01-customer-interventions.mp4"
+        },
+        {
+          "label": "EP02 — Building Relationships",
+          "thumb": "/video-thumbs/singlecare/ep02.jpg",
+          "url": "/videos/singlecare/ep02-building-relationships.mp4"
+        },
+        {
+          "label": "EP03 — Working With Rude Customers",
+          "thumb": "/video-thumbs/singlecare/ep03.jpg",
+          "url": "/videos/singlecare/ep03-working-with-rude-customers.mp4"
+        },
+        {
+          "label": "EP06 — Avoiding Burnout",
+          "thumb": "/video-thumbs/singlecare/ep06.jpg",
+          "url": "/videos/singlecare/ep06-avoiding-burnout.mp4"
+        },
+        {
+          "label": "EP07 — Horror Stories",
+          "thumb": "/video-thumbs/singlecare/ep07.jpg",
+          "url": "/videos/singlecare/ep07-horror-stories.mp4"
+        },
+        {
+          "label": "S02 E05 — De-Escalating Conflict",
+          "thumb": "/video-thumbs/singlecare/s02e05.jpg",
+          "url": "/videos/singlecare/s02e05-deescalating-conflict.mp4"
+        },
+        {
+          "label": "S02 E08 — Best Stories",
+          "thumb": "/video-thumbs/singlecare/s02e08.jpg",
+          "url": "/videos/singlecare/s02e08-best-stories.mp4"
+        },
+        {
+          "label": "S02 E11 — Tips & Counseling",
+          "thumb": "/video-thumbs/singlecare/s02e11.jpg",
+          "url": "/videos/singlecare/s02e11-tips-counseling.mp4"
+        }
+      ]
+    },
+    {
+      "category": "Industry & Platform",
+      "challenge": "Create something that feels fun, fast, and native to social while still delivering thoughtful, in-depth responses.",
+      "client": "Google Ads",
+      "description": "Social-first series for Google Ads on LinkedIn, where executives respond directly to real questions and \"hot takes\" from their community — blending humor, candor, and expertise.",
+      "embedUrl": null,
+      "format": "Short Series",
+      "industry": "Technology",
+      "result": "A LinkedIn-native series that positioned Google Ads as both approachable and authoritative.",
+      "slug": "google-ads",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": "/thumbnails/google-ads.jpg",
+      "title": "Hot Takes",
+      "videoPreview": "/previews/google-ads.mp4",
+      "videoUrl": null,
+      "videos": [
+        {
+          "label": "Gaurav",
+          "thumb": "/video-thumbs/hot-takes/gaurav.jpg",
+          "url": "/videos/hot-takes/gaurav.mp4"
+        },
+        {
+          "label": "Harikesh",
+          "thumb": "/video-thumbs/hot-takes/harikesh.jpg",
+          "url": "/videos/hot-takes/harikesh.mp4"
+        },
+        {
+          "label": "Kamal",
+          "thumb": "/video-thumbs/hot-takes/kamal.jpg",
+          "url": "/videos/hot-takes/kamal.mp4"
+        }
+      ]
+    },
+    {
+      "category": "Customer & Community",
+      "challenge": "Capture authentic, unscripted personalities — both human and canine — while shaping each story into something cohesive, charming, and emotionally resonant.",
+      "client": "Spot & Tango",
+      "description": "Character-driven mini-docs profiling quirky New Yorkers and their canine counterparts, using humor and specificity to celebrate the bond between people and their dogs.",
+      "embedUrl": null,
+      "format": "Short Series",
+      "industry": "Consumer Product",
+      "result": "Streamed on OTT platforms and shared organically by featured creators, extending reach through community-driven engagement.",
+      "slug": "spot-and-tango",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": "/thumbnails/spot-and-tango.jpg",
+      "title": "New York Dogs",
+      "videoPreview": "/previews/spot-and-tango.mp4",
+      "videoUrl": null,
+      "videos": [
+        {
+          "label": "Rachel & Kiwi",
+          "thumb": null,
+          "url": "/videos/spot-and-tango/rachel-and-kiwi.mp4"
+        },
+        {
+          "label": "Lisa & Hudson",
+          "thumb": "/video-thumbs/spot-and-tango/lisa-and-hudson.jpg",
+          "url": "/videos/spot-and-tango/lisa-and-hudson.mp4"
+        }
+      ]
+    },
+    {
+      "category": "Customer & Community",
+      "challenge": "Capture a meaningful rite of passage with care and authenticity, while integrating Google's accessibility technology in a way that feels organic and human.",
+      "client": "Google",
+      "description": "A character-driven documentary following residents of Champion's Place — the first shared living community for young adults with disabilities — as they navigate independence supported by Google's assistive technology.",
+      "embedUrl": null,
+      "format": "Documentary",
+      "industry": "Technology",
+      "result": "Webby nominee for Best Corporate Social Responsibility video.",
+      "slug": "google-champions-place",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": "/thumbnails/google-champions-place.jpg",
+      "title": "Champion's Place",
+      "videoPreview": "/previews/google-champions-place.mp4",
+      "videoUrl": "/videos/google-champions-place/champions-place.mp4",
+      "videos": []
+    },
+    {
+      "category": "Industry & Platform",
+      "challenge": "Build something polished and thoughtful in a high-energy, time-constrained environment without disrupting the flow of the event.",
+      "client": "YouTube",
+      "description": "A fast-turn, social-first interview series capturing advertising leaders sharing how they use YouTube to drive strategy, told directly from the floor of a live industry event.",
+      "embedUrl": null,
+      "format": "Short Series",
+      "industry": "Technology",
+      "result": "Created a scalable \"video factory\" format driving engagement across LinkedIn and YouTube Shorts.",
+      "slug": "youtube",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": "/thumbnails/youtube.jpg",
+      "title": "YouTube Connect",
+      "videoPreview": "/previews/youtube.mp4",
+      "videoUrl": null,
+      "videos": [
+        {
+          "label": "Why Shorts",
+          "thumb": "/video-thumbs/youtube/why-shorts.jpg",
+          "url": "/videos/youtube/why-shorts.mp4"
+        },
+        {
+          "label": "What Brings People to YouTube",
+          "thumb": "/video-thumbs/youtube/what-brings-people-to-yt.jpg",
+          "url": "/videos/youtube/what-brings-people-to-yt.mp4"
+        },
+        {
+          "label": "The Creator Connection",
+          "thumb": "/video-thumbs/youtube/creator-connection.jpg",
+          "url": "/videos/youtube/creator-connection.mp4"
+        }
+      ]
+    },
+    {
+      "category": "Industry & Platform",
+      "challenge": "Create executive conversations that feel polished but natural, while guiding abstract and fast-evolving ideas into something clear and genuinely useful.",
+      "client": "Think with Google",
+      "description": "A long-form interview series featuring marketing leaders in conversation about how AI is reshaping their creative workflows — from practical day-to-day applications to the making of formerly \"impossible ads.\"",
+      "embedUrl": null,
+      "format": "Interview Series",
+      "industry": "Technology",
+      "result": "Strong long-form series for YouTube that drove engagement through future-facing conversations.",
+      "slug": "think-with-google",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": "/thumbnails/think-with-google.jpg",
+      "title": "Modern Marketers",
+      "videoPreview": "/previews/think-with-google.mp4",
+      "videoUrl": null,
+      "videos": [
+        {
+          "label": "Modern Marketers 2025",
+          "thumb": null,
+          "url": "/videos/think-with-google/modern-marketers-2025.mp4"
+        },
+        {
+          "label": "Barkley OKRP",
+          "thumb": "/video-thumbs/think-with-google/barkley-okrp.jpg",
+          "url": "/videos/think-with-google/barkley-okrp.mp4"
+        }
+      ]
+    },
+    {
+      "category": "Brand & People",
+      "challenge": "Capture a true master at work, distilling deep expertise into short, watchable pieces that balance education, personality, and clarity.",
+      "client": "Brooklyn Brewery",
+      "description": "Featuring Brewmaster Garrett Oliver breaking down Brooklyn Brewery's beers behind the bar — translating flavor, texture, and brewing technique into accessible, engaging storytelling.",
+      "embedUrl": null,
+      "format": "Short Series",
+      "industry": "Food & Beverage",
+      "result": "Adopted as both a global sales tool and paid social content.",
+      "slug": "brooklyn-brewery",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": "/thumbnails/brooklyn-brewery.jpg",
+      "title": "Beer Talks",
+      "videoPreview": "/previews/brooklyn-brewery.mp4",
+      "videoUrl": "/videos/brooklyn-brewery/brooklyn-brewery-case-study.mp4",
+      "videos": []
+    },
+    {
+      "category": "Customer & Community",
+      "challenge": "Balance vibrant, personality-driven storytelling with the technical realities of mapping, while working across diverse locations, cultures, and environments.",
+      "client": "Google Maps",
+      "description": "A global documentary series following local contributors who document and map their communities — capturing places, stories, and terrain with a level of depth only locals can provide.",
+      "embedUrl": null,
+      "format": "Documentary Series",
+      "industry": "Technology",
+      "result": "A far-reaching YouTube series that brought visibility to the human side of Google Maps and the global community behind it.",
+      "slug": "google-maps",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": "/thumbnails/google-maps.jpg",
+      "title": "Mapping the Globe",
+      "videoPreview": "/previews/google-maps.mp4",
+      "videoUrl": null,
+      "videos": [
+        {
+          "label": "Tonga",
+          "thumb": "/video-thumbs/google-maps/tonga.jpg",
+          "url": "/videos/google-maps/tonga.mp4"
+        },
+        {
+          "label": "JAXA — Japan",
+          "thumb": "/video-thumbs/google-maps/jaxa.jpg",
+          "url": "/videos/google-maps/jaxa.mp4"
+        },
+        {
+          "label": "New Zealand",
+          "thumb": "/video-thumbs/google-maps/new-zealand.jpg",
+          "url": "/videos/google-maps/new-zealand.mp4"
+        }
+      ]
+    },
+    {
+      "category": "Customer & Community",
+      "challenge": "Balance thoughtful, character-driven storytelling with a clear understanding of the technology supporting these businesses, without letting the product overshadow the people.",
+      "client": "Google",
+      "description": "A series of intimate profiles highlighting small businesses across the country — capturing the grit, care, and day-to-day realities that sustain them alongside the tools they rely on to grow.",
+      "embedUrl": null,
+      "format": "Documentary Series",
+      "industry": "Technology",
+      "result": "Streamed on YouTube and organically shared by featured businesses, extending reach through their own communities.",
+      "slug": "google-small-business",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": "/thumbnails/google-small-business.jpg",
+      "title": "Small Business Profiles",
+      "videoPreview": "/previews/google-small-business.mp4",
+      "videoUrl": null,
+      "videos": [
+        {
+          "label": "Nawab",
+          "thumb": "/video-thumbs/google-small-business/nawab.jpg",
+          "url": "/videos/google-small-business/project-nawab.mov"
+        },
+        {
+          "label": "Bikes & Hikes",
+          "thumb": "/video-thumbs/google-small-business/bikes-hikes.jpg",
+          "url": "/videos/google-small-business/bikes-hikes.mov"
+        },
+        {
+          "label": "Chulita",
+          "thumb": "/video-thumbs/google-small-business/chulita.jpg",
+          "url": "/videos/google-small-business/chulita.mov"
+        }
+      ]
+    },
+    {
+      "category": "Brand & People",
+      "challenge": "Communicate a bold mission without sounding like a press release.",
+      "client": "Harlem Capital",
+      "description": "A brand film for the VC firm on a mission to invest in 1,000 diverse founders — told through the stories of the people they back.",
+      "embedUrl": null,
+      "format": "Mini-Film",
+      "industry": "Finance",
+      "result": "Used in LP pitches and partner recruitment. Shared organically across the founder community.",
+      "slug": "harlem-capital",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": null,
+      "title": "The Founders No One Bet On",
+      "videoPreview": null,
+      "videoUrl": null,
+      "videos": []
+    },
+    {
+      "category": "Customer & Community",
+      "challenge": "Make investor content feel like something worth watching, not just proof of work.",
+      "client": "Harlem Capital",
+      "description": "Profile films on the diverse founders in the Harlem Capital portfolio — their stories, their obstacles, and what they built against the odds.",
+      "embedUrl": null,
+      "format": "Mini-Film Series",
+      "industry": "Finance",
+      "result": "Shared by founders organically. Drove inbound from founders seeking mission-aligned capital.",
+      "slug": "harlem-capital-portfolio",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": null,
+      "title": "Built Different",
+      "videoPreview": null,
+      "videoUrl": null,
+      "videos": []
+    },
+    {
+      "category": "Industry & Platform",
+      "challenge": "Make clinical expertise feel human and urgent, not academic.",
+      "client": "SurvivorNet",
+      "description": "A multi-part series featuring the oncologists and researchers reshaping how cancer is treated — authority content that made SurvivorNet the go-to source.",
+      "embedUrl": null,
+      "format": "Expert Interview Series",
+      "industry": "Healthcare",
+      "result": "Became the most-watched content on the platform. Used in partnership pitches with hospital networks.",
+      "slug": "survivornet-doctors",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": null,
+      "title": "The Doctors Who Changed Everything",
+      "videoPreview": null,
+      "videoUrl": null,
+      "videos": []
+    },
+    {
+      "category": "Customer & Community",
+      "challenge": "Cover an emotionally complex story with honesty, without sensationalizing the subject.",
+      "client": "SurvivorNet",
+      "description": "A single-subject documentary following a cancer patient through an experimental clinical trial — raw, intimate, and ultimately hopeful.",
+      "embedUrl": null,
+      "format": "Mini-Film",
+      "industry": "Healthcare",
+      "result": "One of the most-shared pieces in SurvivorNet history. Cited by oncologists as a resource for newly diagnosed patients.",
+      "slug": "cancer-clinical-trials",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": null,
+      "title": "The Trial That Changed My Life",
+      "videoPreview": null,
+      "videoUrl": null,
+      "videos": []
+    },
+    {
+      "category": "Customer & Community",
+      "challenge": "Humanize Instagram's platform impact without it feeling like an ad.",
+      "client": "Meta",
+      "description": "A series of creator stories showing how entrepreneurs built their businesses entirely through Instagram — authentic, unscripted, and undeniably real.",
+      "embedUrl": null,
+      "format": "Mini-Film Series",
+      "industry": "Technology",
+      "result": "Featured across Meta's creator marketing channels and used as evidence in advertiser presentations.",
+      "slug": "meta-creators",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": null,
+      "title": "Built on Instagram",
+      "videoPreview": null,
+      "videoUrl": null,
+      "videos": []
+    },
+    {
+      "category": "Industry & Platform",
+      "challenge": "Tell a story about decentralization that works for both crypto natives and complete newcomers.",
+      "client": "Ethereum Foundation",
+      "description": "A cinematic long-form documentary on the vision behind Ethereum — for the believers, and for everyone who never understood what the fuss was about.",
+      "embedUrl": null,
+      "format": "Long-Form Documentary",
+      "industry": "Web3 / Finance",
+      "result": "Screened at ETHDenver and shared widely across the Ethereum ecosystem.",
+      "slug": "ethereum-foundation",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": null,
+      "title": "What the Internet Was Supposed to Be",
+      "videoPreview": null,
+      "videoUrl": null,
+      "videos": []
+    },
+    {
+      "category": "Brand & People",
+      "challenge": "Tell authentic employee stories without making them feel like recruitment propaganda.",
+      "client": "Google",
+      "description": "A documentary series on the people inside Google — their origins, their drive, and why they chose to build here.",
+      "embedUrl": null,
+      "format": "Documentary Series",
+      "industry": "Technology",
+      "result": "Used in employer branding and university recruitment campaigns.",
+      "slug": "google-dei",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": null,
+      "title": "Where We Come From",
+      "videoPreview": null,
+      "videoUrl": null,
+      "videos": []
+    },
+    {
+      "category": "Industry & Platform",
+      "challenge": "Explain DeFi to people who are curious but intimidated, without losing credibility with insiders.",
+      "client": "Web3 Client",
+      "description": "A series making decentralized finance genuinely understandable — not dumbed down, but made human.",
+      "embedUrl": null,
+      "format": "Explainer Series",
+      "industry": "Web3 / Finance",
+      "result": "Used as onboarding content by multiple DeFi protocols.",
+      "slug": "defi-explained",
+      "stat": null,
+      "statLabel": null,
+      "stills": [],
+      "thumbnail": null,
+      "title": "DeFi for the Rest of Us",
+      "videoPreview": null,
+      "videoUrl": null,
+      "videos": []
+    }
+  ],
+  "articles": [
+    {
+      "date": "2026-05-19",
+      "excerpt": "Every brief asks for it. Almost no branded content delivers it. The gap shows up because authenticity is a craft discipline, not a tone you can dial in during post.",
+      "featured": false,
+      "readTime": "9 min read",
+      "relatedProjects": [],
+      "slug": "why-authenticity-in-branded-content-is-harder-than-it-looks",
+      "title": "Why Authenticity in Branded Content Is Harder Than It Looks",
+      "topic": "Process"
+    },
+    {
+      "date": "2026-05-16",
+      "excerpt": "Viral videos and converting videos are designed against fundamentally different objectives. Trying to optimize for both usually produces a piece that fails at both.",
+      "featured": false,
+      "readTime": "10 min read",
+      "relatedProjects": [],
+      "slug": "the-difference-between-a-video-that-goes-viral-and-one-that-converts",
+      "title": "The Difference Between a Video That Goes Viral and One That Converts",
+      "topic": "Strategy"
+    },
+    {
+      "date": "2026-05-14",
+      "excerpt": "The difference between non-actor footage that carries a film and footage that kills it is almost entirely decided before the camera rolls.",
+      "featured": false,
+      "readTime": "11 min read",
+      "relatedProjects": [],
+      "slug": "how-to-cast-non-actors-for-video",
+      "title": "How to Cast Non-Actors for Video Without It Looking Like a Corporate Ad",
+      "topic": "Craft"
+    },
+    {
+      "date": "2026-05-12",
+      "excerpt": "Most brand films are organized around what the brand wants to say. The audience has no obligation to absorb any of it. Here is what to build instead.",
+      "featured": true,
+      "readTime": "10 min read",
+      "relatedProjects": [],
+      "slug": "why-your-brand-film-needs-a-narrative-arc",
+      "title": "Why Your Brand Film Needs a Narrative Arc, Not a Message",
+      "topic": "Strategy"
+    },
+    {
+      "date": "2025-10-15",
+      "excerpt": "Consumers are 131% more likely to buy after consuming educational content. Here's what that number actually means — and why most branded content misses the mechanism entirely.",
+      "featured": true,
+      "readTime": "7 min read",
+      "relatedProjects": [
+        "survivornet",
+        "google-language-ai",
+        "harlem-capital"
+      ],
+      "slug": "why-educational-content-outperforms-branded-advertising",
+      "title": "Why Educational Content Outperforms Branded Advertising",
+      "topic": "Strategy"
+    },
+    {
+      "date": "2025-09-22",
+      "excerpt": "When SurvivorNet got a 55% view-through rate on a documentary series, the first question we got was \"how?\" The answer is simpler than most people expect.",
+      "featured": false,
+      "readTime": "5 min read",
+      "relatedProjects": [
+        "survivornet",
+        "survivornet-doctors",
+        "cancer-clinical-trials"
+      ],
+      "slug": "the-view-through-rate-that-changed-how-we-think-about-video",
+      "title": "The View-Through Rate That Changed How We Think About Video",
+      "topic": "Case Studies"
+    },
+    {
+      "date": "2025-09-05",
+      "excerpt": "Both feature a customer talking about your product. Only one actually changes minds. The distinction is in the story structure — and understanding it will change how you think about social proof.",
+      "featured": false,
+      "readTime": "6 min read",
+      "relatedProjects": [
+        "survivornet",
+        "harlem-capital-portfolio",
+        "meta-creators"
+      ],
+      "slug": "the-difference-between-a-testimonial-and-a-trust-film",
+      "title": "The Difference Between a Testimonial and a Trust Film",
+      "topic": "Strategy"
+    },
+    {
+      "date": "2025-08-18",
+      "excerpt": "The core principle of documentary — find the real story, then capture it with craft — turns out to be exactly what branded content has been missing.",
+      "featured": false,
+      "readTime": "8 min read",
+      "relatedProjects": [
+        "ethereum-foundation"
+      ],
+      "slug": "what-documentary-filmmaking-taught-us-about-b2b-content",
+      "title": "What Documentary Filmmaking Taught Us About B2B Content",
+      "topic": "Craft"
+    },
+    {
+      "date": "2025-07-30",
+      "excerpt": "Most bad videos start with a bad brief. This is the briefing framework we use at Deep Dive — and the questions your production partner should be asking before you pick up a camera.",
+      "featured": false,
+      "readTime": "10 min read",
+      "relatedProjects": [
+        "google-language-ai",
+        "harlem-capital"
+      ],
+      "slug": "how-to-brief-a-video-production-that-wont-disappoint-you",
+      "title": "How to Brief a Video Production That Won't Disappoint You",
+      "topic": "Process"
+    },
+    {
+      "date": "2025-07-08",
+      "excerpt": "A series builds an audience over time. A single film makes one unforgettable impression. The choice is not about budget — it's about what job the content needs to do.",
+      "featured": false,
+      "readTime": "5 min read",
+      "relatedProjects": [
+        "survivornet-doctors",
+        "defi-explained",
+        "google-dei"
+      ],
+      "slug": "episodic-vs-single-film-which-format-is-right-for-your-brand",
+      "title": "Episodic vs. Single Film: Which Format Is Right for Your Brand?",
+      "topic": "Strategy"
+    }
+  ],
+  "articleBodies": {
+    "why-authenticity-in-branded-content-is-harder-than-it-looks": "Authenticity has become the most overused word in marketing. Every brief asks for it. Every pitch deck promises it. Almost no branded content actually delivers it.\n\nThe reason is not dishonesty. Most brands genuinely want their content to feel real. The gap shows up because authenticity is a craft discipline that requires specific decisions across pre-production, shoot day, and post, and most teams approach it as a tone they can dial in later. When a viewer says a piece of content felt authentic, what they are really reporting is a long list of small technical and human decisions that all aligned. The interview was not over-prepped. The location was real rather than a soundstage made to look real. The subject was someone with actual stakes in the story. The edit did not trim away every moment of hesitation. Authenticity is the cumulative result of those choices made well, and it is almost impossible to fake your way into it once you're in the edit bay.\n\n**The pre-interview problem**\n\nMost corporate video production starts the same way. The subject gets a list of questions a week before the shoot. They write out their answers. The communications team reviews those answers. By the time the camera rolls, the subject is reciting a polished version of a polished version of what they originally would have said.\n\nThat polish is exactly what kills authenticity. Audiences have an extraordinarily fine ear for rehearsed speech, even when they cannot articulate what they are hearing. They do not consciously think \"that person is reading from memory.\" They just feel themselves disengage.\n\nOn our shoots, we approach the subject differently. We brief them on the themes we want to explore and leave the specific questions for the day of. We tell them we're going to have a conversation, that the cuts will protect them, and that they don't need to memorize anything. Then we spend the first thirty minutes of the interview not really filming anything that will make the final cut, because we are letting the subject get past their corporate voice and into the way they actually talk. The good material almost always lives in the last hour.\n\n**Access is the unlock**\n\nThe single biggest predictor of how authentic a piece of content will feel is how much access the filmmaker had. Access to the founder when they were tired. Access to the warehouse on a chaotic shipping day. Access to the customer in their actual kitchen, in the clothes they happened to be wearing that morning.\n\nAccess requires trust, and trust requires time. We tell clients during onboarding that the access we negotiate during pre-production is more valuable than any equipment we bring to set. A great cinematographer can do extraordinary things with minimal gear, but nobody on earth can do extraordinary things without real access to real subjects.\n\nThis is also where most agency productions break down. The producer has one or two days on site, the schedule is locked tight, and the subjects are managed through a chain of communications professionals. By the time anyone shoots anything, the access has been mediated into something flat. Authenticity does not survive that many handoffs.\n\n**The role of imperfection**\n\nAudiences trust footage that contains evidence of being real. The subject pauses, searches for a word, restarts a sentence. The camera catches a moment that was not staged. Someone laughs at something off-screen. These are the textural details that signal to a viewer, often subconsciously, that they are watching something that actually happened.\n\nEditors trained on commercial work tend to remove these details by reflex. Every breath gets cleaned out. Every awkward silence gets compressed. Every false start gets cut. The result feels technically smooth and emotionally dead.\n\nWe tell our editors to leave the breath in. Leave the pause. Let the human texture stay on screen, because that texture is doing more persuasive work than any of the cleaner footage around it.\n\n**Authenticity is also a casting problem**\n\nSome subjects are camera-ready in a way that feels rehearsed even when they aren't reading anything. Some subjects are camera-ready in a way that feels generous and present. The difference is hard to predict from a resume or a LinkedIn profile, and it is the single biggest variable in how the final film performs.\n\nWe do pre-interviews on the phone before we ever bring a crew. We listen for whether the subject answers questions or talks at us. We listen for whether they tell stories or recite bullet points. The subjects who tell stories are the ones who will carry a film. Sometimes that means recasting a piece around someone two levels down from the executive the brand originally wanted to feature. The film is always better for it.\n\n**What clients can do upstream**\n\nIf you want authentic content, the work starts before you hire a production team. It starts with being willing to feature people who are not media-trained. It starts with letting the filmmakers spend real time with subjects before the cameras arrive. It starts with accepting that the most useful footage will probably contain something that makes the legal team mildly nervous, and pushing back on that instinct anyway.\n\nThe brands who consistently produce content that audiences trust have made peace with this trade. They understand that the cost of authenticity is a small loss of message control, and that the return on that trade is enormous.\n\nIf you are planning content for 2026 and the word authentic keeps appearing in your briefs, we can send you a short framework we use during pre-production to pressure-test whether a project is actually set up to deliver it. Email contact@deepdivefilms.com.",
+    "the-difference-between-a-video-that-goes-viral-and-one-that-converts": "Almost every client we work with eventually asks some version of the same question. Can we make this thing go viral? It is a fair question. Virality looks like the holy grail from the outside, because it promises massive reach for a fixed production cost. The math is irresistible on a slide.\n\nThe math is also misleading. Viral videos and converting videos are designed against fundamentally different objectives, and trying to optimize for both at once usually produces a piece of content that fails at both. Once you understand what each one is actually doing, you can make a clearer decision about which one your business needs right now, and you can stop spending money on the wrong format.\n\n**Virality is an emotional spike**\n\nA video goes viral when it produces a strong, immediate, shareable emotion. Surprise, delight, outrage, recognition. The viewer feels something within the first few seconds and is compelled to pass the feeling along by sharing the video to their network. The video is the carrier for the emotion.\n\nThis is why most viral brand videos function as entertainment with a logo at the end. The structure is built to deliver an emotional payload as efficiently as possible. The brand connection is grafted on, and the viewer often forgets which brand made the video within hours, or never registers it in the first place. There is research on this, and it is brutal. Recall rates on viral branded content are catastrophically low compared to the reach numbers that get celebrated in case studies.\n\nThe view count goes up. The team celebrates. The pipeline does not move. This is the most expensive outcome in branded video, because everyone involved interprets the surface metric as proof that the work worked.\n\n**Conversion is a trust transfer**\n\nA converting video does something completely different. It takes a viewer who is already somewhere in your funnel, gives them information they actually need, and increases their confidence that working with you is the right decision. The viewer may not share it. The viewer may not even watch it through the end on the first pass. The next time they show up in your CRM, however, their behavior is different. They book a demo. They reply to the email. They forward it to their boss with a sentence about why this is the partner they want to use.\n\nThis kind of video tends to be slower, longer, and quieter than viral content. The numbers look unimpressive on a dashboard. The view count might be in the four or five figure range. The completion rate, however, will be unusually high, often above forty percent on a piece that runs eight to twelve minutes. Those finishers are the kind of people who are seriously evaluating whether to do business with you. The economic value of one of those finishers is in some cases hundreds of times the value of a casual viral viewer.\n\n**Why brands keep choosing the wrong objective**\n\nMost marketing teams choose the viral objective because the viral objective produces big numbers, and big numbers produce internal political wins. A million views on a brand video is something you can put in a quarterly review. Twelve thousand finishes from procurement leaders at target accounts is harder to translate into a celebratory slide, even when the second outcome moved more revenue.\n\nThis is a structural problem inside marketing organizations, and it pushes content decisions toward the wrong format. The fix isn't to demand virality from every video. The fix is to build internal reporting that surfaces the metrics that actually correspond to pipeline impact, and then to commission content against those metrics.\n\nOnce a team starts measuring finish rate, downstream conversion, and assisted pipeline rather than just impressions and views, the kind of content they ask for changes. The briefs get longer. The arc gets more careful. The casting gets more selective. The work stops being designed to be passed around and starts being designed to be finished.\n\n**The two formats serve different stages**\n\nThere is a real role for short, high-emotion content at the top of a funnel. If a brand has a real distribution problem and needs awareness, a piece designed for shareability can be the right tool. That piece is doing brand awareness work, however, and it should be measured and scoped accordingly. It will not do conversion work, and pretending otherwise is malpractice.\n\nConversion content operates on a different audience entirely. It belongs in sales sequences, on solutions pages, in outbound emails to specific accounts, in webinar replay slots. It does not need a million views. It needs the right ten thousand viewers, and it needs to do real work on those viewers' confidence levels. A well-made converting video can carry a sales conversation for years.\n\nMost brands need more conversion content than they think and less viral content than they think. The pull of virality is so strong because the numbers are so visible. The actual leverage usually sits with the quieter format.\n\n**How we structure for one or the other**\n\nWhen a project starts with us, the first conversation is about what the content is actually for. If the answer is awareness, we build short, emotionally compressed pieces with clear payoffs and we measure shares and reach. If the answer is conversion, we build longer pieces with full narrative arcs and real subjects and we measure finish rate and pipeline lift.\n\nWe almost never recommend a single piece that tries to do both, because the structural decisions for each are incompatible. A film built to be shared has to deliver its emotional payload in the first ten seconds. A film built to convert has to earn the viewer's investment over the first two minutes and then reward it. You cannot do both in the same piece without weakening both.\n\nThe good news is that one well-made converting video usually generates enough raw material for several short, awareness-oriented cuts. That is the production model we run. One shoot, one long-form anchor designed for trust, and a suite of shorter cuts pulled from the same footage and built for distribution. The math works because the upstream work was done once and serves both objectives, in their proper formats.\n\nIf you are mapping content plans for 2026 and you are not sure whether the brief in front of you is asking for awareness or conversion, send it over. We will read it and tell you which format it is actually built for, and what would need to change if you wanted the other one. Email contact@deepdivefilms.com.",
+    "how-to-cast-non-actors-for-video": "Casting non-actors is the move that separates documentary-quality brand content from the stuff that lives forever on a homepage carousel. When you put a real customer, employee, or community member on camera and they actually come alive, the resulting footage carries a kind of weight that no professional talent can manufacture. When you put the wrong person on camera, you get the most painful kind of branded content: everyone watching can feel the subject straining to perform.\n\nThe difference between those two outcomes is almost entirely upstream of the shoot day. By the time the camera is rolling, your casting decisions are locked in. So most of the craft of working with non-actors happens in the weeks before anyone arrives on set.\n\n**Look for stakes before charisma**\n\nThe first instinct of most casting calls is to find the most charismatic person in the room. The energetic founder, the outgoing employee, the customer with the great smile. These people are easy to spot, and they often interview poorly, because charisma without stakes produces empty enthusiasm on camera.\n\nStakes operate differently. Stakes mean the subject has something real on the line in the story you are telling. The customer whose business depended on the platform working. The engineer who has been building the same product for seven years. The community member whose life materially changed because of what the brand did. Stakes give the subject something to push against, and that resistance is what produces compelling footage.\n\nIn our discovery calls with clients, we spend more time mapping who has stakes than who has presentation skills. Presentation can be coached. Stakes can't be manufactured.\n\n**The phone interview test**\n\nBefore any non-actor gets on our shoot list, they go through a fifteen to thirty minute phone conversation with one of our producers. We are not evaluating their on-camera potential. We are evaluating whether they tell stories or whether they explain things.\n\nStory-tellers and explainers are two completely different cognitive types, and the difference is invisible on a resume. Ask a story-teller about a hard week at work and they will tell you about a specific Tuesday when something went wrong. Ask an explainer the same question and they will give you a generalized answer about how their company handles challenges. Both responses can be intelligent. Only one will translate to compelling video.\n\nIf we find ourselves on the phone with an explainer, we don't write them off. We try to push past the layer of generalization, often by asking very specific questions about places, dates, and people. Sometimes a story-teller is hiding underneath, waiting for permission to drop the corporate voice. Either way, we know more than we did, and we adjust accordingly.\n\n**How to pre-interview without over-rehearsing**\n\nThere is a real risk in spending too much time with a non-actor before the shoot. They start to memorize their answers. They get attached to certain phrasings. By the time you point a camera at them, the spontaneity is gone.\n\nOur solution is to pre-interview around the topic without ever asking the questions we are going to ask on camera. If the shoot is about how a customer started using the product, the pre-interview might focus on what their life looked like before. We are listening for material, with no intention of rehearsing it. The day of the shoot, we ask the actual questions cold, and the subject responds with the freshness of someone telling a story for the first time.\n\nThis requires discipline from the production team and from the client. It is tempting to send the subject the questions in advance so everyone feels safe. The cost of that safety is the entire reason you cast a non-actor in the first place.\n\n**Wardrobe and location decisions matter more than people think**\n\nIf you put a non-actor in a styled wardrobe in a styled location, you have effectively converted them into an actor playing themselves, and they will perform accordingly. Their voice will tighten. Their gestures will get smaller. They will start to behave the way they think the camera wants them to behave.\n\nWe shoot non-actors in the spaces where they actually live and work, in the clothes they actually wear. The home office with the kid art on the wall. The warehouse with the actual chaos. The kitchen with the real stains. Those textures function as signals to the audience that what they are watching is real, and that signal does enormous work in the viewer's trust register.\n\n**Direction looks like removing obstacles**\n\nOn set with non-actors, the worst thing a director can do is start giving line readings. The moment a subject is asked to deliver a line a certain way, the whole performance collapses, because they have just been told that there is a right answer and they are not currently giving it.\n\nDirection with non-actors looks different. It is mostly about removing obstacles. We adjust the angle of the chair so they are not staring into a light. We move the operator out of their eyeline. We ask follow-up questions instead of giving notes. We let silences happen. The goal is to create the conditions where the subject's actual presence can be captured on camera.\n\n**What this looks like in the edit**\n\nEven with all of this upstream work, casting decisions show up most visibly in the edit. The subjects you cast well will give you long runs of usable material from a single take. The subjects you cast poorly will give you isolated moments separated by stretches of footage that doesn't work.\n\nThe edit reveals the casting. Which means that if you want more options in post, the investment happens in pre-production, in the phone calls and the location decisions and the discipline to not hand over the questions in advance. That upstream work is what separates a case study that people finish from one that people exit after thirty seconds.",
+    "why-your-brand-film-needs-a-narrative-arc": "Most brand films are built around messaging pillars. A marketing team typically spends weeks refining three or four things they want the audience to take away, hands those pillars to a production company, and the production company dutifully constructs a video where every shot supports one of them. There is usually a customer in the middle delivering a quote that confirms pillar two. Nothing changes in that customer over the course of the film. Nothing happens. The camera moves. Information is delivered and the viewer leaves.\n\nThis is the most common structural failure in branded video, and it shows up across every budget level. Beautifully shot films with six-figure production values fail at the fifteen second mark for the same reason scrappy in-house videos do. The problem is not craft. The problem is that the film was organized around what the brand wanted to say instead of around something an audience would actually want to follow.\n\n**Why messaging fails on camera**\n\nThis sounds obvious when you write it out. Everybody knows stories work. Every thought leader on LinkedIn says some version of it, and yet the average corporate film is still organized around what the brand wants the audience to absorb. The audience has no obligation to absorb anything. So they don't.\n\nPart of why this happens is that messaging is easier to defend in a meeting. You can show your boss the three pillars on a slide. You can prove that the film hits all three. You can A/B test the headline. A narrative arc is harder to put on a slide, because the value of an arc only becomes obvious when you watch the finished thing and find yourself unable to stop. So messaging wins inside the building, but the work suffers outside of it.\n\n**What we actually mean by an arc**\n\nAn arc is just change over time. Somebody starts in one place, something disrupts that place, they navigate the disruption, and they end up somewhere different. That's the whole engine. Every documentary you've finished, every podcast episode you circled the block to hear out, every long article you sent to a friend, ran on this same machinery.\n\nWhen we sit down with a founder or executive during discovery, the first thing we want to know is when something cracked. The week the company almost didn't make payroll. The product launch nobody believed in. The customer call at midnight that changed the roadmap. Those are the moments where arcs live, because those are the moments where a real person was forced to change something. Without that kind of raw material, you usually just have a slideshow with music.\n\n**Why the format keeps producing flat work**\n\nAudiences have been trained, over decades, to recognize the shape of a brand video inside the first five seconds. They know the music swell. They know the laptop typing shot. They know the voiceover that begins with \"in a world where.\" The pattern recognition fires, and attention collapses.\n\nAn arc breaks that pattern recognition. The viewer can't tell, in the first thirty seconds, whether they're watching a documentary, a profile piece, or a brand film. That small confusion is enough to keep them in their seat for another minute. Another minute is enough for the story to do its work. You aren't trying to compete on production value. You're trying to compete on whether the viewer stays.\n\n**The test we run on every script**\n\nBefore we shoot, we ask one question of every treatment: if you stripped out all the brand mentions, would anyone still want to watch this? If the answer is no, you have a message in costume, and the audience will treat it accordingly. If the answer is yes, you have something the audience might actually choose to watch, and the brand earns the right to be the one telling it. That second relationship is dramatically more powerful, and it's the one that builds the kind of trust that follows a brand around for years.\n\n**What changes when the arc is real**\n\nWhen you produce a film with a real narrative spine, the distribution math shifts. Sales teams send it to prospects because it actually does something for the conversation. Employees share it without being asked, because they're proud of it. Earned media picks it up because there's something there worth covering. The film stops requiring a media spend to find an audience and starts attracting one on its own.\n\nCompare that to a typical message-driven brand film. It lives on the homepage, gets one paid social burst, and then enters the corporate equivalent of witness protection. Same shoot day. Same crew. Same budget. The difference happened upstream, in how the story was structured before a single camera turned on.\n\nMost of the cost of a brand film is invisible on the invoice. It lives in the architecture you build before you book the crew, in the weeks of conversation that decide whether you have a story or just a brief. Skip that work and no amount of post-production rescues the film. Do that work and a modest production budget can outperform jobs that cost three times more.\n\nIf you're weighing a brand film for 2026 and you want to see what an arc-driven treatment looks like before you commit to anything, ask us to send you one of ours. We'll share two real examples and walk through the structural choices we made. No pitch deck. Email contact@deepdivefilms.com.",
+    "why-educational-content-outperforms-branded-advertising": "In 2019, Conductor published a study in partnership with Cornell University showing that consumers are 131% more likely to purchase from a brand immediately after consuming educational content from that brand.\n\nThat number is striking enough that it gets misused constantly. Let me explain what it actually means — and why the mechanism matters more than the stat.\n\nThe study wasn't measuring any educational content. It was measuring content that genuinely helped the reader understand something they wanted to understand. Not content that happened to mention a product while teaching something. Content where the teaching was the point.\n\nThis distinction is everything.\n\n**Why the format works.**\n\nWhen a brand produces advertising, the audience brings a skepticism filter. They know the brand's incentives. They discount the claims accordingly. This is rational — brands have every reason to overstate their product's value.\n\nEducational content works differently. It's subject to the same skepticism filter at first — but if the content is genuinely useful, the filter comes down. The audience stops asking \"what are they selling?\" and starts asking \"is this true?\" That's a completely different cognitive mode. One that precedes trust.\n\nThe 131% lift isn't from exposure. It's from that cognitive shift. The audience that finishes a genuinely useful piece of content from your brand has updated their model of you. You are no longer just a vendor — you're a source.\n\n**The mistake most brands make.**\n\nThey treat educational content as a Trojan horse for the pitch. The \"educational\" framing is a wrapper around what is, structurally, still an advertisement.\n\nAudiences feel this immediately. The skepticism filter goes back up. The educational frame makes the deception feel worse, not better — because it violated an implicit contract.\n\nThe brands that win with educational content commit to the format fully. The information stands alone. The brand benefit is associative — trust built by proximity to genuine usefulness — not embedded as a call to action.\n\n**What this means for video specifically.**\n\nVideo is the hardest format to fake. A written article that sounds educational can hide its promotional intent in the framing. A film can't. The camera captures whether the interviewee is reciting talking points or saying something real. The editing reveals whether the story has actual stakes or invented ones.\n\nThis is why the view-through rate gap between branded and editorial video is so dramatic. Audiences finish what's real. They click away from what's manufactured.\n\nThe implication: the standard for educational video has to be the same standard applied to journalism. Not \"is this content strategically useful for our brand?\" — but \"is this content genuinely useful for our audience?\"\n\nIf the answer is yes to both, you're in the right place.",
+    "the-view-through-rate-that-changed-how-we-think-about-video": "",
+    "the-difference-between-a-testimonial-and-a-trust-film": "",
+    "what-documentary-filmmaking-taught-us-about-b2b-content": "",
+    "how-to-brief-a-video-production-that-wont-disappoint-you": "",
+    "episodic-vs-single-film-which-format-is-right-for-your-brand": ""
+  },
+  "serviceDetails": {
+    "brand-people": {
+      "category": "Brand & People",
+      "description": "Founder origin stories, culture films, leadership profiles — content that builds brand trust through the people who created it. When audiences see the humans behind a company, they trust it differently.",
+      "examples": [
+        "Founder origin stories",
+        "Culture & hiring films",
+        "Executive profiles",
+        "\"Why We Exist\" films"
+      ],
+      "name": "Brand & People",
+      "slug": "brand-people",
+      "tagline": "The brand made visible. The people behind it made human.",
+      "whatItIs": {
+        "body": "Brand & People films are not about your product or service. They're about why your company exists — the founding moment, the conviction behind it, the people who showed up to make it real. These are the films that make a brand feel like something worth rooting for.",
+        "heading": "What it is.",
+        "secondary": "They work because audiences have infinite tolerance for a genuine story and zero tolerance for a pitch. A founder origin done right earns more trust than any campaign."
+      },
+      "whenToUse": [
+        {
+          "body": "Show what it actually feels like to work there. The best talent filter for culture before applying.",
+          "trigger": "Hiring & culture"
+        },
+        {
+          "body": "A new audience needs to understand who you are before they can trust what you do.",
+          "trigger": "New market entry"
+        },
+        {
+          "body": "When what you stand for has changed, a film communicates it faster than copy.",
+          "trigger": "Rebrand or pivot"
+        },
+        {
+          "body": "You've just raised — the world is watching. This is how you define the narrative.",
+          "trigger": "Post-funding visibility"
+        }
+      ]
+    },
+    "customer-community": {
+      "category": "Customer & Community",
+      "description": "Long-form customer success stories, transformation narratives, and community films that build genuine trust — not testimonials, but full stories with stakes, struggle, and resolution. The kind of proof that changes minds.",
+      "examples": [
+        "Customer success stories",
+        "\"Day in the Life\" films",
+        "Before/after narratives",
+        "Community impact docs"
+      ],
+      "name": "Customer & Community",
+      "slug": "customer-community",
+      "tagline": "Real people, real results. Social proof that feels earned, not staged.",
+      "whatItIs": {
+        "body": "Customer & Community films are the most trusted format in B2B marketing — because they're not about you. They're about what happens to people after they work with you. The transformation, the result, the unexpected outcome. Told in the subject's own words.",
+        "heading": "What it is.",
+        "secondary": "SurvivorNet ran this format across a series of patient stories — real people, real doctors, real stakes. The result was extraordinary engagement in a category where clinical content typically gets skipped. That gap is what authentic storytelling does."
+      },
+      "whenToUse": [
+        {
+          "body": "A prospect has done their research. A real customer story is what moves them from \"interested\" to \"ready\".",
+          "trigger": "Mid-funnel conviction"
+        },
+        {
+          "body": "Show a customer solving the exact problem your category solves. Let them make the case you're not allowed to make.",
+          "trigger": "Category credibility"
+        },
+        {
+          "body": "When your customers' identity is part of the product — document that identity. Give it a story.",
+          "trigger": "Community building"
+        },
+        {
+          "body": "You've shipped. Now show it working in the real world, with real people, and real numbers.",
+          "trigger": "Post-launch proof"
+        }
+      ]
+    },
+    "industry-platform": {
+      "category": "Industry & Platform",
+      "description": "Expert interview series, industry trend documentaries, and episodic content that positions your brand as the reference point in your space. The kind of content people cite, share, and come back to.",
+      "examples": [
+        "Expert interview series",
+        "Industry trend docs",
+        "Episodic docu-series",
+        "Conference & event capture"
+      ],
+      "name": "Industry & Platform",
+      "slug": "industry-platform",
+      "tagline": "Authority-building content that makes your brand the definitive voice.",
+      "whatItIs": {
+        "body": "Industry & Platform films are about the space you operate in — not your product. You bring in the experts, the data, the competing perspectives. You produce the definitive guide to something your audience genuinely wants to understand.",
+        "heading": "What it is.",
+        "secondary": "The brand benefit is authority. When your logo is on the most insightful thing in your category, you own that category intellectually. Arbitrum's blockchain deep-dive did exactly this — the film was widely cited as the clearest explanation of what that technology was actually for."
+      },
+      "whenToUse": [
+        {
+          "body": "If your category doesn't fully exist yet, you need to define it. A series does that faster than a whitepaper.",
+          "trigger": "Category creation"
+        },
+        {
+          "body": "Your executives have opinions the market needs to hear. A series gives those opinions staying power.",
+          "trigger": "Thought leadership at scale"
+        },
+        {
+          "body": "Turn a single event into a content franchise. Capture the conversations that happen around it.",
+          "trigger": "Conference or event amplification"
+        },
+        {
+          "body": "Procurement committees consume content. An industry series pre-builds trust before the first sales call.",
+          "trigger": "Enterprise pipeline"
+        }
+      ]
+    }
+  },
+  "siteSettings": {
+    "contactEmail": "contact@deepdivefilms.com",
+    "cta": {
+      "body": "Tell us what your audience needs to know. We'll make them want to watch it.",
+      "heading": "Ready to make something people actually finish?",
+      "illustration": "/cta-illustration.png",
+      "primaryHref": "/contact",
+      "primaryLabel": "Start a project",
+      "secondaryHref": "/work",
+      "secondaryLabel": "See the work first →"
+    },
+    "footer": {
+      "copyrightCity": "Brooklyn, NY.",
+      "links": [
+        {
+          "label": "Work",
+          "to": "/work"
+        },
+        {
+          "label": "Services",
+          "to": "/services"
+        },
+        {
+          "label": "Process",
+          "to": "/process"
+        },
+        {
+          "label": "About",
+          "to": "/about"
+        },
+        {
+          "label": "Journal",
+          "to": "/journal"
+        },
+        {
+          "label": "Contact",
+          "to": "/contact"
+        },
+        {
+          "label": "Privacy",
+          "to": "/privacy"
+        }
+      ],
+      "newsletterButton": "Subscribe →",
+      "newsletterLabel": "The Deep Dive",
+      "newsletterSub": "Edutainment strategy, case studies, and film craft — direct to your inbox.",
+      "socials": {
+        "instagram": "https://www.instagram.com/deepdivefilms",
+        "linkedin": "https://www.linkedin.com/company/deep-dive-films",
+        "vimeo": "https://vimeo.com/deepdivefilms"
+      },
+      "tagline": "We don't just make videos people see.\nWe make videos people finish."
+    },
+    "heroLine": "Educate your audience.",
+    "heroReelUrl": "/hero.mp4",
+    "nav": {
+      "ctaHref": "/contact",
+      "ctaLabel": "Contact",
+      "links": [
+        {
+          "label": "Services",
+          "to": "/services"
+        },
+        {
+          "label": "Work",
+          "to": "/work"
+        },
+        {
+          "label": "Process",
+          "to": "/process"
+        },
+        {
+          "label": "About",
+          "to": "/about"
+        },
+        {
+          "label": "Journal",
+          "to": "/journal"
+        }
+      ]
+    },
+    "siteDescription": "Brooklyn-based branded edutainment studio. We make documentary films that educate your audience and build your brand.",
+    "siteName": "Deep Dive",
+    "social": null
+  },
+  "homepage": {
+    "categoryDefinition": "Content that teaches an audience something they genuinely want to know, told compellingly enough to watch — and made by a brand. Not a product demo. Not a brand film. Something more useful than either.",
+    "categoryLabel": "The format",
+    "categoryPhonetic": "/ˌej·oo·ˈteɪn·mənt/",
+    "categoryPos": "n.",
+    "categoryUsage": "\"Consumers are 131% more likely to buy after consuming educational content.\"",
+    "categoryVideo": "/videos/edutainment.mp4",
+    "categoryWord": "Branded Edutainment",
+    "filmStripHeading": "Films that educate.\nBrands that earn trust.",
+    "filmStripLabel": "Selected work",
+    "marketDataLabel": "By the numbers",
+    "marketDataStats": [
+      {
+        "label": "more likely to buy after educational content",
+        "source": "Conductor / Cornell",
+        "value": "131%"
+      },
+      {
+        "label": "of B2B decision-makers say thought leadership influences purchases",
+        "source": "Edelman-LinkedIn",
+        "value": "89%"
+      },
+      {
+        "label": "average view-through rate on Deep Dive productions",
+        "source": "SurvivorNet series",
+        "value": "55%"
+      },
+      {
+        "label": "of total ad sales lift driven by creative quality alone",
+        "source": "Nielsen",
+        "value": "47%"
+      }
+    ],
+    "proofStats": [
+      {
+        "label": "more likely to buy after consuming educational content",
+        "note": "Conductor / Cornell University",
+        "value": "131%"
+      },
+      {
+        "label": "of B2B buyers say thought leadership builds trust",
+        "note": "Edelman-LinkedIn B2B Study",
+        "value": "89%"
+      },
+      {
+        "label": "of total ad sales lift is driven by creative quality alone",
+        "note": "Nielsen",
+        "value": "47%"
+      }
+    ],
+    "servicesCards": [
+      {
+        "formats": [
+          "Founder origin stories",
+          "Culture & hiring films",
+          "Executive profiles",
+          "\"Why We Exist\" films"
+        ],
+        "name": "Brand & People",
+        "poster": "/thumbnails/brooklyn-brewery.jpg",
+        "slug": "brand-people",
+        "tagline": "The brand made visible. The people behind it made human.",
+        "video": "/previews/brooklyn-brewery.mp4"
+      },
+      {
+        "formats": [
+          "Customer success stories",
+          "Community spotlights",
+          "Patient & user journeys",
+          "Testimonial series"
+        ],
+        "name": "Customer & Community",
+        "poster": null,
+        "slug": "customer-community",
+        "tagline": "Real people, real results. Social proof that feels earned, not staged.",
+        "video": "/previews/customer-community.mp4"
+      },
+      {
+        "formats": [
+          "Explainer & education films",
+          "Thought leadership series",
+          "Product deep-dives",
+          "Conference & event content"
+        ],
+        "name": "Industry & Platform",
+        "poster": null,
+        "slug": "industry-platform",
+        "tagline": "Authority-building content that makes your brand the authority.",
+        "video": "/previews/industry-platform.mp4"
+      }
+    ],
+    "servicesEyebrow": "What we make",
+    "servicesHeading": "Real people. Real expertise.\nReal trust.",
+    "servicesLabel": "What we make",
+    "servicesSub": "Three formats, all built around what your audience wants to know — and what you need them to believe."
+  },
+  "aboutPage": {
+    "btsImages": [
+      "/bts/yur08884.jpg",
+      "/bts/sadie_bts_092025-7.jpg",
+      "/bts/l1000855.jpg",
+      "/bts/img_6350.jpg",
+      "/bts/yur08912.jpg",
+      "/bts/sadie_bts_092025-8.jpg",
+      "/bts/l1000857.jpg",
+      "/bts/img-2987.jpg",
+      "/bts/yur08914.jpg",
+      "/bts/sadie_bts_092025-12.jpg",
+      "/bts/l1000860.jpg",
+      "/bts/img-4903.jpg",
+      "/bts/yur08922.jpg",
+      "/bts/img_2114.jpg"
+    ],
+    "btsLabel": "On set — behind the scenes",
+    "heroDescription": "We've spent years making films about real people and complex ideas. Now we make them for brands.",
+    "heroEyebrow": "About",
+    "heroTitle": "Documentary filmmakers. Emmy-winning team.",
+    "introBody": [
+      "Deep Dive was founded by documentary filmmakers with Emmy-winning credentials. We know how to find a true story, earn access, and make something people actually finish watching.",
+      "Brands started asking us to do the same thing for them. When you make brand content the way you make documentary, with real subjects and genuine craft, it performs like nothing else. That's the studio we built."
+    ],
+    "introImage": "/about/team.png",
+    "introLabel": "Who we are",
+    "press": [
+      {
+        "href": "#",
+        "outlet": "Hollywood Reporter",
+        "title": "Harper Steele Boards Deep Dive Berlin-Premiering Doc 'What Will I Become?' as Executive Producer (Exclusive)",
+        "year": "2026"
+      },
+      {
+        "href": "#",
+        "outlet": "Axios",
+        "title": "From Oberlin to CIFF: Deep Dive's 'Big Bass' hooks a personal story",
+        "year": "2026"
+      },
+      {
+        "href": "#",
+        "outlet": "Variety",
+        "title": "2025 Palm Springs International ShortFest Winners: Deep Dive's 'Big Bass' Wins Jury Prize",
+        "year": "2025"
+      },
+      {
+        "href": "#",
+        "outlet": "Fast Company",
+        "title": "Why edutainment is the most trusted format in content",
+        "year": "2024"
+      },
+      {
+        "href": "#",
+        "outlet": "Digiday",
+        "title": "Why so many brands are making documentaries",
+        "year": "2023"
+      },
+      {
+        "href": "#",
+        "outlet": "Fireboys",
+        "title": "Praise for Deep Dive's HBO Doc 'Fireboys'",
+        "year": "2022"
+      }
+    ],
+    "pressLabel": "In the press",
+    "values": [
+      {
+        "desc": "We start with what the audience wants to know — not what the brand wants to say. The brand earns its place by being the one telling a story worth watching.",
+        "label": "Story first"
+      },
+      {
+        "desc": "Real access. Real subjects. Real stakes. We make content the same way we make documentary film — because that's the only way it actually works.",
+        "label": "Documentary craft"
+      },
+      {
+        "desc": "When you teach someone something real, they remember who taught them. That's not a content strategy. It's the oldest trust mechanic in the world.",
+        "label": "Education as trust"
+      },
+      {
+        "desc": "We don't optimize for impressions. We make things people finish. A video someone watches to the end is worth more than a thousand three-second scrolls.",
+        "label": "Finish rates over views"
+      }
+    ],
+    "valuesLabel": "What we believe"
+  },
+  "processPage": {
+    "faqLabel": "FAQ",
+    "faqs": [
+      {
+        "answer": "A single mini-film runs 6–10 weeks start to finish: 1–2 weeks of story discovery, 1–3 weeks pre-production, 1–5 shoot days, and 2–4 weeks in post. Series are phased across 3–6 months depending on episode count. Rush timelines are available.",
+        "question": "How long does a typical production take?"
+      },
+      {
+        "answer": "Your involvement is highest at the start (brief and stakeholder access) and at feedback milestones. We handle all production logistics — you're reviewing, not managing. Expect 4–6 touchpoints across the process.",
+        "question": "How involved does our team need to be?"
+      },
+      {
+        "answer": "A brief (we can help you build one), access to the people or stories at the center of the film, any existing brand guidelines or reference content, and a named point of contact for approvals. That's it.",
+        "question": "What do you need from us to get started?"
+      },
+      {
+        "answer": "Yes — delivery includes platform-optimized cuts (LinkedIn, YouTube, web, paid social) and a distribution strategy brief. For clients who want an ongoing content engine, we can also manage editorial calendars and channel strategy.",
+        "question": "Do you handle distribution?"
+      },
+      {
+        "answer": "Two structured feedback rounds in post-production. We front-load alignment in discovery and pre-production so by the time you see a cut, it's close. Revisions beyond two rounds are scoped separately.",
+        "question": "How many rounds of revisions do we get?"
+      },
+      {
+        "answer": "Yes. We're Brooklyn-based but produce globally. If the story is in Antarctica, that's where we go. Remote-first communication with on-site production wherever the story lives. Travel and logistics are factored into every quote.",
+        "question": "Do you work with clients outside New York?"
+      },
+      {
+        "answer": "Final deliverables and master files are licensed to you for perpetual use across owned channels. Raw footage rights and extended licensing (broadcast, paid media) are available to add. We'll cover this in the contract.",
+        "question": "Can we own the footage?"
+      }
+    ],
+    "heroDescription": "Every Deep Dive production follows the same rigorous framework — from story discovery to final delivery.",
+    "heroEyebrow": "Process",
+    "heroTitle": "Five stages. Zero guesswork.",
+    "stages": [
+      {
+        "client": "Brief, brand docs, access to stakeholders",
+        "deepDive": "Story mining, audience research, narrative framework, editorial plan",
+        "duration": "1–2 weeks",
+        "name": "Discover",
+        "num": "01",
+        "output": "Story treatment + production brief"
+      },
+      {
+        "client": "Approvals, talent coordination, logistics support",
+        "deepDive": "Scripting, location scouting, crew assembly, talent prep, shot list",
+        "duration": "1–3 weeks",
+        "name": "Pre-Production",
+        "num": "02",
+        "output": "Shoot-ready package"
+      },
+      {
+        "client": "Point of contact on shoot days",
+        "deepDive": "Direction, cinematography, interview facilitation, B-roll capture",
+        "duration": "1–5 days on-site",
+        "name": "Production",
+        "num": "03",
+        "output": "Rushes + selects"
+      },
+      {
+        "client": "Two rounds of feedback",
+        "deepDive": "Narrative edit, color grade, sound design, motion graphics, platform cuts",
+        "duration": "2–4 weeks",
+        "name": "Post-Production",
+        "num": "04",
+        "output": "Master file + all deliverables"
+      },
+      {
+        "client": "Platform access, rollout decisions",
+        "deepDive": "Format exports, distribution strategy, performance tracking setup",
+        "duration": "1 week",
+        "name": "Delivery",
+        "num": "05",
+        "output": "Launch-ready asset package"
+      }
+    ]
+  },
+  "contactPage": {
+    "heroDescription": "We'll tell you if there's a film in it.",
+    "heroEyebrow": "Contact",
+    "heroTitle": "Tell us what you're trying to say.",
+    "reasons": [
+      {
+        "body": "A customer transformation, a founder journey, an industry truth — something real that your audience would actually watch.",
+        "icon": "◎",
+        "title": "You have a story that needs a film."
+      },
+      {
+        "body": "You're not looking for views. You're looking for the kind of content that changes how people think about your brand.",
+        "icon": "◎",
+        "title": "You want trust, not just traffic."
+      },
+      {
+        "body": "You've seen what \"branded content\" usually looks like. You want something that earns attention rather than interrupting it.",
+        "icon": "◎",
+        "title": "You're done with generic video."
+      }
+    ],
+    "reasonsLabel": "Who this is for",
+    "responseTimeLabel": "Response time",
+    "responseTimeNote": "Every inquiry gets a real reply, not an auto-responder.",
+    "responseTimeValue": "Within 24 hours"
+  },
+  "servicesPage": {
+    "categories": [
+      {
+        "description": "Founder origin stories, culture documents, leadership profiles — the brand brought to life through the people who built it. When audiences understand why a company exists, they trust it differently.",
+        "examples": [
+          "Founder origin stories",
+          "Culture & hiring films",
+          "Executive profiles",
+          "\"Why We Exist\" films"
+        ],
+        "name": "Brand & People",
+        "slug": "brand-people",
+        "tagline": "The brand made visible. The people behind it made human.",
+        "thumbnail": "/thumbnails/brooklyn-brewery.jpg",
+        "video": "/previews/brooklyn-brewery.mp4"
+      },
+      {
+        "description": "Long-form customer success stories, transformation narratives, and community films that build genuine trust. Not \"testimonials\" — full stories with stakes, struggle, and resolution.",
+        "examples": [
+          "Customer success stories",
+          "\"Day in the Life\" films",
+          "Before/after narratives",
+          "Community impact docs"
+        ],
+        "name": "Customer & Community",
+        "slug": "customer-community",
+        "tagline": "Real people, real results. Social proof that feels earned, not staged.",
+        "thumbnail": null,
+        "video": "/previews/customer-community.mp4"
+      },
+      {
+        "description": "Expert interview series, industry trend documentaries, and episodic content that positions your brand as the definitive voice in your space. The kind of content people cite.",
+        "examples": [
+          "Expert interview series",
+          "Industry trend docs",
+          "Episodic docu-series",
+          "Conference & event capture"
+        ],
+        "name": "Industry & Platform",
+        "slug": "industry-platform",
+        "tagline": "Authority-building content that makes your brand the authority.",
+        "thumbnail": null,
+        "video": "/previews/industry-platform.mp4"
+      }
+    ],
+    "clients": [
+      {
+        "logo": "/logos/google.png",
+        "name": "Google",
+        "scale": 1.3
+      },
+      {
+        "logo": "/logos/walmart.png",
+        "name": "Walmart",
+        "scale": 1.45
+      },
+      {
+        "logo": "/logos/youtube.png",
+        "name": "YouTube",
+        "scale": 1.3
+      },
+      {
+        "logo": "/logos/barnes-noble.png",
+        "name": "Barnes & Noble",
+        "scale": 0.85
+      },
+      {
+        "logo": "/logos/brooklyn-brewery.svg",
+        "name": "Brooklyn Brewery",
+        "scale": 1.4
+      },
+      {
+        "logo": "/logos/survivornet.png",
+        "name": "SurvivorNet",
+        "scale": 0.75
+      },
+      {
+        "logo": "/logos/singlecare.png",
+        "name": "SingleCare",
+        "scale": 0.75
+      },
+      {
+        "logo": "/logos/rtpi.webp",
+        "name": "RTPI",
+        "scale": 1.15
+      }
+    ],
+    "clientsLabel": "Selected clients",
+    "comparisonLabel": "Why Deep Dive",
+    "comparisonSub": "Generic video agencies know marketing but can't film. Documentary filmmakers can film but don't know brands. We trained in both — and built a studio to bridge them.",
+    "comparisonTitle": "The gap we fill.",
+    "formats": [
+      {
+        "description": "The workhorse. Long enough to build genuine trust, short enough for digital distribution. One strong story, told with craft.",
+        "duration": "3–7 min",
+        "name": "Mini-Film",
+        "useCases": [
+          "Customer success",
+          "Founder story",
+          "Product origin",
+          "Partnership narrative"
+        ]
+      },
+      {
+        "description": "Episodic content that builds an audience over time. Each episode stands alone; together they build a point of view your brand owns.",
+        "duration": "3–8 episodes",
+        "name": "Documentary Series",
+        "useCases": [
+          "Industry series",
+          "Expert interview series",
+          "Community stories",
+          "Annual franchise"
+        ]
+      },
+      {
+        "description": "For the story that deserves full treatment. Cinematic craft, deep access, full arc. Designed for owned channels and event contexts.",
+        "duration": "12–45 min",
+        "name": "Long-Form Doc",
+        "useCases": [
+          "Brand origin film",
+          "Impact documentary",
+          "Category-defining piece",
+          "Film festival submission"
+        ]
+      },
+      {
+        "description": "Every production includes cuts sized for how people actually consume content — platform-optimized, attention-aware.",
+        "duration": "30 sec – 2 min",
+        "name": "Distribution Cuts",
+        "useCases": [
+          "Paid social",
+          "LinkedIn native",
+          "Website hero",
+          "Sales enablement"
+        ]
+      }
+    ],
+    "formatsLabel": "Formats",
+    "formatsTitle": "What gets made.",
+    "heroDescription": "Branded edutainment built around what your audience wants to know — and what you need them to believe.",
+    "heroEyebrow": "Services",
+    "heroTitle": "Three categories. One format.",
+    "repurposeAssets": [
+      {
+        "desc": "The anchor piece — 2 to 12 minutes, built for owned channels and long-form distribution.",
+        "label": "Hero film",
+        "num": "01"
+      },
+      {
+        "desc": "15s, 30s, and 60s edits optimized for LinkedIn, Instagram, and paid social.",
+        "label": "Social cuts",
+        "num": "02"
+      },
+      {
+        "desc": "Key moments pulled for static and motion assets across organic and paid.",
+        "label": "Audiogram & quote cards",
+        "num": "03"
+      },
+      {
+        "desc": "Full transcripts for blog posts, newsletters, and SEO content.",
+        "label": "Interview transcripts",
+        "num": "04"
+      },
+      {
+        "desc": "Unedited footage passed to your team for future use — internal comms, events, decks.",
+        "label": "B-roll library",
+        "num": "05"
+      },
+      {
+        "desc": "Shorter proof-point edits designed for outbound sequences and pitch decks.",
+        "label": "Sales enablement cuts",
+        "num": "06"
+      }
+    ],
+    "repurposeImages": [
+      "/bts/sadie_bts_092025-7.jpg",
+      "/bts/yur08922.jpg"
+    ],
+    "repurposeLabel": "One shoot. Many assets.",
+    "repurposeSub": "Every production is built for maximum asset yield. One shoot produces a full suite — the hero film and everything that comes with it.",
+    "repurposeTitle": "We capture everything.\nYou keep it all."
+  },
+  "journalPage": {
+    "heroDescription": "Strategy, storytelling, and the business case for content that actually gets watched.",
+    "heroEyebrow": "Journal",
+    "heroTitle": "On the craft of making people care.",
+    "newsletterBody": "Monthly — strategy, new work, and one insight worth remembering.",
+    "newsletterButton": "Subscribe",
+    "newsletterThanks": "You're in. First issue lands soon.",
+    "newsletterTitle": "Get The Brief."
+  },
+  "privacyPage": {
+    "heroDescription": "How Deep Dive collects, uses, and protects your information.",
+    "heroEyebrow": "Legal",
+    "heroTitle": "Privacy Policy",
+    "lastUpdated": "Last updated: October 2025",
+    "sections": [
+      {
+        "heading": "What we collect",
+        "paragraphs": [
+          "When you contact us through our website, we collect the information you provide: your name, email address, company, and the details of your project inquiry. We do not collect any information beyond what you voluntarily provide.",
+          "We use standard analytics tools (Google Analytics) to understand how visitors use our site. This data is anonymous and aggregated — we cannot identify individual visitors from it."
+        ]
+      },
+      {
+        "heading": "How we use it",
+        "paragraphs": [
+          "Information you submit through our contact form is used solely to respond to your inquiry and manage any resulting project relationship. We do not sell, rent, or share your personal information with third parties.",
+          "If you subscribe to our newsletter (The Brief), we use your email address to send that newsletter. You can unsubscribe at any time via the link in each email."
+        ]
+      },
+      {
+        "heading": "Cookies",
+        "paragraphs": [
+          "Our website uses cookies for analytics purposes only (Google Analytics). These cookies do not contain personally identifiable information. You can disable cookies in your browser settings, though this may affect the functionality of some site features.",
+          "We use UTM parameters to understand which marketing channels drive inquiries. This information is collected anonymously and used only to improve our marketing effectiveness."
+        ]
+      },
+      {
+        "heading": "Data retention",
+        "paragraphs": [
+          "We retain project inquiry data for the duration of any business relationship and for a period of three years thereafter. If you would like your data removed, contact us at the address below."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "For privacy-related questions or requests, contact us at hello@deepdivefilms.com."
+        ]
+      }
+    ]
+  },
+  "topics": [
+    "All",
+    "Process",
+    "Strategy",
+    "Craft",
+    "Case Studies"
+  ],
+  "_pulledAt": "2026-05-13T20:35:58.648Z"
+}
