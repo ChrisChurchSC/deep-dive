@@ -21,7 +21,7 @@ export default function ServiceDetailPage() {
     provider: {
       '@type': 'Organization',
       name: 'Deep Dive',
-      url: 'https://deepdivefilms.com',
+      url: 'https://deep-dive.studio',
     },
     serviceType: 'Branded Documentary Video Production',
     areaServed: 'Worldwide',

@@ -24,10 +24,10 @@ const homeJsonLd = [
   {
     '@context': 'https://schema.org',
     '@type': ['Organization', 'LocalBusiness'],
-    '@id': 'https://deepdivefilms.com/#organization',
+    '@id': 'https://deep-dive.studio/#organization',
     name: 'Deep Dive',
-    url: 'https://deepdivefilms.com',
-    logo: 'https://deepdivefilms.com/og-default.jpg',
+    url: 'https://deep-dive.studio',
+    logo: 'https://deep-dive.studio/og-default.jpg',
     description: 'Brooklyn-based branded edutainment video production studio. Documentary films that educate your audience and build your brand.',
     slogan: "We don't just make videos people see. We make videos people finish.",
     address: {
@@ -39,8 +39,8 @@ const homeJsonLd = [
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'sales',
-      email: 'hello@deepdivefilms.com',
-      url: 'https://deepdivefilms.com/contact',
+      email: 'hello@deep-dive.studio',
+      url: 'https://deep-dive.studio/contact',
     },
     sameAs: [
       'https://www.linkedin.com/company/deep-dive-films',
@@ -58,10 +58,10 @@ const homeJsonLd = [
   {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    '@id': 'https://deepdivefilms.com/#website',
-    url: 'https://deepdivefilms.com',
+    '@id': 'https://deep-dive.studio/#website',
+    url: 'https://deep-dive.studio',
     name: 'Deep Dive',
-    publisher: { '@id': 'https://deepdivefilms.com/#organization' },
+    publisher: { '@id': 'https://deep-dive.studio/#organization' },
     speakable: {
       '@type': 'SpeakableSpecification',
       cssSelector: ['h1', '.category-statement', '.market-data'],

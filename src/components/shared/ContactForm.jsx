@@ -98,7 +98,7 @@ export default function ContactForm() {
       {status === 'error' && (
         <p className={styles.errorMsg}>
           Something went wrong — please try again or email us directly at{' '}
-          <a href="mailto:hello@deepdivefilms.com">hello@deepdivefilms.com</a>.
+          <a href="mailto:hello@deep-dive.studio">hello@deep-dive.studio</a>.
         </p>
       )}
 

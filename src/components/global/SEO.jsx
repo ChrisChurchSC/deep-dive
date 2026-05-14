@@ -3,7 +3,7 @@ import { siteSettings } from '../../data/siteSettings'
 
 const SITE_NAME = 'Deep Dive'
 const SITE_TAGLINE = 'Branded Edutainment Video Production'
-const SITE_URL  = 'https://deepdivefilms.com'
+const SITE_URL  = 'https://deep-dive.studio'
 const OG_IMAGE  = `${SITE_URL}/og-default.png`
 
 // Set this once you have a GSC property verified

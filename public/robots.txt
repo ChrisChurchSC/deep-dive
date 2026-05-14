@@ -4,4 +4,4 @@ Allow: /
 # Disallow utility/legal pages from indexing
 Disallow: /privacy
 
-Sitemap: https://deepdivefilms.com/sitemap.xml
+Sitemap: https://deep-dive.studio/sitemap.xml

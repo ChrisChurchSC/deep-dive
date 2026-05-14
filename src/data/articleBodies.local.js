@@ -70,7 +70,7 @@ export const articleBodies = {
 
     Most of the cost of a brand film is invisible on the invoice. It lives in the architecture you build before you book the crew, in the weeks of conversation that decide whether you have a story or just a brief. Skip that work and no amount of post-production rescues the film. Do that work and a modest production budget can outperform jobs that cost three times more.
 
-    If you're weighing a brand film for 2026 and you want to see what an arc-driven treatment looks like before you commit to anything, ask us to send you one of ours. We'll share two real examples and walk through the structural choices we made. No pitch deck. Email contact@deepdivefilms.com.
+    If you're weighing a brand film for 2026 and you want to see what an arc-driven treatment looks like before you commit to anything, ask us to send you one of ours. We'll share two real examples and walk through the structural choices we made. No pitch deck. Email contact@deep-dive.studio.
   `,
 
   'how-to-cast-non-actors-for-video': `
@@ -164,7 +164,7 @@ export const articleBodies = {
 
     The good news is that one well-made converting video usually generates enough raw material for several short, awareness-oriented cuts. That is the production model we run. One shoot, one long-form anchor designed for trust, and a suite of shorter cuts pulled from the same footage and built for distribution. The math works because the upstream work was done once and serves both objectives, in their proper formats.
 
-    If you are mapping content plans for 2026 and you are not sure whether the brief in front of you is asking for awareness or conversion, send it over. We will read it and tell you which format it is actually built for, and what would need to change if you wanted the other one. Email contact@deepdivefilms.com.
+    If you are mapping content plans for 2026 and you are not sure whether the brief in front of you is asking for awareness or conversion, send it over. We will read it and tell you which format it is actually built for, and what would need to change if you wanted the other one. Email contact@deep-dive.studio.
   `,
 
   'why-authenticity-in-branded-content-is-harder-than-it-looks': `
@@ -208,6 +208,6 @@ export const articleBodies = {
 
     The brands who consistently produce content that audiences trust have made peace with this trade. They understand that the cost of authenticity is a small loss of message control, and that the return on that trade is enormous.
 
-    If you are planning content for 2026 and the word authentic keeps appearing in your briefs, we can send you a short framework we use during pre-production to pressure-test whether a project is actually set up to deliver it. Email contact@deepdivefilms.com.
+    If you are planning content for 2026 and the word authentic keeps appearing in your briefs, we can send you a short framework we use during pre-production to pressure-test whether a project is actually set up to deliver it. Email contact@deep-dive.studio.
   `,
 }

@@ -6,7 +6,7 @@ const fallback = {
   siteName: 'Deep Dive',
   siteDescription:
     'Brooklyn-based branded edutainment studio. We make documentary films that educate your audience and build your brand.',
-  contactEmail: 'contact@deepdivefilms.com',
+  contactEmail: 'contact@deep-dive.studio',
   nav: {
     links: [
       { label: 'Services', to: '/services' },

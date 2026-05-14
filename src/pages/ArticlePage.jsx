@@ -55,7 +55,7 @@ export default function ArticlePage() {
     publisher: {
       '@type': 'Organization',
       name: 'Deep Dive',
-      url: 'https://deepdivefilms.com',
+      url: 'https://deep-dive.studio',
     },
   }
 

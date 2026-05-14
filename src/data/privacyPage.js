@@ -22,7 +22,7 @@ const fallback = {
       'We retain project inquiry data for the duration of any business relationship and for a period of three years thereafter. If you would like your data removed, contact us at the address below.',
     ]},
     { heading: 'Contact', paragraphs: [
-      'For privacy-related questions or requests, contact us at hello@deepdivefilms.com.',
+      'For privacy-related questions or requests, contact us at hello@deep-dive.studio.',
     ]},
   ],
 }

@@ -102,8 +102,8 @@ export default function SiteFooter() {
         {/* Bottom bar */}
         <div className={styles.bottom}>
           <span className={styles.copy}>© {new Date().getFullYear()} {siteSettings.siteName ?? 'Deep Dive'}. {footer.copyrightCity}</span>
-          <a href="mailto:hello@deepdivefilms.com" className={styles.email}>
-            hello@deepdivefilms.com
+          <a href="mailto:hello@deep-dive.studio" className={styles.email}>
+            hello@deep-dive.studio
           </a>
         </div>
 

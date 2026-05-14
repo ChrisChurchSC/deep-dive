@@ -8,7 +8,7 @@ import {fileURLToPath} from 'node:url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const SNAPSHOT  = path.resolve(__dirname, '../src/data/_sanity.json')
 const OUT_PATH  = path.resolve(__dirname, '../public/sitemap.xml')
-const SITE_URL  = 'https://deepdivefilms.com'
+const SITE_URL  = 'https://deep-dive.studio'
 
 const snap = JSON.parse(await fs.readFile(SNAPSHOT, 'utf-8'))
 
