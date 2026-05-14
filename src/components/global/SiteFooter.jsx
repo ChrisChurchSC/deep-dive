@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import styles from './SiteFooter.module.css'
 import wordmark from '../../assets/dd-wordmark.svg'
-import { subscribeToKlaviyo } from '../../hooks/useKlaviyoSubscribe'
+import { subscribeToKit } from '../../hooks/useKitSubscribe'
 import { siteSettings } from '../../data/siteSettings'
 
 export default function SiteFooter() {
@@ -10,18 +10,21 @@ export default function SiteFooter() {
   const footerLinks = footer.links ?? []
   const socials = footer.socials ?? {}
   const [email, setEmail] = useState('')
-  const [submitted, setSubmitted] = useState(false)
+  const [status, setStatus] = useState('idle') // idle | submitting | success | error
 
   const handleSubmit = async e => {
     e.preventDefault()
-    if (!email) return
+    if (!email || status === 'submitting') return
+    setStatus('submitting')
     try {
-      await subscribeToKlaviyo(email)
+      await subscribeToKit(email)
+      setStatus('success')
     } catch (_) {
-      // Fail silently — still show success to avoid exposing errors
+      setStatus('error')
     }
-    setSubmitted(true)
   }
+
+  const submitted = status === 'success'
 
   return (
     <footer className={styles.footer}>
@@ -81,20 +84,30 @@ export default function SiteFooter() {
             {submitted ? (
               <p className={styles.thanks}>You're in. We'll be in touch.</p>
             ) : (
-              <form className={styles.form} onSubmit={handleSubmit}>
-                <input
-                  type="email"
-                  className={styles.input}
-                  placeholder="your@email.com"
-                  value={email}
-                  onChange={e => setEmail(e.target.value)}
-                  required
-                  aria-label="Email address"
-                />
-                <button type="submit" className={styles.submitBtn}>
-                  {footer.newsletterButton ?? 'Subscribe →'}
-                </button>
-              </form>
+              <>
+                <form className={styles.form} onSubmit={handleSubmit}>
+                  <input
+                    type="email"
+                    className={styles.input}
+                    placeholder="your@email.com"
+                    value={email}
+                    onChange={e => setEmail(e.target.value)}
+                    required
+                    aria-label="Email address"
+                    disabled={status === 'submitting'}
+                  />
+                  <button
+                    type="submit"
+                    className={styles.submitBtn}
+                    disabled={status === 'submitting'}
+                  >
+                    {status === 'submitting' ? 'Sending…' : (footer.newsletterButton ?? 'Subscribe →')}
+                  </button>
+                </form>
+                {status === 'error' && (
+                  <p className={styles.thanks}>Something went wrong. Please try again or email hello@deep-dive.studio.</p>
+                )}
+              </>
             )}
           </div>
         </div>
