@@ -7,37 +7,18 @@ const root      = path.resolve(__dirname, '..')
 const distDir   = path.resolve(root, 'dist')
 const ssrDir    = path.resolve(root, 'dist-ssr')
 
-const routes = [
-  '/',
-  '/work',
-  '/work/survivornet',
-  '/work/google',
-  '/work/vitalik-blockchain',
-  '/work/harlem-capital',
-  '/work/meta-creators',
-  '/work/pfas-water',
-  '/work/survivornet-doctors',
-  '/work/ethereum-foundation',
-  '/work/google-dei',
-  '/work/harlem-capital-portfolio',
-  '/work/cancer-clinical-trials',
-  '/work/defi-explained',
-  '/services',
-  '/services/brand-people',
-  '/services/customer-community',
-  '/services/industry-platform',
-  '/process',
-  '/about',
-  '/contact',
-  '/journal',
-  '/journal/why-educational-content-outperforms-branded-advertising',
-  '/journal/the-view-through-rate-that-changed-how-we-think-about-video',
-  '/journal/the-difference-between-a-testimonial-and-a-trust-film',
-  '/journal/what-documentary-filmmaking-taught-us-about-b2b-content',
-  '/journal/how-to-brief-a-video-production-that-wont-disappoint-you',
-  '/journal/episodic-vs-single-film-which-format-is-right-for-your-brand',
-  '/privacy',
+// Routes are derived from the Sanity snapshot so SSG covers every doc.
+const snap = JSON.parse(fs.readFileSync(path.resolve(root, 'src/data/_sanity.json'), 'utf-8'))
+
+const staticRoutes = [
+  '/', '/work', '/services', '/process', '/about', '/contact', '/journal', '/privacy',
 ]
+const projectRoutes = (snap.projects ?? []).filter((p) => p.slug).map((p) => `/work/${p.slug}`)
+const serviceRoutes = Object.keys(snap.serviceDetails ?? {}).map((slug) => `/services/${slug}`)
+const articleRoutes = (snap.articles ?? []).filter((a) => a.slug).map((a) => `/journal/${a.slug}`)
+
+const routes = [...staticRoutes, ...projectRoutes, ...serviceRoutes, ...articleRoutes]
+console.log(`  Prerendering ${routes.length} routes`)
 
 const template = fs.readFileSync(path.join(distDir, 'index.html'), 'utf-8')
 const { render } = await import(path.join(ssrDir, 'entry-server.js'))
