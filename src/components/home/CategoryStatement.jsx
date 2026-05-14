@@ -1,6 +1,7 @@
 import styles from './CategoryStatement.module.css'
 import SectionRule from '../shared/SectionRule'
 import Reveal from '../primitives/Reveal'
+import NoiseStatic from './NoiseStatic'
 import { homepage } from '../../data/homepage'
 
 export default function CategoryStatement() {
@@ -21,8 +22,8 @@ export default function CategoryStatement() {
             </p>
           )}
         </Reveal>
-        {homepage.categoryVideo && (
-          <Reveal delay={2} className={styles.videoWrap}>
+        <Reveal delay={2} className={styles.videoWrap}>
+          {homepage.categoryVideo ? (
             <video
               className={styles.video}
               src={homepage.categoryVideo}
@@ -32,8 +33,12 @@ export default function CategoryStatement() {
               playsInline
               preload="none"
             />
-          </Reveal>
-        )}
+          ) : (
+            <div className={styles.video} style={{ position: 'relative', overflow: 'hidden' }}>
+              <NoiseStatic />
+            </div>
+          )}
+        </Reveal>
       </div>
     </section>
   )

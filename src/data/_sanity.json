@@ -959,7 +959,7 @@
     "categoryPhonetic": "/ˌej·oo·ˈteɪn·mənt/",
     "categoryPos": "n.",
     "categoryUsage": "\"Consumers are 131% more likely to buy after consuming educational content.\"",
-    "categoryVideo": "/videos/edutainment.mp4",
+    "categoryVideo": null,
     "categoryWord": "Branded Edutainment",
     "filmStripHeading": "Films that educate.\nBrands that earn trust.",
     "filmStripLabel": "Selected work",
@@ -1478,5 +1478,5 @@
     "Craft",
     "Case Studies"
   ],
-  "_pulledAt": "2026-05-14T20:18:40.912Z"
+  "_pulledAt": "2026-05-14T20:25:27.140Z"
 }

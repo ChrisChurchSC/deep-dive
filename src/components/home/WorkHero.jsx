@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from 'react'
 import styles from './WorkHero.module.css'
-import NoiseStatic from './NoiseStatic'
+import ReelPlayer from './ReelPlayer'
 import { siteSettings } from '../../data/siteSettings'
 
-export default function WorkHero({ line = siteSettings.heroLine }) {
+export default function WorkHero({ src, line = siteSettings.heroLine }) {
   const [reelOpen, setReelOpen] = useState(false)
   const videoRef = useRef(null)
 
@@ -33,7 +33,7 @@ export default function WorkHero({ line = siteSettings.heroLine }) {
   return (
     <div className={styles.wrap}>
       <section className={styles.hero}>
-        <NoiseStatic />
+        <ReelPlayer src={src} />
 
         <div className={styles.overlay}>
           <p className={styles.line}>{line}</p>

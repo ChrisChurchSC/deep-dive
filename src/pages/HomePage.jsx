@@ -77,7 +77,7 @@ export default function HomePage() {
         description="Brooklyn-based branded edutainment studio. We make documentary films that educate your audience and build your brand. Documentary craft. Brand outcomes."
         jsonLd={homeJsonLd}
       />
-      <WorkHero />
+      <WorkHero src="/hero.mp4" />
 
       <ClientLogos clients={clients} label="Selected clients" />
       <CategoryStatement />
