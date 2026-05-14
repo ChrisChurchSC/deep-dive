@@ -36,6 +36,7 @@ export default function CategoryStatement() {
           ) : (
             <div className={styles.video} style={{ position: 'relative', overflow: 'hidden' }}>
               <NoiseStatic />
+              <span className={styles.comingSoon}>Coming soon…</span>
             </div>
           )}
         </Reveal>
