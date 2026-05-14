@@ -27,12 +27,12 @@ const fallback = {
   ],
   pressLabel: 'In the press',
   press: [
-    { outlet: 'Hollywood Reporter', title: "Harper Steele Boards Deep Dive Berlin-Premiering Doc 'What Will I Become?' as Executive Producer (Exclusive)", year: '2026', href: '#' },
-    { outlet: 'Axios', title: "From Oberlin to CIFF: Deep Dive's 'Big Bass' hooks a personal story", year: '2026', href: '#' },
-    { outlet: 'Variety', title: "2025 Palm Springs International ShortFest Winners: Deep Dive's 'Big Bass' Wins Jury Prize", year: '2025', href: '#' },
-    { outlet: 'Fast Company', title: 'Why edutainment is the most trusted format in content', year: '2024', href: '#' },
-    { outlet: 'Digiday', title: 'Why so many brands are making documentaries', year: '2023', href: '#' },
-    { outlet: 'Fireboys', title: "Praise for Deep Dive's HBO Doc 'Fireboys'", year: '2022', href: '#' },
+    { outlet: 'Hollywood Reporter', title: "Harper Steele Boards Deep Dive Berlin-Premiering Doc 'What Will I Become?' as Executive Producer (Exclusive)", year: '2026', href: 'https://www.hollywoodreporter.com/movies/movie-news/harper-steele-berlin-trans-youth-documentary-film-producer-1236476234/' },
+    { outlet: 'Axios', title: "From Oberlin to CIFF: Deep Dive's 'Big Bass' hooks a personal story", year: '2026', href: 'https://www.axios.com/local/cleveland/2026/04/07/drew-dickler-big-bass-cleveland-international-film-festival-ciff' },
+    { outlet: 'Variety', title: "2025 Palm Springs International ShortFest Winners: Deep Dive's 'Big Bass' Wins Jury Prize", year: '2025', href: 'https://variety.com/2025/film/news/2025-palm-springs-international-shortfest-winners-list-1236443698/' },
+    { outlet: 'Fast Company', title: 'Why edutainment is the most trusted format in content', year: '2024', href: 'https://fastcompanyme.com/co-design/branded-entertainment-will-just-be-entertainment-in-2026/' },
+    { outlet: 'Digiday', title: 'Why so many brands are making documentaries', year: '2023', href: 'https://digiday.com/marketing/many-brands-making-documentaries/' },
+    { outlet: 'Good Docs', title: "Praise for Deep Dive's HBO Doc 'Fireboys'", year: '2022', href: 'https://gooddocs.net/pages/reviews-quotes-fireb?srsltid=AfmBOoqX2r5c5B2XrOzYBLQTnS60icbwdaDzCrACiFKd3d2_SCglboPt' },
   ],
 }
 
