@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async'
+import { siteSettings } from '../../data/siteSettings'
 
 const SITE_NAME = 'Deep Dive'
 const SITE_TAGLINE = 'Branded Edutainment Video Production'
@@ -7,6 +8,28 @@ const OG_IMAGE  = `${SITE_URL}/og-default.png`
 
 // Set this once you have a GSC property verified
 const GSC_VERIFICATION = ''
+
+// Organization schema — emitted on every page for AEO / knowledge-graph signal
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: SITE_NAME,
+  url: SITE_URL,
+  logo: `${SITE_URL}/og-default.png`,
+  description: siteSettings.siteDescription,
+  email: siteSettings.contactEmail,
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Brooklyn',
+    addressRegion: 'NY',
+    addressCountry: 'US',
+  },
+  sameAs: [
+    siteSettings.footer?.socials?.linkedin,
+    siteSettings.footer?.socials?.instagram,
+    siteSettings.footer?.socials?.vimeo,
+  ].filter(Boolean),
+}
 
 export default function SEO({
   title,
@@ -89,6 +112,11 @@ export default function SEO({
           {JSON.stringify(breadcrumbSchema)}
         </script>
       )}
+
+      {/* JSON-LD — Organization (sitewide, for AEO / knowledge graph) */}
+      <script type="application/ld+json">
+        {JSON.stringify(organizationSchema)}
+      </script>
     </Helmet>
   )
 }
