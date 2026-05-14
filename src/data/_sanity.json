@@ -13,7 +13,7 @@
       "stat": null,
       "statLabel": null,
       "stills": [],
-      "thumbnail": "/thumbnails/survivornet.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/e4689706bf9bd39b5c9f2c136613320006c9a0fd-1920x1080.jpg",
       "title": "From a Whisper to a Roar: Mellve's Mission",
       "videoPreview": "/previews/survivornet.mp4",
       "videoUrl": "/videos/survivornet/mellves-mission.mp4",
@@ -32,24 +32,24 @@
       "stat": null,
       "statLabel": null,
       "stills": [],
-      "thumbnail": "/thumbnails/google-language-ai.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/6e88d098a62c32cc770340e34b91b8a9fd73d844-1920x1080.jpg",
       "title": "Language AI at Google",
       "videoPreview": "/previews/google-language-ai.mp4",
       "videoUrl": null,
       "videos": [
         {
           "label": "Language AI Hero",
-          "thumb": "/video-thumbs/google-language-ai/language-ai-hero.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/6e88d098a62c32cc770340e34b91b8a9fd73d844-1920x1080.jpg",
           "url": "/videos/google-language-ai/language-ai-hero.mp4"
         },
         {
           "label": "Language AI Anthem",
-          "thumb": "/video-thumbs/google-language-ai/language-ai-anthem.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/ff6840c6990b6f5992d918367f3a149eab795adb-1280x720.jpg",
           "url": "/videos/google-language-ai/language-ai-anthem-web.mp4"
         },
         {
           "label": "Waxal — African Languages",
-          "thumb": "/video-thumbs/google-language-ai/waxal.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/c58af48dbfa32edc7986e1e7d563540fda1055c3-1920x1080.jpg",
           "url": "/videos/google-language-ai/waxal-african-languages-web.mp4"
         }
       ]
@@ -67,7 +67,7 @@
       "stat": null,
       "statLabel": null,
       "stills": [],
-      "thumbnail": "/thumbnails/arbitrum-everywhere.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/b51a610164c76a99bb823bdc9323d3424779913e-864x1080.jpg",
       "title": "Arbitrum Everywhere",
       "videoPreview": "/previews/arbitrum-everywhere.mp4",
       "videoUrl": "/videos/arbitrum/arbitrum-everywhere-trailer.mp4",
@@ -86,19 +86,19 @@
       "stat": "600K+",
       "statLabel": "Organic views in 48 hours",
       "stills": [],
-      "thumbnail": "/thumbnails/blockchain.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/71dfb7a0c94091432203936c7664d760e2003bfe-1920x1080.jpg",
       "title": "The Marketing Department",
       "videoPreview": "/previews/blockchain.mp4",
       "videoUrl": null,
       "videos": [
         {
           "label": "Leaderboard",
-          "thumb": "/video-thumbs/arbitrum/leaderboard.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/4780bb4bb57212a35956a8023987a355c3f61a2b-1920x1080.jpg",
           "url": "/videos/arbitrum-marketing/leaderboard.mp4"
         },
         {
           "label": "Dinner Talk",
-          "thumb": "/video-thumbs/arbitrum/dinner-talk.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/038dec45d4c0289b1879f100ffa3c7b729ef3f4a-1920x1080.jpg",
           "url": "/videos/arbitrum-marketing/dinner-talk.mp4"
         }
       ]
@@ -116,7 +116,7 @@
       "stat": null,
       "statLabel": null,
       "stills": [],
-      "thumbnail": "/thumbnails/rtpi.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/fe78429540cb2ff0bfe7975c9e2e511f4bd192aa-864x1080.jpg",
       "title": "Spark Birds",
       "videoPreview": "/previews/rtpi.mp4",
       "videoUrl": "/videos/rtpi/spark-birds.mp4",
@@ -135,39 +135,39 @@
       "stat": null,
       "statLabel": null,
       "stills": [],
-      "thumbnail": "/thumbnails/barnes-and-noble.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/2c92371e528a32b29136fdd355479d53631af3a1-1280x720.jpg",
       "title": "Social Series",
       "videoPreview": "/previews/barnes-and-noble.mp4",
       "videoUrl": null,
       "videos": [
         {
           "label": "BTS",
-          "thumb": "/video-thumbs/barnes-and-noble/bts.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/e28ca2eb2d2b0353c2e4a9efc7fbe1a478ca7c47-1920x1080.jpg",
           "url": "/videos/barnes-and-noble/bts.mp4"
         },
         {
           "label": "Game of Thrones",
-          "thumb": "/video-thumbs/barnes-and-noble/game-of-thrones.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/fec5e62d86a8066653b959653e6b04e9c972f78c-1920x1080.jpg",
           "url": "/videos/barnes-and-noble/game-of-thrones.mp4"
         },
         {
           "label": "Summer Reading",
-          "thumb": "/video-thumbs/barnes-and-noble/summer-reading.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/e84c99be5a797849ea9745a6403707f517ad4399-1920x1080.jpg",
           "url": "/videos/barnes-and-noble/summer-reading.mp4"
         },
         {
           "label": "King",
-          "thumb": "/video-thumbs/barnes-and-noble/king.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/a0950a12358e7c11f543fc3c50ad84c2ce7b194c-1920x1080.jpg",
           "url": "/videos/barnes-and-noble/king.mp4"
         },
         {
           "label": "Summer Reading Kid",
-          "thumb": "/video-thumbs/barnes-and-noble/summer-reading-kid.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/47a3202e3e3455ddd67830ef1c6e936115fb9f5b-1920x1080.jpg",
           "url": "/videos/barnes-and-noble/summer-reading-kid.mp4"
         },
         {
           "label": "Mothers",
-          "thumb": "/video-thumbs/barnes-and-noble/mothers.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/34863a012f5e4bb19a329546b4b7e7549417f6e5-1920x1080.jpg",
           "url": "/videos/barnes-and-noble/mothers.mp4"
         }
       ]
@@ -185,49 +185,49 @@
       "stat": "813K",
       "statLabel": "Views across 15 episodes",
       "stills": [],
-      "thumbnail": "/thumbnails/singlecare.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/5ebf577ec20519ee355e6ff151c00b9455feee52-1280x720.jpg",
       "title": "Ask a Pharmacist",
       "videoPreview": "/previews/singlecare.mp4",
       "videoUrl": null,
       "videos": [
         {
           "label": "EP01 — Customer Interventions",
-          "thumb": "/video-thumbs/singlecare/ep01.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/59c8257c8ad498f225104428a01d04c4eb7560cb-1920x1080.jpg",
           "url": "/videos/singlecare/ep01-customer-interventions.mp4"
         },
         {
           "label": "EP02 — Building Relationships",
-          "thumb": "/video-thumbs/singlecare/ep02.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/a91a107fd984f6b157a28770d49dfa2f891a05da-1920x1080.jpg",
           "url": "/videos/singlecare/ep02-building-relationships.mp4"
         },
         {
           "label": "EP03 — Working With Rude Customers",
-          "thumb": "/video-thumbs/singlecare/ep03.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/c035d20188f03f1924aae5fb2209fab01cb5d14f-1920x1080.jpg",
           "url": "/videos/singlecare/ep03-working-with-rude-customers.mp4"
         },
         {
           "label": "EP06 — Avoiding Burnout",
-          "thumb": "/video-thumbs/singlecare/ep06.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/94cd3dff81bb732eaabc0855e72df4cd69a8bc98-1920x1080.jpg",
           "url": "/videos/singlecare/ep06-avoiding-burnout.mp4"
         },
         {
           "label": "EP07 — Horror Stories",
-          "thumb": "/video-thumbs/singlecare/ep07.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/e8b86366208da740e54a836c0abe7adbf4f0292e-1920x1080.jpg",
           "url": "/videos/singlecare/ep07-horror-stories.mp4"
         },
         {
           "label": "S02 E05 — De-Escalating Conflict",
-          "thumb": "/video-thumbs/singlecare/s02e05.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/4d4153f8f41c1d0ee107873100a26206aaae6835-1920x1080.jpg",
           "url": "/videos/singlecare/s02e05-deescalating-conflict.mp4"
         },
         {
           "label": "S02 E08 — Best Stories",
-          "thumb": "/video-thumbs/singlecare/s02e08.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/80fcfe0f31cf947b1afcdd2ea46318faa9cf9abd-1920x1080.jpg",
           "url": "/videos/singlecare/s02e08-best-stories.mp4"
         },
         {
           "label": "S02 E11 — Tips & Counseling",
-          "thumb": "/video-thumbs/singlecare/s02e11.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/03601816b989e03e0887e25905f8fa340aa375ec-1920x1080.jpg",
           "url": "/videos/singlecare/s02e11-tips-counseling.mp4"
         }
       ]
@@ -245,24 +245,24 @@
       "stat": null,
       "statLabel": null,
       "stills": [],
-      "thumbnail": "/thumbnails/google-ads.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/827afe42108ca3f53e2292c200b2e3efc304e95c-864x1080.jpg",
       "title": "Hot Takes",
       "videoPreview": "/previews/google-ads.mp4",
       "videoUrl": null,
       "videos": [
         {
           "label": "Gaurav",
-          "thumb": "/video-thumbs/hot-takes/gaurav.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/134e7b8a059045a308bd1a32dc7da5a0f7ccab0b-1080x1920.jpg",
           "url": "/videos/hot-takes/gaurav.mp4"
         },
         {
           "label": "Harikesh",
-          "thumb": "/video-thumbs/hot-takes/harikesh.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/b31cfe5fda9de89d3e6cf20801be3aa8e0717b08-1080x1920.jpg",
           "url": "/videos/hot-takes/harikesh.mp4"
         },
         {
           "label": "Kamal",
-          "thumb": "/video-thumbs/hot-takes/kamal.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/14ba37bdd9901404b4646136fdc4316969886dcd-1080x1920.jpg",
           "url": "/videos/hot-takes/kamal.mp4"
         }
       ]
@@ -280,7 +280,7 @@
       "stat": null,
       "statLabel": null,
       "stills": [],
-      "thumbnail": "/thumbnails/spot-and-tango.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/b1ec7ec50d57d38c2ed165a2f750beb30bbb224d-1280x720.jpg",
       "title": "New York Dogs",
       "videoPreview": "/previews/spot-and-tango.mp4",
       "videoUrl": null,
@@ -292,7 +292,7 @@
         },
         {
           "label": "Lisa & Hudson",
-          "thumb": "/video-thumbs/spot-and-tango/lisa-and-hudson.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/be99ea220844d3b71d8fb25c590b15ceb30bf461-1920x1080.jpg",
           "url": "/videos/spot-and-tango/lisa-and-hudson.mp4"
         }
       ]
@@ -310,7 +310,7 @@
       "stat": null,
       "statLabel": null,
       "stills": [],
-      "thumbnail": "/thumbnails/google-champions-place.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/bfe1d3fe0ada046903a955a5f6699060a2d2f398-1920x1080.jpg",
       "title": "Champion's Place",
       "videoPreview": "/previews/google-champions-place.mp4",
       "videoUrl": "/videos/google-champions-place/champions-place.mp4",
@@ -329,24 +329,24 @@
       "stat": null,
       "statLabel": null,
       "stills": [],
-      "thumbnail": "/thumbnails/youtube.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/e7d868bc679f54a07222818d42e26ad9ba409118-1920x1080.jpg",
       "title": "YouTube Connect",
       "videoPreview": "/previews/youtube.mp4",
       "videoUrl": null,
       "videos": [
         {
           "label": "Why Shorts",
-          "thumb": "/video-thumbs/youtube/why-shorts.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/a47d474c494a4913bcdf22d7239fc15f9b79beb8-1080x1920.jpg",
           "url": "/videos/youtube/why-shorts.mp4"
         },
         {
           "label": "What Brings People to YouTube",
-          "thumb": "/video-thumbs/youtube/what-brings-people-to-yt.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/34f4e512082a3967eed6f697c1507799eff7e83d-1080x1920.jpg",
           "url": "/videos/youtube/what-brings-people-to-yt.mp4"
         },
         {
           "label": "The Creator Connection",
-          "thumb": "/video-thumbs/youtube/creator-connection.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/f7363ec3a3ac6cca8411c17b42d96f7e0672c4e9-1080x1920.jpg",
           "url": "/videos/youtube/creator-connection.mp4"
         }
       ]
@@ -364,7 +364,7 @@
       "stat": null,
       "statLabel": null,
       "stills": [],
-      "thumbnail": "/thumbnails/think-with-google.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/7addbdbf234ef73067796a0749f03dc6571156fc-1920x1080.jpg",
       "title": "Modern Marketers",
       "videoPreview": "/previews/think-with-google.mp4",
       "videoUrl": null,
@@ -376,7 +376,7 @@
         },
         {
           "label": "Barkley OKRP",
-          "thumb": "/video-thumbs/think-with-google/barkley-okrp.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/f086496c835d31594b042d8e237657a82bbbee0c-1920x1080.jpg",
           "url": "/videos/think-with-google/barkley-okrp.mp4"
         }
       ]
@@ -394,7 +394,7 @@
       "stat": null,
       "statLabel": null,
       "stills": [],
-      "thumbnail": "/thumbnails/brooklyn-brewery.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/2100ae18b287212c0ca6555476ea2cb3a49eb4e4-1280x720.jpg",
       "title": "Beer Talks",
       "videoPreview": "/previews/brooklyn-brewery.mp4",
       "videoUrl": "/videos/brooklyn-brewery/brooklyn-brewery-case-study.mp4",
@@ -413,24 +413,24 @@
       "stat": null,
       "statLabel": null,
       "stills": [],
-      "thumbnail": "/thumbnails/google-maps.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/ff3b9223a53054fc118675261ddb161ec4adcdc1-1920x1080.jpg",
       "title": "Mapping the Globe",
       "videoPreview": "/previews/google-maps.mp4",
       "videoUrl": null,
       "videos": [
         {
           "label": "Tonga",
-          "thumb": "/video-thumbs/google-maps/tonga.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/41240336532ff689026216d5cd9cfacf312680ac-1920x1080.jpg",
           "url": "/videos/google-maps/tonga.mp4"
         },
         {
           "label": "JAXA — Japan",
-          "thumb": "/video-thumbs/google-maps/jaxa.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/e87d37420b43388877e9fe438e842ae9e7360466-1920x1080.jpg",
           "url": "/videos/google-maps/jaxa.mp4"
         },
         {
           "label": "New Zealand",
-          "thumb": "/video-thumbs/google-maps/new-zealand.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/3db317578234982c82d6c1da52aba9df5948e7a3-1920x1080.jpg",
           "url": "/videos/google-maps/new-zealand.mp4"
         }
       ]
@@ -448,24 +448,24 @@
       "stat": null,
       "statLabel": null,
       "stills": [],
-      "thumbnail": "/thumbnails/google-small-business.jpg",
+      "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/5b4dd8d80db6ed0ecf198bfc5a61bdb2e827f93d-1280x720.jpg",
       "title": "Small Business Profiles",
       "videoPreview": "/previews/google-small-business.mp4",
       "videoUrl": null,
       "videos": [
         {
           "label": "Nawab",
-          "thumb": "/video-thumbs/google-small-business/nawab.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/ddb3fdb2a28d3c0efd43ce8654170a32518a551f-1920x1080.jpg",
           "url": "/videos/google-small-business/project-nawab.mov"
         },
         {
           "label": "Bikes & Hikes",
-          "thumb": "/video-thumbs/google-small-business/bikes-hikes.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/70e0891e964437846a4cae17a333cb6d3f4f1b6c-1920x1080.jpg",
           "url": "/videos/google-small-business/bikes-hikes.mov"
         },
         {
           "label": "Chulita",
-          "thumb": "/video-thumbs/google-small-business/chulita.jpg",
+          "thumb": "https://cdn.sanity.io/images/n3plha5r/production/1ade1f44bff6a2b37f61949fdf9c9487be4f519b-1920x1080.jpg",
           "url": "/videos/google-small-business/chulita.mov"
         }
       ]
@@ -873,7 +873,7 @@
     "cta": {
       "body": "Tell us what your audience needs to know. We'll make them want to watch it.",
       "heading": "Ready to make something people actually finish?",
-      "illustration": "/cta-illustration.png",
+      "illustration": "https://cdn.sanity.io/images/n3plha5r/production/4ad02f4b5678e76d97c2fc9828fa53099bab9493-2404x1396.png",
       "primaryHref": "/contact",
       "primaryLabel": "Start a project",
       "secondaryHref": "/work",
@@ -1012,7 +1012,7 @@
           "\"Why We Exist\" films"
         ],
         "name": "Brand & People",
-        "poster": "/thumbnails/brooklyn-brewery.jpg",
+        "poster": "https://cdn.sanity.io/images/n3plha5r/production/2100ae18b287212c0ca6555476ea2cb3a49eb4e4-1280x720.jpg",
         "slug": "brand-people",
         "tagline": "The brand made visible. The people behind it made human.",
         "video": "/previews/brooklyn-brewery.mp4"
@@ -1051,20 +1051,20 @@
   },
   "aboutPage": {
     "btsImages": [
-      "/bts/yur08884.jpg",
-      "/bts/sadie_bts_092025-7.jpg",
-      "/bts/l1000855.jpg",
-      "/bts/img_6350.jpg",
-      "/bts/yur08912.jpg",
-      "/bts/sadie_bts_092025-8.jpg",
-      "/bts/l1000857.jpg",
-      "/bts/img-2987.jpg",
-      "/bts/yur08914.jpg",
-      "/bts/sadie_bts_092025-12.jpg",
-      "/bts/l1000860.jpg",
-      "/bts/img-4903.jpg",
-      "/bts/yur08922.jpg",
-      "/bts/img_2114.jpg"
+      "https://cdn.sanity.io/images/n3plha5r/production/46c8eda12ba122e45fb65a29f250fb8d62b2683a-2400x3598.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/5a0dd7a2c348fc90604cd96fd8e31e5a7d3b36fb-2400x1597.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/87c383c39e31ecb2b7a029c728d4521ea54dd2f0-2400x1596.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/afca43769a3c54b5a375a023a4a138c6cc541977-2400x3200.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/a13d20be9b643c3903af3016c04b37789074c5a1-2400x3598.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/d9467bf22485f7589a536773df6fa0860727488e-2400x1714.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/84e4dddf7e255d94010016d305a8d3400a9d5404-2400x1596.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/9f5a8ef55f207d3a0cecfd425a79899b6205a836-2400x3200.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/444f73e845be4e15187bc3c4a48d23ebda73c577-2400x1601.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/639e1ec20ae3adbf542eaf4d83a18f797eea4299-2400x1714.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/d6c5b9f0275729ea0c581587299bfae33054a1ea-2400x1596.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/259747660fe0dd4902f00e246427e23d3b9e87fc-2400x3200.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/9cd34777ebbecb005bc733c0bffba799675485f1-2400x1601.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/d4f0499933e83ac016d6ad277ac539976275d2e4-1080x1353.jpg"
     ],
     "btsLabel": "On set — behind the scenes",
     "heroDescription": "We've spent years making films about real people and complex ideas. Now we make them for brands.",
@@ -1074,7 +1074,7 @@
       "Deep Dive was founded by documentary filmmakers with Emmy-winning credentials. We know how to find a true story, earn access, and make something people actually finish watching.",
       "Brands started asking us to do the same thing for them. When you make brand content the way you make documentary, with real subjects and genuine craft, it performs like nothing else. That's the studio we built."
     ],
-    "introImage": "/about/team.png",
+    "introImage": "https://cdn.sanity.io/images/n3plha5r/production/e1f3876bc517b272971d714e85ed37f91127e01b-2439x1633.png",
     "introLabel": "Who we are",
     "press": [
       {
@@ -1252,7 +1252,7 @@
         "name": "Brand & People",
         "slug": "brand-people",
         "tagline": "The brand made visible. The people behind it made human.",
-        "thumbnail": "/thumbnails/brooklyn-brewery.jpg",
+        "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/2100ae18b287212c0ca6555476ea2cb3a49eb4e4-1280x720.jpg",
         "video": "/previews/brooklyn-brewery.mp4"
       },
       {
@@ -1286,42 +1286,42 @@
     ],
     "clients": [
       {
-        "logo": "/logos/google.png",
+        "logo": "https://cdn.sanity.io/images/n3plha5r/production/0c9597dba57e584be51682312161b9143ff190b3-357x121.png",
         "name": "Google",
         "scale": 1.3
       },
       {
-        "logo": "/logos/walmart.png",
+        "logo": "https://cdn.sanity.io/images/n3plha5r/production/4c1c64c8d22f3960c1b08720468bc36af204d33b-354x88.png",
         "name": "Walmart",
         "scale": 1.45
       },
       {
-        "logo": "/logos/youtube.png",
+        "logo": "https://cdn.sanity.io/images/n3plha5r/production/835a191d531e5f33cb23767f7887e54791df9c61-766x320.png",
         "name": "YouTube",
         "scale": 1.3
       },
       {
-        "logo": "/logos/barnes-noble.png",
+        "logo": "https://cdn.sanity.io/images/n3plha5r/production/a9f0a65a9b71ccb292336733fd0623064e66fba8-364x58.png",
         "name": "Barnes & Noble",
         "scale": 0.85
       },
       {
-        "logo": "/logos/brooklyn-brewery.svg",
+        "logo": "https://cdn.sanity.io/images/n3plha5r/production/d929dc6e1cdf45168ab02ffb47aae90d4372cb22-362x362.svg",
         "name": "Brooklyn Brewery",
         "scale": 1.4
       },
       {
-        "logo": "/logos/survivornet.png",
+        "logo": "https://cdn.sanity.io/images/n3plha5r/production/b4598fc3253745be3e12bc31a62e779d352d7072-1126x181.png",
         "name": "SurvivorNet",
         "scale": 0.75
       },
       {
-        "logo": "/logos/singlecare.png",
+        "logo": "https://cdn.sanity.io/images/n3plha5r/production/55dc58f78252a3f403d2530307dcc64297b66bca-999x164.png",
         "name": "SingleCare",
         "scale": 0.75
       },
       {
-        "logo": "/logos/rtpi.webp",
+        "logo": "https://cdn.sanity.io/images/n3plha5r/production/9eb0f531cedeb00dc712e3437263744f4f8f2004-1319x436.webp",
         "name": "RTPI",
         "scale": 1.15
       }
@@ -1414,8 +1414,8 @@
       }
     ],
     "repurposeImages": [
-      "/bts/sadie_bts_092025-7.jpg",
-      "/bts/yur08922.jpg"
+      "https://cdn.sanity.io/images/n3plha5r/production/5a0dd7a2c348fc90604cd96fd8e31e5a7d3b36fb-2400x1597.jpg",
+      "https://cdn.sanity.io/images/n3plha5r/production/9cd34777ebbecb005bc733c0bffba799675485f1-2400x1601.jpg"
     ],
     "repurposeLabel": "One shoot. Many assets.",
     "repurposeSub": "Every production is built for maximum asset yield. One shoot produces a full suite — the hero film and everything that comes with it.",
@@ -1478,5 +1478,5 @@
     "Craft",
     "Case Studies"
   ],
-  "_pulledAt": "2026-05-13T20:35:58.648Z"
+  "_pulledAt": "2026-05-14T12:06:45.957Z"
 }

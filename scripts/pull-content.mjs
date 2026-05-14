@@ -23,9 +23,10 @@ const QUERY = `{
   "projects": *[_type == "project"] | order(coalesce(order, 999) asc) {
     "slug": slug.current,
     client, title, category, format, industry,
-    thumbnail, videoPreview, videoUrl, embedUrl,
-    videos[]{label, url, thumb},
-    stills,
+    "thumbnail": thumbnail.asset->url,
+    videoPreview, videoUrl, embedUrl,
+    videos[]{label, url, "thumb": thumb.asset->url},
+    "stills": stills[].asset->url,
     description, challenge, result,
     stat, statLabel
   },
@@ -40,7 +41,11 @@ const QUERY = `{
     whatItIs, whenToUse[]{trigger, body}
   },
   "siteSettings": *[_id == "siteSettings"][0] {
-    heroLine, heroReelUrl, siteName, siteDescription, contactEmail, social, cta,
+    heroLine, heroReelUrl, siteName, siteDescription, contactEmail, social,
+    cta {
+      heading, body, primaryLabel, primaryHref, secondaryLabel, secondaryHref,
+      "illustration": illustration.asset->url
+    },
     nav { links[]{label, to}, ctaLabel, ctaHref },
     footer { links[]{label, to}, tagline, newsletterLabel, newsletterSub, newsletterButton, copyrightCity, socials }
   },
@@ -50,14 +55,14 @@ const QUERY = `{
     filmStripLabel, filmStripHeading,
     marketDataLabel, marketDataStats[]{value, label, source},
     servicesLabel, servicesEyebrow, servicesHeading, servicesSub,
-    servicesCards[]{slug, name, tagline, formats, video, poster},
+    servicesCards[]{slug, name, tagline, formats, video, "poster": poster.asset->url},
     proofStats[]{value, label, note}
   },
   "aboutPage": *[_id == "aboutPage"][0] {
     heroEyebrow, heroTitle, heroDescription,
-    introLabel, introBody, introImage,
+    introLabel, introBody, "introImage": introImage.asset->url,
     valuesLabel, values[]{label, desc},
-    btsLabel, btsImages,
+    btsLabel, "btsImages": btsImages[].asset->url,
     pressLabel, press[]{outlet, title, year, href}
   },
   "processPage": *[_id == "processPage"][0] {
@@ -72,14 +77,14 @@ const QUERY = `{
   },
   "servicesPage": *[_id == "servicesPage"][0] {
     heroEyebrow, heroTitle, heroDescription,
-    categories[]{slug, name, tagline, description, examples, video, thumbnail},
+    categories[]{slug, name, tagline, description, examples, video, "thumbnail": thumbnail.asset->url},
     repurposeLabel, repurposeTitle, repurposeSub,
     repurposeAssets[]{num, label, desc},
-    repurposeImages,
+    "repurposeImages": repurposeImages[].asset->url,
     formatsLabel, formatsTitle,
     formats[]{name, duration, description, useCases},
     comparisonLabel, comparisonTitle, comparisonSub,
-    clientsLabel, clients[]{name, logo, scale}
+    clientsLabel, clients[]{name, "logo": logo.asset->url, scale}
   },
   "journalPage": *[_id == "journalPage"][0] {
     heroEyebrow, heroTitle, heroDescription,
