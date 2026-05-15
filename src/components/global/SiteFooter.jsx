@@ -4,6 +4,7 @@ import styles from './SiteFooter.module.css'
 import wordmark from '../../assets/dd-wordmark.svg'
 import { subscribeToKit } from '../../hooks/useKitSubscribe'
 import { siteSettings } from '../../data/siteSettings'
+import SuccessState from '../shared/SuccessState'
 
 export default function SiteFooter() {
   const footer = siteSettings.footer ?? {}
@@ -82,7 +83,12 @@ export default function SiteFooter() {
             <p className={styles.newsletterLabel}>{footer.newsletterLabel}</p>
             <p className={styles.newsletterSub}>{footer.newsletterSub}</p>
             {submitted ? (
-              <p className={styles.thanks}>You're in. We'll be in touch.</p>
+              <SuccessState
+                tone="dark"
+                label="Subscribed"
+                heading="Welcome aboard."
+                body="Check your inbox and confirm to start receiving The Deep Dive."
+              />
             ) : (
               <>
                 <form className={styles.form} onSubmit={handleSubmit}>

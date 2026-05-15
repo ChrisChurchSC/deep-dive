@@ -2,6 +2,7 @@ import { useState } from 'react'
 import styles from './ContactForm.module.css'
 import FormField from './FormField'
 import Button from '../primitives/Button'
+import SuccessState from './SuccessState'
 
 // Formspree endpoint — manage at https://formspree.io
 const FORMSPREE_ID = 'xeenbywj'
@@ -69,11 +70,12 @@ export default function ContactForm() {
   if (status === 'success') {
     return (
       <div className={styles.success}>
-        <div className={styles.successIcon}>✓</div>
-        <h3 className={styles.successTitle}>Message sent.</h3>
-        <p className={styles.successBody}>
-          Thanks, {fields.name.split(' ')[0]}. We'll be in touch within 24 hours.
-        </p>
+        <SuccessState
+          tone="light"
+          label="Message received"
+          heading="Thanks, we're on it."
+          body={`Thanks, ${fields.name.split(' ')[0] || 'there'}. We'll be in touch within 24 hours.`}
+        />
       </div>
     )
   }

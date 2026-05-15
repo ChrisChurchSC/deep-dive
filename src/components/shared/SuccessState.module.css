@@ -1,0 +1,75 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--sp-3);
+  animation: rise 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.dark { color: var(--cream, #dedcc3); }
+.light { color: var(--text); }
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* Check ── circle pulses in, mark draws */
+.check {
+  color: var(--accent);
+  margin-bottom: 2px;
+}
+
+.checkCircle {
+  stroke-dasharray: 110;
+  stroke-dashoffset: 110;
+  animation: drawCircle 0.55s 0.05s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  transform-origin: 50% 50%;
+}
+
+.checkMark {
+  stroke-dasharray: 24;
+  stroke-dashoffset: 24;
+  animation: drawMark 0.35s 0.45s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+@keyframes drawCircle { to { stroke-dashoffset: 0; } }
+@keyframes drawMark   { to { stroke-dashoffset: 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .root, .checkCircle, .checkMark { animation: none !important; }
+  .checkCircle, .checkMark { stroke-dashoffset: 0 !important; }
+}
+
+/* Type */
+.label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0;
+  opacity: 0.9;
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(20px, 1.8vw, 26px);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin: 0;
+  color: inherit;
+}
+
+.body {
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.72;
+  max-width: 38ch;
+  color: inherit;
+}
+
+.dark .body { opacity: 0.7; }
+.light .body { opacity: 0.65; }

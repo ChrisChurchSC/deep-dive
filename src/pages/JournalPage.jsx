@@ -5,6 +5,7 @@ import ArticleCard from '../components/shared/ArticleCard'
 import { articles } from '../data/articles'
 import { journalPage } from '../data/journalPage'
 import { subscribeToKit } from '../hooks/useKitSubscribe'
+import SuccessState from '../components/shared/SuccessState'
 import styles from './JournalPage.module.css'
 
 export default function JournalPage() {
@@ -48,7 +49,12 @@ export default function JournalPage() {
               <p className={styles.subscribeBody}>{journalPage.newsletterBody}</p>
             </div>
             {subDone ? (
-              <p className={styles.subThanks}>{journalPage.newsletterThanks}</p>
+              <SuccessState
+                tone="light"
+                label="Subscribed"
+                heading="You're on the list."
+                body="Check your inbox and confirm to start receiving The Deep Dive."
+              />
             ) : (
               <form className={styles.subscribeForm} onSubmit={handleSubscribe}>
                 <input
