@@ -34,8 +34,23 @@
 }
 
 @media (max-width: 900px) {
+  .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--sp-8);
+  }
   .illustration {
-    display: none;
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: none;
+    height: auto;
+    width: 100%;
+    max-width: none;
+    object-position: center;
+    margin: 0 auto;
+    max-height: 320px;
   }
 }
 
