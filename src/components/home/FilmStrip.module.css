@@ -258,6 +258,16 @@
 /* ── Mobile ── */
 @media (max-width: 640px) {
   .item {
-    flex: 0 0 78vw;
+    flex: 0 0 90vw;
+  }
+  .strip {
+    gap: 12px;
+    padding: 0 var(--sp-5);
+  }
+  .header,
+  .heading,
+  .footer {
+    padding-left: var(--sp-5);
+    padding-right: var(--sp-5);
   }
 }
