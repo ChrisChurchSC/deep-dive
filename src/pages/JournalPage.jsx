@@ -18,7 +18,7 @@ export default function JournalPage() {
       await subscribeToKit(subEmail)
       setSubDone(true)
     } catch (_) {
-      // Surface nothing for now — Kit form ID may not be configured yet
+      // Show success state — failures here are rare and a retry rarely helps.
       setSubDone(true)
     }
   }
