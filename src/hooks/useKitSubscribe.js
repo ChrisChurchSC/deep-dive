@@ -1,6 +1,6 @@
 // Kit (formerly ConvertKit) newsletter subscribe.
-// Form ID matches the data-uid from the Kit embed script.
-const KIT_FORM_ID = '8a1efc12cb'
+// Numeric form ID from the form's action attribute (not the data-uid).
+const KIT_FORM_ID = '9447060'
 
 export async function subscribeToKit(email) {
   if (!KIT_FORM_ID) {
