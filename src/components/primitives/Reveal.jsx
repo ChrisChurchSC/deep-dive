@@ -13,7 +13,13 @@ export default function Reveal({ children, delay = 0, className = '', as: Tag = 
       { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
     )
     observer.observe(el)
-    return () => observer.disconnect()
+    // Safety fallback — never leave content permanently hidden if the observer
+    // misses (some headless / capture environments, prefers-reduced-motion, etc.)
+    const fallback = setTimeout(() => setVisible(true), 1200)
+    return () => {
+      observer.disconnect()
+      clearTimeout(fallback)
+    }
   }, [])
 
   const delayClass = delay ? styles[`d${delay}`] : ''

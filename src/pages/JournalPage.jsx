@@ -4,7 +4,7 @@ import PageHero from '../components/shared/PageHero'
 import ArticleCard from '../components/shared/ArticleCard'
 import { articles } from '../data/articles'
 import { journalPage } from '../data/journalPage'
-import { subscribeToKlaviyo } from '../hooks/useKlaviyoSubscribe'
+import { subscribeToKit } from '../hooks/useKitSubscribe'
 import styles from './JournalPage.module.css'
 
 export default function JournalPage() {
@@ -15,11 +15,12 @@ export default function JournalPage() {
     e.preventDefault()
     if (!subEmail) return
     try {
-      await subscribeToKlaviyo(subEmail)
+      await subscribeToKit(subEmail)
+      setSubDone(true)
     } catch (_) {
-      // Fail silently
+      // Surface nothing for now — Kit form ID may not be configured yet
+      setSubDone(true)
     }
-    setSubDone(true)
   }
 
   const featured = articles.find(a => a.featured)

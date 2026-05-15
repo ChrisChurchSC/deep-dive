@@ -84,5 +84,8 @@
 @media (max-width: 768px) {
   .shell { padding: 0 var(--sp-5); }
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
-  .section { padding: var(--sp-16) 0; }
+  .section { padding: var(--sp-12) 0; }
+  .display { font-size: clamp(40px, 11vw, 72px); }
+  .heading { font-size: clamp(22px, 6vw, 32px); }
+  .divider { margin: var(--sp-8) 0; }
 }
