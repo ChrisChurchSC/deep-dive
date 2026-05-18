@@ -40,7 +40,7 @@
         {
           "label": "Language AI Hero",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/6e88d098a62c32cc770340e34b91b8a9fd73d844-1920x1080.jpg",
-          "url": "/videos/google-language-ai/language-ai-hero.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/4844deb6c4236584125ca271bf133c11826e054d.mp4"
         },
         {
           "label": "Language AI Anthem",
@@ -1478,5 +1478,5 @@
     "Craft",
     "Case Studies"
   ],
-  "_pulledAt": "2026-05-15T01:50:52.748Z"
+  "_pulledAt": "2026-05-18T13:42:36.315Z"
 }

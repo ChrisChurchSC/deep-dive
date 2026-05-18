@@ -24,8 +24,10 @@ const QUERY = `{
     "slug": slug.current,
     client, title, category, format, industry,
     "thumbnail": thumbnail.asset->url,
-    videoPreview, videoUrl, embedUrl,
-    videos[]{label, url, "thumb": thumb.asset->url},
+    "videoPreview": coalesce(videoPreview.asset->url, videoPreview),
+    "videoUrl": coalesce(videoUrl.asset->url, videoUrl),
+    embedUrl,
+    videos[]{label, "url": coalesce(url.asset->url, url), "thumb": thumb.asset->url},
     "stills": stills[].asset->url,
     description, challenge, result,
     stat, statLabel
@@ -51,11 +53,12 @@ const QUERY = `{
   },
   "homepage": *[_id == "homepage"][0] {
     categoryLabel, categoryWord, categoryPhonetic, categoryPos,
-    categoryDefinition, categoryUsage, categoryVideo,
+    categoryDefinition, categoryUsage,
+    "categoryVideo": coalesce(categoryVideo.asset->url, categoryVideo),
     filmStripLabel, filmStripHeading,
     marketDataLabel, marketDataStats[]{value, label, source},
     servicesLabel, servicesEyebrow, servicesHeading, servicesSub,
-    servicesCards[]{slug, name, tagline, formats, video, "poster": poster.asset->url},
+    servicesCards[]{slug, name, tagline, formats, "video": coalesce(video.asset->url, video), "poster": poster.asset->url},
     proofStats[]{value, label, note}
   },
   "aboutPage": *[_id == "aboutPage"][0] {
