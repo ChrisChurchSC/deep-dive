@@ -16,7 +16,7 @@
       "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/e4689706bf9bd39b5c9f2c136613320006c9a0fd-1920x1080.jpg",
       "title": "From a Whisper to a Roar: Mellve's Mission",
       "videoPreview": "/previews/survivornet.mp4",
-      "videoUrl": "/videos/survivornet/mellves-mission.mp4",
+      "videoUrl": "https://cdn.sanity.io/files/n3plha5r/production/d38a7eba5b24d43c9b02553af5300d3ce2888912.mp4",
       "videos": []
     },
     {
@@ -45,12 +45,12 @@
         {
           "label": "Language AI Anthem",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/ff6840c6990b6f5992d918367f3a149eab795adb-1280x720.jpg",
-          "url": "/videos/google-language-ai/language-ai-anthem-web.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/320a23962427e68e5b25bf39fdcb54ec61ac0d8a.mp4"
         },
         {
           "label": "Waxal — African Languages",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/c58af48dbfa32edc7986e1e7d563540fda1055c3-1920x1080.jpg",
-          "url": "/videos/google-language-ai/waxal-african-languages-web.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/ef5b1b302772450edae0f656d8788c9fb90e7ebd.mp4"
         }
       ]
     },
@@ -94,12 +94,12 @@
         {
           "label": "Leaderboard",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/4780bb4bb57212a35956a8023987a355c3f61a2b-1920x1080.jpg",
-          "url": "/videos/arbitrum-marketing/leaderboard.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/2cb5ff24a7f9be7da843a61330c0c83f2687bf88.mp4"
         },
         {
           "label": "Dinner Talk",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/038dec45d4c0289b1879f100ffa3c7b729ef3f4a-1920x1080.jpg",
-          "url": "/videos/arbitrum-marketing/dinner-talk.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/2bb2c71cf422de4bfa6fb65ecdb47cfacc21ad93.mp4"
         }
       ]
     },
@@ -143,32 +143,32 @@
         {
           "label": "BTS",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/e28ca2eb2d2b0353c2e4a9efc7fbe1a478ca7c47-1920x1080.jpg",
-          "url": "/videos/barnes-and-noble/bts.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/beff3b2e90c257ace918fe2a615c9247fbd5c675.mp4"
         },
         {
           "label": "Game of Thrones",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/fec5e62d86a8066653b959653e6b04e9c972f78c-1920x1080.jpg",
-          "url": "/videos/barnes-and-noble/game-of-thrones.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/f8027c33442b04fcce9893b93f69f60f488ec648.mp4"
         },
         {
           "label": "Summer Reading",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/e84c99be5a797849ea9745a6403707f517ad4399-1920x1080.jpg",
-          "url": "/videos/barnes-and-noble/summer-reading.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/0ed2f4e4ea9a663bc48efb22fd32927bb39d654b.mp4"
         },
         {
           "label": "King",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/a0950a12358e7c11f543fc3c50ad84c2ce7b194c-1920x1080.jpg",
-          "url": "/videos/barnes-and-noble/king.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/5a756b8a340fea7e2932f27f5c50ea9957115d9e.mp4"
         },
         {
           "label": "Summer Reading Kid",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/47a3202e3e3455ddd67830ef1c6e936115fb9f5b-1920x1080.jpg",
-          "url": "/videos/barnes-and-noble/summer-reading-kid.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/d3bca1bcd2aafea775451a5930a5bb401d72ee9e.mp4"
         },
         {
           "label": "Mothers",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/34863a012f5e4bb19a329546b4b7e7549417f6e5-1920x1080.jpg",
-          "url": "/videos/barnes-and-noble/mothers.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/3b92a939db56ec512db475c69cf435105839f87b.mp4"
         }
       ]
     },
@@ -193,42 +193,42 @@
         {
           "label": "EP01 — Customer Interventions",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/59c8257c8ad498f225104428a01d04c4eb7560cb-1920x1080.jpg",
-          "url": "/videos/singlecare/ep01-customer-interventions.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/813a8e7719b95104c60fd8440b37a8ae0cafe037.mp4"
         },
         {
           "label": "EP02 — Building Relationships",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/a91a107fd984f6b157a28770d49dfa2f891a05da-1920x1080.jpg",
-          "url": "/videos/singlecare/ep02-building-relationships.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/54f80929b275d9d350a724e44b6e9f0efd21671c.mp4"
         },
         {
           "label": "EP03 — Working With Rude Customers",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/c035d20188f03f1924aae5fb2209fab01cb5d14f-1920x1080.jpg",
-          "url": "/videos/singlecare/ep03-working-with-rude-customers.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/e19dec154f35d66729da8df4899e64352da528a9.mp4"
         },
         {
           "label": "EP06 — Avoiding Burnout",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/94cd3dff81bb732eaabc0855e72df4cd69a8bc98-1920x1080.jpg",
-          "url": "/videos/singlecare/ep06-avoiding-burnout.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/d9d8734501ed67aec59c038e889f300a74cb3b2a.mp4"
         },
         {
           "label": "EP07 — Horror Stories",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/e8b86366208da740e54a836c0abe7adbf4f0292e-1920x1080.jpg",
-          "url": "/videos/singlecare/ep07-horror-stories.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/116f01a67b907ae5f97303d130228b184f5ecb2c.mp4"
         },
         {
           "label": "S02 E05 — De-Escalating Conflict",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/4d4153f8f41c1d0ee107873100a26206aaae6835-1920x1080.jpg",
-          "url": "/videos/singlecare/s02e05-deescalating-conflict.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/ff3b5dacc7f48c8d0e44250ca28cc0d940a5b2ee.mp4"
         },
         {
           "label": "S02 E08 — Best Stories",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/80fcfe0f31cf947b1afcdd2ea46318faa9cf9abd-1920x1080.jpg",
-          "url": "/videos/singlecare/s02e08-best-stories.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/a11e3178262371169e6e734fd3a4d66546c6c3cd.mp4"
         },
         {
           "label": "S02 E11 — Tips & Counseling",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/03601816b989e03e0887e25905f8fa340aa375ec-1920x1080.jpg",
-          "url": "/videos/singlecare/s02e11-tips-counseling.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/648afc886347817001f1e503e64f1d75b16581c9.mp4"
         }
       ]
     },
@@ -253,17 +253,17 @@
         {
           "label": "Gaurav",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/134e7b8a059045a308bd1a32dc7da5a0f7ccab0b-1080x1920.jpg",
-          "url": "/videos/hot-takes/gaurav.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/716ea65a45b42f16c7312688d7e0bce75b7590e3.mp4"
         },
         {
           "label": "Harikesh",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/b31cfe5fda9de89d3e6cf20801be3aa8e0717b08-1080x1920.jpg",
-          "url": "/videos/hot-takes/harikesh.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/ff611cb6c253be66e223277e74042b93db9ee403.mp4"
         },
         {
           "label": "Kamal",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/14ba37bdd9901404b4646136fdc4316969886dcd-1080x1920.jpg",
-          "url": "/videos/hot-takes/kamal.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/804de6ad8bb490be411825ff1770dcd17cad7688.mp4"
         }
       ]
     },
@@ -293,7 +293,7 @@
         {
           "label": "Lisa & Hudson",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/be99ea220844d3b71d8fb25c590b15ceb30bf461-1920x1080.jpg",
-          "url": "/videos/spot-and-tango/lisa-and-hudson.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/9571ce2c8bc84788266f95b112e1a94e0f62e380.mp4"
         }
       ]
     },
@@ -313,7 +313,7 @@
       "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/bfe1d3fe0ada046903a955a5f6699060a2d2f398-1920x1080.jpg",
       "title": "Champion's Place",
       "videoPreview": "/previews/google-champions-place.mp4",
-      "videoUrl": "/videos/google-champions-place/champions-place.mp4",
+      "videoUrl": "https://cdn.sanity.io/files/n3plha5r/production/f24b8b5b2804f077e5003b9b3c953e7b4a8be968.mp4",
       "videos": []
     },
     {
@@ -337,17 +337,17 @@
         {
           "label": "Why Shorts",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/a47d474c494a4913bcdf22d7239fc15f9b79beb8-1080x1920.jpg",
-          "url": "/videos/youtube/why-shorts.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/70a5981284c62b3df3e48fc31f31a1767ce1e10c.mp4"
         },
         {
           "label": "What Brings People to YouTube",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/34f4e512082a3967eed6f697c1507799eff7e83d-1080x1920.jpg",
-          "url": "/videos/youtube/what-brings-people-to-yt.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/87375dc94ea5b279132722438a33ea3dfd837124.mp4"
         },
         {
           "label": "The Creator Connection",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/f7363ec3a3ac6cca8411c17b42d96f7e0672c4e9-1080x1920.jpg",
-          "url": "/videos/youtube/creator-connection.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/94fd0f1832e26c064be7616bc312424105bd4889.mp4"
         }
       ]
     },
@@ -377,7 +377,7 @@
         {
           "label": "Barkley OKRP",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/f086496c835d31594b042d8e237657a82bbbee0c-1920x1080.jpg",
-          "url": "/videos/think-with-google/barkley-okrp.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/00941a4d3bda7ca822fa549b7b7d0d9469b24bfe.mp4"
         }
       ]
     },
@@ -421,17 +421,17 @@
         {
           "label": "Tonga",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/41240336532ff689026216d5cd9cfacf312680ac-1920x1080.jpg",
-          "url": "/videos/google-maps/tonga.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/5276c904a50a558d17b8cfa4394700c14e5a1366.mp4"
         },
         {
           "label": "JAXA — Japan",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/e87d37420b43388877e9fe438e842ae9e7360466-1920x1080.jpg",
-          "url": "/videos/google-maps/jaxa.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/91436fbc542c15e1727d64a150b0e24f5c1c91e6.mp4"
         },
         {
           "label": "New Zealand",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/3db317578234982c82d6c1da52aba9df5948e7a3-1920x1080.jpg",
-          "url": "/videos/google-maps/new-zealand.mp4"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/c28d02b8bb7dbb80302ca41d87dcb19195bcfe19.mp4"
         }
       ]
     },
@@ -456,17 +456,17 @@
         {
           "label": "Nawab",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/ddb3fdb2a28d3c0efd43ce8654170a32518a551f-1920x1080.jpg",
-          "url": "/videos/google-small-business/project-nawab.mov"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/a1b42bf8a40d46a62fea7f68a2db0a1eb0bf2ea3.mp4"
         },
         {
           "label": "Bikes & Hikes",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/70e0891e964437846a4cae17a333cb6d3f4f1b6c-1920x1080.jpg",
-          "url": "/videos/google-small-business/bikes-hikes.mov"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/1cffbc4aa93aa5b5e71cdccefe09b5bc22083ef8.mp4"
         },
         {
           "label": "Chulita",
           "thumb": "https://cdn.sanity.io/images/n3plha5r/production/1ade1f44bff6a2b37f61949fdf9c9487be4f519b-1920x1080.jpg",
-          "url": "/videos/google-small-business/chulita.mov"
+          "url": "https://cdn.sanity.io/files/n3plha5r/production/8ae2aadb2383c8f36d50ff7d7c6e34b45113d153.mp4"
         }
       ]
     },
@@ -1478,5 +1478,5 @@
     "Craft",
     "Case Studies"
   ],
-  "_pulledAt": "2026-05-18T13:42:36.315Z"
+  "_pulledAt": "2026-05-18T15:38:00.707Z"
 }
