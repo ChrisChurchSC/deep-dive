@@ -73,7 +73,7 @@
       "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/b51a610164c76a99bb823bdc9323d3424779913e-864x1080.jpg",
       "title": "Arbitrum Everywhere",
       "videoPreview": "/previews/arbitrum-everywhere.mp4",
-      "videoUrl": "/videos/arbitrum/arbitrum-everywhere-trailer.mp4",
+      "videoUrl": null,
       "videos": []
     },
     {
@@ -124,7 +124,7 @@
       "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/fe78429540cb2ff0bfe7975c9e2e511f4bd192aa-864x1080.jpg",
       "title": "Spark Birds",
       "videoPreview": "/previews/rtpi.mp4",
-      "videoUrl": "/videos/rtpi/spark-birds.mp4",
+      "videoUrl": null,
       "videos": []
     },
     {
@@ -297,7 +297,7 @@
         {
           "label": "Rachel & Kiwi",
           "thumb": null,
-          "url": "/videos/spot-and-tango/rachel-and-kiwi.mp4"
+          "url": null
         },
         {
           "label": "Lisa & Hudson",
@@ -384,7 +384,7 @@
         {
           "label": "Modern Marketers 2025",
           "thumb": null,
-          "url": "/videos/think-with-google/modern-marketers-2025.mp4"
+          "url": null
         },
         {
           "label": "Barkley OKRP",
@@ -410,7 +410,7 @@
       "thumbnail": "https://cdn.sanity.io/images/n3plha5r/production/2100ae18b287212c0ca6555476ea2cb3a49eb4e4-1280x720.jpg",
       "title": "Beer Talks",
       "videoPreview": "/previews/brooklyn-brewery.mp4",
-      "videoUrl": "/videos/brooklyn-brewery/brooklyn-brewery-case-study.mp4",
+      "videoUrl": null,
       "videos": []
     },
     {
@@ -1501,5 +1501,5 @@
     "Craft",
     "Case Studies"
   ],
-  "_pulledAt": "2026-05-18T15:52:00.639Z"
+  "_pulledAt": "2026-05-18T16:12:38.106Z"
 }
