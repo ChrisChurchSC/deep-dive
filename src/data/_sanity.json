@@ -982,7 +982,7 @@
     "categoryPhonetic": "/ˌej·oo·ˈteɪn·mənt/",
     "categoryPos": "n.",
     "categoryUsage": "\"Consumers are 131% more likely to buy after consuming educational content.\"",
-    "categoryVideo": null,
+    "categoryVideo": "https://cdn.sanity.io/files/n3plha5r/production/3366c4012675e5fde56e8b092bd6d39d176a92b2.mp4",
     "categoryWord": "Branded Edutainment",
     "filmStripHeading": "Films that educate.\nBrands that earn trust.",
     "filmStripLabel": "Selected work",
@@ -1501,5 +1501,5 @@
     "Craft",
     "Case Studies"
   ],
-  "_pulledAt": "2026-05-18T16:12:38.106Z"
+  "_pulledAt": "2026-05-28T17:03:30.890Z"
 }
