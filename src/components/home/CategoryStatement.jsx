@@ -45,7 +45,6 @@ export default function CategoryStatement() {
                 ref={videoRef}
                 className={styles.video}
                 src={homepage.categoryVideo}
-                muted
                 playsInline
                 preload="metadata"
                 onEnded={() => setPlaying(false)}
