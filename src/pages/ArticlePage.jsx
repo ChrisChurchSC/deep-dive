@@ -45,17 +45,31 @@ export default function ArticlePage() {
     ? projects.filter(p => article.relatedProjects.includes(p.slug))
     : []
 
+  const SITE_URL = 'https://deep-dive.studio'
+  const articleUrl = `${SITE_URL}/journal/${slug}`
+  const bodyText = articleBodies[slug] ?? ''
+  const wordCount = bodyText ? bodyText.trim().split(/\s+/).length : undefined
+
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: article.title,
     description: article.excerpt,
     datePublished: article.date,
-    author: { '@type': 'Organization', name: 'Deep Dive' },
+    dateModified: article.date,
+    inLanguage: 'en-US',
+    articleSection: article.topic,
+    keywords: [article.topic].filter(Boolean),
+    ...(wordCount ? { wordCount } : {}),
+    image: `${SITE_URL}/og-default.png`,
+    url: articleUrl,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
+    author: { '@type': 'Organization', name: 'Deep Dive', url: SITE_URL },
     publisher: {
       '@type': 'Organization',
       name: 'Deep Dive',
-      url: 'https://deep-dive.studio',
+      url: SITE_URL,
+      logo: { '@type': 'ImageObject', url: `${SITE_URL}/og-default.png` },
     },
   }
 

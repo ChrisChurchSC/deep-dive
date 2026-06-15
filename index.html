@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- All SEO tags (page title, description, canonical, Open Graph, Twitter,
+         JSON-LD) are owned by react-helmet-async and injected here at prerender
+         time. Do NOT add fallback SEO tags below: they would duplicate the
+         per-page helmet output and ship conflicting metadata into every page.
+         NOTE: this requires react-helmet-async 2.x — v3.0.0 breaks SSR (helmet
+         context comes back empty and the tags leak into the body). -->
     <!--app-head-->
-    <!-- Fallback title/meta — overridden per-page by react-helmet-async -->
-    <title>Deep Dive — Branded Edutainment</title>
-    <meta name="description" content="Emmy-winning edutainment studio. Films that teach your audience something real and make them trust the brand behind them." />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -17,17 +20,6 @@
 
     <!-- Theme -->
     <meta name="theme-color" content="#080808" />
-
-    <!-- Open Graph fallback -->
-    <meta property="og:type"        content="website" />
-    <meta property="og:site_name"   content="Deep Dive" />
-    <meta property="og:title"       content="Deep Dive — Branded Edutainment" />
-    <meta property="og:description" content="Emmy-winning edutainment studio. Films that teach your audience something real and make them trust the brand behind them." />
-    <meta property="og:image"       content="https://deep-dive-git-claude-updates-chris-chhurchs-projects.vercel.app/og-default.png" />
-
-    <!-- Twitter Card fallback -->
-    <meta name="twitter:card"        content="summary_large_image" />
-    <meta name="twitter:site"        content="@deepdivefilms" />
 
     <!-- GA4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-84068Q5SRX"></script>

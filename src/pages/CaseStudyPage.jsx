@@ -9,6 +9,52 @@ import Reveal from '../components/primitives/Reveal'
 import { projects } from '../data/projects'
 import styles from './CaseStudyPage.module.css'
 
+const SITE_URL = 'https://deep-dive.studio'
+
+// Size a Sanity image to the OG card ratio; pass non-Sanity URLs through untouched.
+function ogImageFrom(thumb) {
+  if (!thumb) return undefined
+  return thumb.includes('cdn.sanity.io/images')
+    ? `${thumb}?w=1200&h=630&fit=crop&auto=format`
+    : thumb
+}
+
+// One VideoObject per clip so answer engines can index each film individually.
+// uploadDate is intentionally omitted — projects carry no publish date in Sanity.
+// Add a `publishDate` field per project to unlock Google video rich results.
+function buildVideoSchema(project, description) {
+  const clips = project.videos?.length
+    ? project.videos
+    : [{ label: project.title, url: project.videoUrl, embedUrl: project.embedUrl, thumb: project.thumbnail }]
+
+  const objects = clips
+    .map((clip) => {
+      const thumb = clip.thumb ?? project.thumbnail
+      if (!thumb) return null // VideoObject needs a thumbnailUrl to carry weight
+      const name = clip.label && clip.label !== project.title
+        ? `${project.title} — ${clip.label}`
+        : `${project.client} — ${project.title}`
+      return {
+        '@context': 'https://schema.org',
+        '@type': 'VideoObject',
+        name,
+        description,
+        thumbnailUrl: thumb,
+        ...(clip.url ? { contentUrl: clip.url } : {}),
+        ...(clip.embedUrl ? { embedUrl: clip.embedUrl } : {}),
+        publisher: {
+          '@type': 'Organization',
+          name: 'Deep Dive',
+          url: SITE_URL,
+          logo: { '@type': 'ImageObject', url: `${SITE_URL}/og-default.png` },
+        },
+      }
+    })
+    .filter(Boolean)
+
+  return objects.length === 0 ? null : objects.length === 1 ? objects[0] : objects
+}
+
 export default function CaseStudyPage() {
   const { slug } = useParams()
   const project = projects.find(p => p.slug === slug)
@@ -28,6 +74,8 @@ export default function CaseStudyPage() {
         description={seoDesc}
         canonical={`/work/${slug}`}
         ogType="article"
+        ogImage={ogImageFrom(project.thumbnail)}
+        jsonLd={buildVideoSchema(project, seoDesc)}
         breadcrumbs={[
           { name: 'Work', url: '/work' },
           { name: project.client, url: `/work/${slug}` },

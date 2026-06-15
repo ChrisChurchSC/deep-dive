@@ -37,7 +37,7 @@ function StripItem({ item, i, isCenter }) {
       {item.thumbnail && (
         <img
           src={item.thumbnail}
-          alt={item.client || ''}
+          alt={item.client ? `${item.client}${item.format ? ` — ${item.format}` : ''}` : ''}
           className={`${styles.img} ${isCenter && item.videoPreview ? styles.imgHidden : ''}`}
           loading="lazy"
         />

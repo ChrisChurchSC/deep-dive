@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://deep-dive.studio/</loc>
     <changefreq>weekly</changefreq>
@@ -39,76 +41,334 @@
     <loc>https://deep-dive.studio/work/survivornet</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/e4689706bf9bd39b5c9f2c136613320006c9a0fd-1920x1080.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/e4689706bf9bd39b5c9f2c136613320006c9a0fd-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>From a Whisper to a Roar: Mellve's Mission</video:title>
+      <video:description>A documentary series for a leading cancer information platform — authentic patient stories that drove extraordinary engagement in a space typically crowded with clinical material.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/d38a7eba5b24d43c9b02553af5300d3ce2888912.mp4</video:content_loc>
+    </video:video>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/google-language-ai</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/6e88d098a62c32cc770340e34b91b8a9fd73d844-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/6e88d098a62c32cc770340e34b91b8a9fd73d844-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/ff6840c6990b6f5992d918367f3a149eab795adb-1280x720.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/c58af48dbfa32edc7986e1e7d563540fda1055c3-1920x1080.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/6e88d098a62c32cc770340e34b91b8a9fd73d844-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Language AI at Google — Language AI Hero</video:title>
+      <video:description>Centering global voices to highlight the importance of language in AI, and how expanding datasets across languages can make technology more accessible and inclusive for billions of people.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/4844deb6c4236584125ca271bf133c11826e054d.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/ff6840c6990b6f5992d918367f3a149eab795adb-1280x720.jpg</video:thumbnail_loc>
+      <video:title>Language AI at Google — Language AI Anthem</video:title>
+      <video:description>Centering global voices to highlight the importance of language in AI, and how expanding datasets across languages can make technology more accessible and inclusive for billions of people.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/320a23962427e68e5b25bf39fdcb54ec61ac0d8a.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/c58af48dbfa32edc7986e1e7d563540fda1055c3-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Language AI at Google — Waxal — African Languages</video:title>
+      <video:description>Centering global voices to highlight the importance of language in AI, and how expanding datasets across languages can make technology more accessible and inclusive for billions of people.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/ef5b1b302772450edae0f656d8788c9fb90e7ebd.mp4</video:content_loc>
+    </video:video>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/arbitrum-everywhere</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/b51a610164c76a99bb823bdc9323d3424779913e-864x1080.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/blockchain</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/71dfb7a0c94091432203936c7664d760e2003bfe-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/4780bb4bb57212a35956a8023987a355c3f61a2b-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/038dec45d4c0289b1879f100ffa3c7b729ef3f4a-1920x1080.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/4780bb4bb57212a35956a8023987a355c3f61a2b-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>The Marketing Department — Leaderboard</video:title>
+      <video:description>Humorous, social-first videos built to speak directly to Arbitrum's community on X, using comedy to launch product features while deepening engagement within a highly opinionated and passionate space.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/2cb5ff24a7f9be7da843a61330c0c83f2687bf88.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/038dec45d4c0289b1879f100ffa3c7b729ef3f4a-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>The Marketing Department — Dinner Talk</video:title>
+      <video:description>Humorous, social-first videos built to speak directly to Arbitrum's community on X, using comedy to launch product features while deepening engagement within a highly opinionated and passionate space.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/2bb2c71cf422de4bfa6fb65ecdb47cfacc21ad93.mp4</video:content_loc>
+    </video:video>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/rtpi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/fe78429540cb2ff0bfe7975c9e2e511f4bd192aa-864x1080.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/barnes-and-noble</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/2c92371e528a32b29136fdd355479d53631af3a1-1280x720.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/e28ca2eb2d2b0353c2e4a9efc7fbe1a478ca7c47-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/fec5e62d86a8066653b959653e6b04e9c972f78c-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/e84c99be5a797849ea9745a6403707f517ad4399-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/a0950a12358e7c11f543fc3c50ad84c2ce7b194c-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/47a3202e3e3455ddd67830ef1c6e936115fb9f5b-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/34863a012f5e4bb19a329546b4b7e7549417f6e5-1920x1080.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/e28ca2eb2d2b0353c2e4a9efc7fbe1a478ca7c47-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Social Series — BTS</video:title>
+      <video:description>A series of humorous, in-store videos built around pop culture tentpoles and seasonal releases, designed to tap into what readers are already excited about and turn Barnes &amp; Noble into a destination for discovery.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/beff3b2e90c257ace918fe2a615c9247fbd5c675.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/fec5e62d86a8066653b959653e6b04e9c972f78c-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Social Series — Game of Thrones</video:title>
+      <video:description>A series of humorous, in-store videos built around pop culture tentpoles and seasonal releases, designed to tap into what readers are already excited about and turn Barnes &amp; Noble into a destination for discovery.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/f8027c33442b04fcce9893b93f69f60f488ec648.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/e84c99be5a797849ea9745a6403707f517ad4399-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Social Series — Summer Reading</video:title>
+      <video:description>A series of humorous, in-store videos built around pop culture tentpoles and seasonal releases, designed to tap into what readers are already excited about and turn Barnes &amp; Noble into a destination for discovery.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/0ed2f4e4ea9a663bc48efb22fd32927bb39d654b.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/a0950a12358e7c11f543fc3c50ad84c2ce7b194c-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Social Series — King</video:title>
+      <video:description>A series of humorous, in-store videos built around pop culture tentpoles and seasonal releases, designed to tap into what readers are already excited about and turn Barnes &amp; Noble into a destination for discovery.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/5a756b8a340fea7e2932f27f5c50ea9957115d9e.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/47a3202e3e3455ddd67830ef1c6e936115fb9f5b-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Social Series — Summer Reading Kid</video:title>
+      <video:description>A series of humorous, in-store videos built around pop culture tentpoles and seasonal releases, designed to tap into what readers are already excited about and turn Barnes &amp; Noble into a destination for discovery.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/d3bca1bcd2aafea775451a5930a5bb401d72ee9e.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/34863a012f5e4bb19a329546b4b7e7549417f6e5-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Social Series — Mothers</video:title>
+      <video:description>A series of humorous, in-store videos built around pop culture tentpoles and seasonal releases, designed to tap into what readers are already excited about and turn Barnes &amp; Noble into a destination for discovery.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/3b92a939db56ec512db475c69cf435105839f87b.mp4</video:content_loc>
+    </video:video>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/singlecare</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/5ebf577ec20519ee355e6ff151c00b9455feee52-1280x720.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/59c8257c8ad498f225104428a01d04c4eb7560cb-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/a91a107fd984f6b157a28770d49dfa2f891a05da-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/c035d20188f03f1924aae5fb2209fab01cb5d14f-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/94cd3dff81bb732eaabc0855e72df4cd69a8bc98-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/e8b86366208da740e54a836c0abe7adbf4f0292e-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/4d4153f8f41c1d0ee107873100a26206aaae6835-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/80fcfe0f31cf947b1afcdd2ea46318faa9cf9abd-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/03601816b989e03e0887e25905f8fa340aa375ec-1920x1080.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/59c8257c8ad498f225104428a01d04c4eb7560cb-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Ask a Pharmacist — EP01 — Customer Interventions</video:title>
+      <video:description>A series built by pharmacists, for pharmacists — spotlighting the triumphs, challenges, and hard-earned lived experience behind the counter.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/813a8e7719b95104c60fd8440b37a8ae0cafe037.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/a91a107fd984f6b157a28770d49dfa2f891a05da-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Ask a Pharmacist — EP02 — Building Relationships</video:title>
+      <video:description>A series built by pharmacists, for pharmacists — spotlighting the triumphs, challenges, and hard-earned lived experience behind the counter.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/54f80929b275d9d350a724e44b6e9f0efd21671c.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/c035d20188f03f1924aae5fb2209fab01cb5d14f-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Ask a Pharmacist — EP03 — Working With Rude Customers</video:title>
+      <video:description>A series built by pharmacists, for pharmacists — spotlighting the triumphs, challenges, and hard-earned lived experience behind the counter.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/e19dec154f35d66729da8df4899e64352da528a9.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/94cd3dff81bb732eaabc0855e72df4cd69a8bc98-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Ask a Pharmacist — EP06 — Avoiding Burnout</video:title>
+      <video:description>A series built by pharmacists, for pharmacists — spotlighting the triumphs, challenges, and hard-earned lived experience behind the counter.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/d9d8734501ed67aec59c038e889f300a74cb3b2a.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/e8b86366208da740e54a836c0abe7adbf4f0292e-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Ask a Pharmacist — EP07 — Horror Stories</video:title>
+      <video:description>A series built by pharmacists, for pharmacists — spotlighting the triumphs, challenges, and hard-earned lived experience behind the counter.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/116f01a67b907ae5f97303d130228b184f5ecb2c.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/4d4153f8f41c1d0ee107873100a26206aaae6835-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Ask a Pharmacist — S02 E05 — De-Escalating Conflict</video:title>
+      <video:description>A series built by pharmacists, for pharmacists — spotlighting the triumphs, challenges, and hard-earned lived experience behind the counter.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/ff3b5dacc7f48c8d0e44250ca28cc0d940a5b2ee.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/80fcfe0f31cf947b1afcdd2ea46318faa9cf9abd-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Ask a Pharmacist — S02 E08 — Best Stories</video:title>
+      <video:description>A series built by pharmacists, for pharmacists — spotlighting the triumphs, challenges, and hard-earned lived experience behind the counter.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/a11e3178262371169e6e734fd3a4d66546c6c3cd.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/03601816b989e03e0887e25905f8fa340aa375ec-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Ask a Pharmacist — S02 E11 — Tips &amp; Counseling</video:title>
+      <video:description>A series built by pharmacists, for pharmacists — spotlighting the triumphs, challenges, and hard-earned lived experience behind the counter.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/648afc886347817001f1e503e64f1d75b16581c9.mp4</video:content_loc>
+    </video:video>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/google-ads</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/827afe42108ca3f53e2292c200b2e3efc304e95c-864x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/134e7b8a059045a308bd1a32dc7da5a0f7ccab0b-1080x1920.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/b31cfe5fda9de89d3e6cf20801be3aa8e0717b08-1080x1920.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/14ba37bdd9901404b4646136fdc4316969886dcd-1080x1920.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/134e7b8a059045a308bd1a32dc7da5a0f7ccab0b-1080x1920.jpg</video:thumbnail_loc>
+      <video:title>Hot Takes — Gaurav</video:title>
+      <video:description>Social-first series for Google Ads on LinkedIn, where executives respond directly to real questions and &quot;hot takes&quot; from their community — blending humor, candor, and expertise.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/716ea65a45b42f16c7312688d7e0bce75b7590e3.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/b31cfe5fda9de89d3e6cf20801be3aa8e0717b08-1080x1920.jpg</video:thumbnail_loc>
+      <video:title>Hot Takes — Harikesh</video:title>
+      <video:description>Social-first series for Google Ads on LinkedIn, where executives respond directly to real questions and &quot;hot takes&quot; from their community — blending humor, candor, and expertise.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/ff611cb6c253be66e223277e74042b93db9ee403.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/14ba37bdd9901404b4646136fdc4316969886dcd-1080x1920.jpg</video:thumbnail_loc>
+      <video:title>Hot Takes — Kamal</video:title>
+      <video:description>Social-first series for Google Ads on LinkedIn, where executives respond directly to real questions and &quot;hot takes&quot; from their community — blending humor, candor, and expertise.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/804de6ad8bb490be411825ff1770dcd17cad7688.mp4</video:content_loc>
+    </video:video>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/spot-and-tango</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/b1ec7ec50d57d38c2ed165a2f750beb30bbb224d-1280x720.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/be99ea220844d3b71d8fb25c590b15ceb30bf461-1920x1080.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/be99ea220844d3b71d8fb25c590b15ceb30bf461-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>New York Dogs — Lisa &amp; Hudson</video:title>
+      <video:description>Character-driven mini-docs profiling quirky New Yorkers and their canine counterparts, using humor and specificity to celebrate the bond between people and their dogs.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/9571ce2c8bc84788266f95b112e1a94e0f62e380.mp4</video:content_loc>
+    </video:video>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/google-champions-place</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/bfe1d3fe0ada046903a955a5f6699060a2d2f398-1920x1080.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/bfe1d3fe0ada046903a955a5f6699060a2d2f398-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Champion's Place</video:title>
+      <video:description>A character-driven documentary following residents of Champion's Place — the first shared living community for young adults with disabilities — as they navigate independence supported by Google's assistive technology.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/f24b8b5b2804f077e5003b9b3c953e7b4a8be968.mp4</video:content_loc>
+    </video:video>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/youtube</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/e7d868bc679f54a07222818d42e26ad9ba409118-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/a47d474c494a4913bcdf22d7239fc15f9b79beb8-1080x1920.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/34f4e512082a3967eed6f697c1507799eff7e83d-1080x1920.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/f7363ec3a3ac6cca8411c17b42d96f7e0672c4e9-1080x1920.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/a47d474c494a4913bcdf22d7239fc15f9b79beb8-1080x1920.jpg</video:thumbnail_loc>
+      <video:title>YouTube Connect — Why Shorts</video:title>
+      <video:description>A fast-turn, social-first interview series capturing advertising leaders sharing how they use YouTube to drive strategy, told directly from the floor of a live industry event.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/70a5981284c62b3df3e48fc31f31a1767ce1e10c.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/34f4e512082a3967eed6f697c1507799eff7e83d-1080x1920.jpg</video:thumbnail_loc>
+      <video:title>YouTube Connect — What Brings People to YouTube</video:title>
+      <video:description>A fast-turn, social-first interview series capturing advertising leaders sharing how they use YouTube to drive strategy, told directly from the floor of a live industry event.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/87375dc94ea5b279132722438a33ea3dfd837124.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/f7363ec3a3ac6cca8411c17b42d96f7e0672c4e9-1080x1920.jpg</video:thumbnail_loc>
+      <video:title>YouTube Connect — The Creator Connection</video:title>
+      <video:description>A fast-turn, social-first interview series capturing advertising leaders sharing how they use YouTube to drive strategy, told directly from the floor of a live industry event.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/94fd0f1832e26c064be7616bc312424105bd4889.mp4</video:content_loc>
+    </video:video>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/think-with-google</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/7addbdbf234ef73067796a0749f03dc6571156fc-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/f086496c835d31594b042d8e237657a82bbbee0c-1920x1080.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/f086496c835d31594b042d8e237657a82bbbee0c-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Modern Marketers — Barkley OKRP</video:title>
+      <video:description>A long-form interview series featuring marketing leaders in conversation about how AI is reshaping their creative workflows — from practical day-to-day applications to the making of formerly &quot;impossible ads.&quot;</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/00941a4d3bda7ca822fa549b7b7d0d9469b24bfe.mp4</video:content_loc>
+    </video:video>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/brooklyn-brewery</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/2100ae18b287212c0ca6555476ea2cb3a49eb4e4-1280x720.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/google-maps</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/ff3b9223a53054fc118675261ddb161ec4adcdc1-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/41240336532ff689026216d5cd9cfacf312680ac-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/e87d37420b43388877e9fe438e842ae9e7360466-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/3db317578234982c82d6c1da52aba9df5948e7a3-1920x1080.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/41240336532ff689026216d5cd9cfacf312680ac-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Mapping the Globe — Tonga</video:title>
+      <video:description>A global documentary series following local contributors who document and map their communities — capturing places, stories, and terrain with a level of depth only locals can provide.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/5276c904a50a558d17b8cfa4394700c14e5a1366.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/e87d37420b43388877e9fe438e842ae9e7360466-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Mapping the Globe — JAXA — Japan</video:title>
+      <video:description>A global documentary series following local contributors who document and map their communities — capturing places, stories, and terrain with a level of depth only locals can provide.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/91436fbc542c15e1727d64a150b0e24f5c1c91e6.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/3db317578234982c82d6c1da52aba9df5948e7a3-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Mapping the Globe — New Zealand</video:title>
+      <video:description>A global documentary series following local contributors who document and map their communities — capturing places, stories, and terrain with a level of depth only locals can provide.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/c28d02b8bb7dbb80302ca41d87dcb19195bcfe19.mp4</video:content_loc>
+    </video:video>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/google-small-business</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/5b4dd8d80db6ed0ecf198bfc5a61bdb2e827f93d-1280x720.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/ddb3fdb2a28d3c0efd43ce8654170a32518a551f-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/70e0891e964437846a4cae17a333cb6d3f4f1b6c-1920x1080.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.sanity.io/images/n3plha5r/production/1ade1f44bff6a2b37f61949fdf9c9487be4f519b-1920x1080.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/ddb3fdb2a28d3c0efd43ce8654170a32518a551f-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Small Business Profiles — Nawab</video:title>
+      <video:description>A series of intimate profiles highlighting small businesses across the country — capturing the grit, care, and day-to-day realities that sustain them alongside the tools they rely on to grow.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/a1b42bf8a40d46a62fea7f68a2db0a1eb0bf2ea3.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/70e0891e964437846a4cae17a333cb6d3f4f1b6c-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Small Business Profiles — Bikes &amp; Hikes</video:title>
+      <video:description>A series of intimate profiles highlighting small businesses across the country — capturing the grit, care, and day-to-day realities that sustain them alongside the tools they rely on to grow.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/1cffbc4aa93aa5b5e71cdccefe09b5bc22083ef8.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://cdn.sanity.io/images/n3plha5r/production/1ade1f44bff6a2b37f61949fdf9c9487be4f519b-1920x1080.jpg</video:thumbnail_loc>
+      <video:title>Small Business Profiles — Chulita</video:title>
+      <video:description>A series of intimate profiles highlighting small businesses across the country — capturing the grit, care, and day-to-day realities that sustain them alongside the tools they rely on to grow.</video:description>
+      <video:content_loc>https://cdn.sanity.io/files/n3plha5r/production/8ae2aadb2383c8f36d50ff7d7c6e34b45113d153.mp4</video:content_loc>
+    </video:video>
   </url>
   <url>
     <loc>https://deep-dive.studio/work/harlem-capital</loc>
