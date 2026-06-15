@@ -20,8 +20,9 @@ function ogImageFrom(thumb) {
 }
 
 // One VideoObject per clip so answer engines can index each film individually.
-// uploadDate is intentionally omitted — projects carry no publish date in Sanity.
-// Add a `publishDate` field per project to unlock Google video rich results.
+// uploadDate comes from the project's `publishDate` (Sanity); when a project
+// has no date set yet it's omitted, which keeps the schema valid but ineligible
+// for Google's video rich results until a date is filled in.
 function buildVideoSchema(project, description) {
   const clips = project.videos?.length
     ? project.videos
@@ -40,6 +41,7 @@ function buildVideoSchema(project, description) {
         name,
         description,
         thumbnailUrl: thumb,
+        ...(project.publishDate ? { uploadDate: project.publishDate } : {}),
         ...(clip.url ? { contentUrl: clip.url } : {}),
         ...(clip.embedUrl ? { embedUrl: clip.embedUrl } : {}),
         publisher: {

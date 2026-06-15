@@ -22,7 +22,7 @@ const client = createClient({
 const QUERY = `{
   "projects": *[_type == "project"] | order(coalesce(order, 999) asc) {
     "slug": slug.current,
-    client, title, category, format, industry, portrait,
+    client, title, category, format, industry, portrait, publishDate,
     "thumbnail": thumbnail.asset->url,
     "videoPreview": coalesce(videoPreview.asset->url, videoPreview),
     "videoUrl": coalesce(videoUrl.asset->url, videoUrl),

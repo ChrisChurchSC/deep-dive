@@ -44,7 +44,7 @@ function videoEntries(p) {
       const content = c.url ?? null
       if (!thumb || !content) return null
       const title = c.label && c.label !== p.title ? `${p.title} — ${c.label}` : p.title
-      return { thumb, title, description: p.description || `${p.client} — ${p.format}`, content }
+      return { thumb, title, description: p.description || `${p.client} — ${p.format}`, content, publishDate: p.publishDate }
     })
     .filter(Boolean)
 }
@@ -80,7 +80,7 @@ const urls = all
       <video:thumbnail_loc>${esc(v.thumb)}</video:thumbnail_loc>
       <video:title>${esc(v.title)}</video:title>
       <video:description>${esc(v.description)}</video:description>
-      <video:content_loc>${esc(v.content)}</video:content_loc>
+      <video:content_loc>${esc(v.content)}</video:content_loc>${v.publishDate ? `\n      <video:publication_date>${esc(v.publishDate)}</video:publication_date>` : ''}
     </video:video>`,
       )
       .join('\n')
