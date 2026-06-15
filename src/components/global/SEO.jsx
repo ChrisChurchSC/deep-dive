@@ -6,8 +6,11 @@ const SITE_TAGLINE = 'Branded Edutainment Video Production'
 const SITE_URL  = 'https://deep-dive.studio'
 const OG_IMAGE  = `${SITE_URL}/og-default.png`
 
-// Set this once you have a GSC property verified
-const GSC_VERIFICATION = ''
+// Google Search Console verification. Set VITE_GSC_VERIFICATION in the
+// environment (Vercel project env + local .env) to the token from the GSC
+// "HTML tag" method, then redeploy. No code change needed.
+// (Or skip this entirely and verify via DNS as a Domain property.)
+const GSC_VERIFICATION = import.meta.env.VITE_GSC_VERIFICATION ?? ''
 
 // Organization schema — emitted on every page for AEO / knowledge-graph signal
 const organizationSchema = {

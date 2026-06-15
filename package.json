@@ -6,9 +6,10 @@
   "scripts": {
     "pull:content": "node scripts/pull-content.mjs",
     "build:sitemap": "node scripts/build-sitemap.mjs",
-    "predev": "npm run pull:content && npm run build:sitemap",
-    "prebuild": "npm run pull:content && npm run build:sitemap",
-    "prebuild:ssg": "npm run pull:content && npm run build:sitemap",
+    "build:llms": "node scripts/build-llms.mjs",
+    "predev": "npm run pull:content && npm run build:sitemap && npm run build:llms",
+    "prebuild": "npm run pull:content && npm run build:sitemap && npm run build:llms",
+    "prebuild:ssg": "npm run pull:content && npm run build:sitemap && npm run build:llms",
     "dev": "vite",
     "build": "vite build",
     "build:ssg": "vite build && vite build --ssr src/entry-server.jsx --outDir dist-ssr && node scripts/prerender.mjs",

@@ -1,47 +1,64 @@
 # Deep Dive
 
-> Brooklyn-based branded edutainment video production studio. We make documentary films that educate your audience and build your brand.
+> Brooklyn-based branded edutainment studio. We make documentary films that educate your audience and build your brand.
 
-Deep Dive sits at the intersection of documentary filmmaking and brand strategy. We produce branded edutainment — content that teaches audiences something they genuinely want to know while achieving specific commercial outcomes for the brand.
-
-## What we do
-
-- **Brand & People**: Founder origin stories, culture films, executive profiles, "Why We Exist" films
-- **Customer & Community**: Long-form customer success stories, transformation narratives, community impact documentaries
-- **Industry & Platform**: Expert interview series, industry trend documentaries, episodic docu-series
-
-## Formats
-
-- Mini-Film (3–7 min): The workhorse format for digital distribution
-- Documentary Series (3–8 episodes): Episodic content that builds an audience over time
-- Long-Form Doc (12–45 min): Full cinematic treatment for brand origin and impact stories
-- Distribution Cuts (30 sec–2 min): Platform-optimized cuts included with every production
-
-## Why it works
-
-Consumers are 131% more likely to buy after consuming educational content (Conductor/Cornell). Deep Dive productions average 55% view-through rate — against a 2% industry benchmark for branded video. The difference is authentic storytelling that serves the audience first.
-
-## Selected clients
-
-Google, SurvivorNet, Meta, Harlem Capital, Ethereum Foundation
-
-## Key proof points
-
-- 55% average view-through rate (SurvivorNet documentary series)
-- 131% purchase lift from educational content (Conductor/Cornell research)
-- 89% of B2B decision-makers cite thought leadership as influential (Edelman-LinkedIn)
-
-## Contact
-
-- Website: https://deep-dive.studio
-- Email: hello@deep-dive.studio
-- Location: Brooklyn, NY
+Deep Dive makes branded edutainment: video content that genuinely teaches an audience while building the brand behind it. Documentary craft, brand outcomes. Based in Brooklyn, NY.
 
 ## Pages
+- [Work](https://deep-dive.studio/work): Case studies and films across brand, customer, and platform work.
+- [Services](https://deep-dive.studio/services): What we make and when to use each format.
+- [Process](https://deep-dive.studio/process): The five-stage production framework, start to delivery.
+- [About](https://deep-dive.studio/about): Who we are and how we work.
+- [Journal](https://deep-dive.studio/journal): Edutainment strategy, case studies, and film craft.
+- [Contact](https://deep-dive.studio/contact): Start a project.
 
-- /work — Portfolio of productions
-- /services — Service categories and formats
-- /process — Five-stage production process
-- /about — Studio story and credentials
-- /journal — Editorial content on branded storytelling strategy
-- /contact — Project inquiries
+## Services
+- [Brand & People](https://deep-dive.studio/services/brand-people): The brand made visible. The people behind it made human.
+- [Customer & Community](https://deep-dive.studio/services/customer-community): Real people, real results. Social proof that feels earned, not staged.
+- [Industry & Platform](https://deep-dive.studio/services/industry-platform): Authority-building content that makes your brand the definitive voice.
+
+## Work (case studies)
+- [SurvivorNet — From a Whisper to a Roar: Mellve's Mission](https://deep-dive.studio/work/survivornet): A documentary series for a leading cancer information platform — authentic patient stories that drove extraordinary engagement in a space typically crowded wit…
+- [Google Research — Language AI at Google](https://deep-dive.studio/work/google-language-ai): Centering global voices to highlight the importance of language in AI, and how expanding datasets across languages can make technology more accessible and incl…
+- [Arbitrum — Arbitrum Everywhere](https://deep-dive.studio/work/arbitrum-everywhere): An exploration of blockchain technology featuring Vitalik Buterin — making the complex genuinely compelling.
+- [Arbitrum — The Marketing Department](https://deep-dive.studio/work/blockchain): Humorous, social-first videos built to speak directly to Arbitrum's community on X, using comedy to launch product features while deepening engagement within a…
+- [Roger Tory Peterson Institute — Spark Birds](https://deep-dive.studio/work/rtpi): A brand film for RTPI celebrating the legacy of the Field Guide to the Birds — a landmark publication that transformed how people engage with the natural world.
+- [Barnes & Noble — Social Series](https://deep-dive.studio/work/barnes-and-noble): A series of humorous, in-store videos built around pop culture tentpoles and seasonal releases, designed to tap into what readers are already excited about and…
+- [SingleCare — Ask a Pharmacist](https://deep-dive.studio/work/singlecare): A series built by pharmacists, for pharmacists — spotlighting the triumphs, challenges, and hard-earned lived experience behind the counter.
+- [Google Ads — Hot Takes](https://deep-dive.studio/work/google-ads): Social-first series for Google Ads on LinkedIn, where executives respond directly to real questions and "hot takes" from their community — blending humor, cand…
+- [Spot & Tango — New York Dogs](https://deep-dive.studio/work/spot-and-tango): Character-driven mini-docs profiling quirky New Yorkers and their canine counterparts, using humor and specificity to celebrate the bond between people and the…
+- [Google — Champion's Place](https://deep-dive.studio/work/google-champions-place): A character-driven documentary following residents of Champion's Place — the first shared living community for young adults with disabilities — as they navigat…
+- [YouTube — YouTube Connect](https://deep-dive.studio/work/youtube): A fast-turn, social-first interview series capturing advertising leaders sharing how they use YouTube to drive strategy, told directly from the floor of a live…
+- [Think with Google — Modern Marketers](https://deep-dive.studio/work/think-with-google): A long-form interview series featuring marketing leaders in conversation about how AI is reshaping their creative workflows — from practical day-to-day applica…
+- [Brooklyn Brewery — Beer Talks](https://deep-dive.studio/work/brooklyn-brewery): Featuring Brewmaster Garrett Oliver breaking down Brooklyn Brewery's beers behind the bar — translating flavor, texture, and brewing technique into accessible,…
+- [Google Maps — Mapping the Globe](https://deep-dive.studio/work/google-maps): A global documentary series following local contributors who document and map their communities — capturing places, stories, and terrain with a level of depth…
+- [Google — Small Business Profiles](https://deep-dive.studio/work/google-small-business): A series of intimate profiles highlighting small businesses across the country — capturing the grit, care, and day-to-day realities that sustain them alongside…
+- [Harlem Capital — The Founders No One Bet On](https://deep-dive.studio/work/harlem-capital): A brand film for the VC firm on a mission to invest in 1,000 diverse founders — told through the stories of the people they back.
+- [Harlem Capital — Built Different](https://deep-dive.studio/work/harlem-capital-portfolio): Profile films on the diverse founders in the Harlem Capital portfolio — their stories, their obstacles, and what they built against the odds.
+- [SurvivorNet — The Doctors Who Changed Everything](https://deep-dive.studio/work/survivornet-doctors): A multi-part series featuring the oncologists and researchers reshaping how cancer is treated — authority content that made SurvivorNet the go-to source.
+- [SurvivorNet — The Trial That Changed My Life](https://deep-dive.studio/work/cancer-clinical-trials): A single-subject documentary following a cancer patient through an experimental clinical trial — raw, intimate, and ultimately hopeful.
+- [Meta — Built on Instagram](https://deep-dive.studio/work/meta-creators): A series of creator stories showing how entrepreneurs built their businesses entirely through Instagram — authentic, unscripted, and undeniably real.
+- [Ethereum Foundation — What the Internet Was Supposed to Be](https://deep-dive.studio/work/ethereum-foundation): A cinematic long-form documentary on the vision behind Ethereum — for the believers, and for everyone who never understood what the fuss was about.
+- [Google — Where We Come From](https://deep-dive.studio/work/google-dei): A documentary series on the people inside Google — their origins, their drive, and why they chose to build here.
+- [Web3 Client — DeFi for the Rest of Us](https://deep-dive.studio/work/defi-explained): A series making decentralized finance genuinely understandable — not dumbed down, but made human.
+
+## Answers
+- [What is branded edutainment?](https://deep-dive.studio/lp/what-is-branded-edutainment): Branded edutainment is video content that genuinely teaches your audience something useful while building trust in the brand behind it. It borrows the craft of…
+- [How do you make brand videos people actually finish?](https://deep-dive.studio/lp/videos-people-actually-finish): You make videos people finish by earning every second instead of assuming it. That means starting from a story the audience genuinely wants, using documentary…
+- [How do healthcare brands make video people actually watch?](https://deep-dive.studio/lp/video-production-for-healthcare-brands): Healthcare video works when it treats the audience as people, not patients to be informed. The brands that win use real stories and documentary craft to make c…
+
+## Journal
+- [Why Authenticity in Branded Content Is Harder Than It Looks](https://deep-dive.studio/journal/why-authenticity-in-branded-content-is-harder-than-it-looks): Every brief asks for it. Almost no branded content delivers it. The gap shows up because authenticity is a craft discipline, not a tone you can dial in during…
+- [The Difference Between a Video That Goes Viral and One That Converts](https://deep-dive.studio/journal/the-difference-between-a-video-that-goes-viral-and-one-that-converts): Viral videos and converting videos are designed against fundamentally different objectives. Trying to optimize for both usually produces a piece that fails at…
+- [How to Cast Non-Actors for Video Without It Looking Like a Corporate Ad](https://deep-dive.studio/journal/how-to-cast-non-actors-for-video): The difference between non-actor footage that carries a film and footage that kills it is almost entirely decided before the camera rolls.
+- [Why Your Brand Film Needs a Narrative Arc, Not a Message](https://deep-dive.studio/journal/why-your-brand-film-needs-a-narrative-arc): Most brand films are organized around what the brand wants to say. The audience has no obligation to absorb any of it. Here is what to build instead.
+- [Why Educational Content Outperforms Branded Advertising](https://deep-dive.studio/journal/why-educational-content-outperforms-branded-advertising): Consumers are 131% more likely to buy after consuming educational content. Here's what that number actually means — and why most branded content misses the mec…
+- [The View-Through Rate That Changed How We Think About Video](https://deep-dive.studio/journal/the-view-through-rate-that-changed-how-we-think-about-video): When SurvivorNet got a 55% view-through rate on a documentary series, the first question we got was "how?" The answer is simpler than most people expect.
+- [The Difference Between a Testimonial and a Trust Film](https://deep-dive.studio/journal/the-difference-between-a-testimonial-and-a-trust-film): Both feature a customer talking about your product. Only one actually changes minds. The distinction is in the story structure — and understanding it will chan…
+- [What Documentary Filmmaking Taught Us About B2B Content](https://deep-dive.studio/journal/what-documentary-filmmaking-taught-us-about-b2b-content): The core principle of documentary — find the real story, then capture it with craft — turns out to be exactly what branded content has been missing.
+- [How to Brief a Video Production That Won't Disappoint You](https://deep-dive.studio/journal/how-to-brief-a-video-production-that-wont-disappoint-you): Most bad videos start with a bad brief. This is the briefing framework we use at Deep Dive — and the questions your production partner should be asking before…
+- [Episodic vs. Single Film: Which Format Is Right for Your Brand?](https://deep-dive.studio/journal/episodic-vs-single-film-which-format-is-right-for-your-brand): A series builds an audience over time. A single film makes one unforgettable impression. The choice is not about budget — it's about what job the content needs…
+
+## Contact
+- Start a project: https://deep-dive.studio/contact
+- Email: contact@deep-dive.studio
