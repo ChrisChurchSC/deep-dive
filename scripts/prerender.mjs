@@ -9,6 +9,8 @@ const ssrDir    = path.resolve(root, 'dist-ssr')
 
 // Routes are derived from the Sanity snapshot so SSG covers every doc.
 const snap = JSON.parse(fs.readFileSync(path.resolve(root, 'src/data/_sanity.json'), 'utf-8'))
+// Landing pages live in a plain data module (not Sanity yet).
+const { landingPageSlugs } = await import(path.resolve(root, 'src/data/landingPages.js'))
 
 const staticRoutes = [
   '/', '/work', '/services', '/process', '/about', '/contact', '/journal', '/privacy',
@@ -16,8 +18,9 @@ const staticRoutes = [
 const projectRoutes = (snap.projects ?? []).filter((p) => p.slug).map((p) => `/work/${p.slug}`)
 const serviceRoutes = Object.keys(snap.serviceDetails ?? {}).map((slug) => `/services/${slug}`)
 const articleRoutes = (snap.articles ?? []).filter((a) => a.slug).map((a) => `/journal/${a.slug}`)
+const landingRoutes = (landingPageSlugs ?? []).map((slug) => `/lp/${slug}`)
 
-const routes = [...staticRoutes, ...projectRoutes, ...serviceRoutes, ...articleRoutes]
+const routes = [...staticRoutes, ...projectRoutes, ...serviceRoutes, ...articleRoutes, ...landingRoutes]
 console.log(`  Prerendering ${routes.length} routes`)
 
 const template = fs.readFileSync(path.join(distDir, 'index.html'), 'utf-8')

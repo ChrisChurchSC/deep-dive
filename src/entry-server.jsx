@@ -16,6 +16,7 @@ import ContactPage       from './pages/ContactPage'
 import JournalPage       from './pages/JournalPage'
 import ArticlePage       from './pages/ArticlePage'
 import PrivacyPage       from './pages/PrivacyPage'
+import LandingPage       from './pages/LandingPage'
 
 function Layout({ children }) {
   return (
@@ -44,6 +45,7 @@ export function render(url) {
           <Route path="/contact"            element={<Layout><ContactPage /></Layout>} />
           <Route path="/journal"            element={<Layout><JournalPage /></Layout>} />
           <Route path="/journal/:slug"      element={<Layout><ArticlePage /></Layout>} />
+          <Route path="/lp/:slug"           element={<Layout><LandingPage /></Layout>} />
           <Route path="/privacy"            element={<Layout><PrivacyPage /></Layout>} />
         </Routes>
       </StaticRouter>

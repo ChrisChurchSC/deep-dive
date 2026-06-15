@@ -12,6 +12,7 @@ const OUT_PATH  = path.resolve(__dirname, '../public/sitemap.xml')
 const SITE_URL  = 'https://deep-dive.studio'
 
 const snap = JSON.parse(await fs.readFile(SNAPSHOT, 'utf-8'))
+const {landingPageSlugs} = await import(new URL('../src/data/landingPages.js', import.meta.url))
 
 const esc = (s) =>
   String(s ?? '')
@@ -67,7 +68,11 @@ const serviceRoutes = Object.keys(snap.serviceDetails ?? {}).map((slug) => ({
   path: `/services/${slug}`, priority: '0.7', changefreq: 'monthly',
 }))
 
-const all = [...staticRoutes, ...projectRoutes, ...serviceRoutes, ...articleRoutes]
+const landingRoutes = (landingPageSlugs ?? []).map((slug) => ({
+  path: `/lp/${slug}`, priority: '0.8', changefreq: 'monthly',
+}))
+
+const all = [...staticRoutes, ...projectRoutes, ...serviceRoutes, ...articleRoutes, ...landingRoutes]
 
 const urls = all
   .map((r) => {

@@ -16,6 +16,7 @@ const ContactPage       = lazy(() => import('./pages/ContactPage'))
 const JournalPage       = lazy(() => import('./pages/JournalPage'))
 const ArticlePage       = lazy(() => import('./pages/ArticlePage'))
 const PrivacyPage       = lazy(() => import('./pages/PrivacyPage'))
+const LandingPage       = lazy(() => import('./pages/LandingPage'))
 const NotFoundPage      = lazy(() => import('./pages/NotFoundPage'))
 
 // Fire a GA4 page_view on every route change
@@ -104,6 +105,9 @@ export default function App() {
           {/* Journal */}
           <Route path="/journal"             element={<Layout><JournalPage /></Layout>} />
           <Route path="/journal/:slug"       element={<Layout><ArticlePage /></Layout>} />
+
+          {/* AEO landing pages */}
+          <Route path="/lp/:slug"            element={<Layout><LandingPage /></Layout>} />
 
           {/* Utility */}
           <Route path="/privacy"             element={<Layout><PrivacyPage /></Layout>} />

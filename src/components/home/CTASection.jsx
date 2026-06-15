@@ -4,7 +4,7 @@ import Button from '../primitives/Button'
 import Reveal from '../primitives/Reveal'
 import { siteSettings } from '../../data/siteSettings'
 
-export default function CTASection() {
+export default function CTASection({ heading, body }) {
   const cta = siteSettings.cta ?? {}
   return (
     <section className={styles.section}>
@@ -19,8 +19,8 @@ export default function CTASection() {
             />
           )}
           <div className={styles.content}>
-            <Reveal><h2 className={styles.heading}>{cta.heading}</h2></Reveal>
-            <Reveal delay={1}><p className={styles.body}>{cta.body}</p></Reveal>
+            <Reveal><h2 className={styles.heading}>{heading || cta.heading}</h2></Reveal>
+            <Reveal delay={1}><p className={styles.body}>{body || cta.body}</p></Reveal>
             <Reveal delay={2}><div className={styles.actions}>
               {cta.primaryLabel && (
                 <Button href={cta.primaryHref || '#'} variant="cream">{cta.primaryLabel}</Button>
