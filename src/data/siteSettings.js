@@ -28,7 +28,7 @@ const fallback = {
       { label: 'Contact', to: '/contact' },
       { label: 'Privacy', to: '/privacy' },
     ],
-    tagline: "We don't just make videos people see.\nWe make videos people finish.",
+    tagline: 'Are you not Edutained!?',
     newsletterLabel: 'The Deep Dive',
     newsletterSub: 'Edutainment strategy, case studies, and film craft — direct to your inbox.',
     newsletterButton: 'Subscribe →',
