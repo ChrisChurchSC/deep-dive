@@ -45,6 +45,7 @@ export default function CategoryStatement() {
                 ref={videoRef}
                 className={styles.video}
                 src={homepage.categoryVideo}
+                poster={homepage.categoryPoster || undefined}
                 playsInline
                 preload="metadata"
                 onEnded={() => setPlaying(false)}

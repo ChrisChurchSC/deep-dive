@@ -10,6 +10,7 @@ const fallback = {
   categoryUsage:
     '"Consumers are 131% more likely to buy after consuming educational content."',
   categoryVideo: '/videos/edutainment.mp4',
+  categoryPoster: '/thumbnails/edutainment.jpg',
 
   filmStripLabel: 'Selected work',
   filmStripHeading: 'Films that educate.\nBrands that earn trust.',
