@@ -6,7 +6,7 @@ const fallback = {
   categoryPhonetic: '/ˌej·oo·ˈteɪn·mənt/',
   categoryPos: 'n.',
   categoryDefinition:
-    'Content that teaches an audience something they genuinely want to know, told compellingly enough to watch — and made by a brand. Not a product demo. Not a brand film. Something more useful than either.',
+    'Content that teaches an audience something they genuinely want to know, told compellingly and made by a brand. Not a product demo. Not a brand film. Something more useful than either.',
   categoryUsage:
     '"Consumers are 131% more likely to buy after consuming educational content."',
   categoryVideo: '/videos/edutainment.mp4',
