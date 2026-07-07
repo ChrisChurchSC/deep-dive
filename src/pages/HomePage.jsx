@@ -29,7 +29,7 @@ const homeJsonLd = [
     url: 'https://deep-dive.studio',
     logo: 'https://deep-dive.studio/og-default.jpg',
     description: 'Brooklyn-based branded edutainment video production studio. Documentary films that educate your audience and build your brand.',
-    slogan: "We don't just make videos people see. We make videos people finish.",
+    slogan: 'Are you not Edutained!?',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Brooklyn',
