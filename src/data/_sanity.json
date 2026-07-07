@@ -1288,7 +1288,7 @@
   "servicesPage": {
     "categories": [
       {
-        "description": "Founder origin stories, culture documents, leadership profiles — the brand brought to life through the people who built it. When audiences understand why a company exists, they trust it differently.",
+        "description": "Founder origin stories, culture documents, leadership profiles: the brand brought to life through the people who built it. When audiences understand why a company exists, they trust it differently.",
         "examples": [
           "Founder origin stories",
           "Culture & hiring films",
@@ -1302,7 +1302,7 @@
         "video": "/previews/brooklyn-brewery.mp4"
       },
       {
-        "description": "Long-form customer success stories, transformation narratives, and community films that build genuine trust. Not \"testimonials\" — full stories with stakes, struggle, and resolution.",
+        "description": "Long-form customer success stories, transformation narratives, and community films that build genuine trust. Not \"testimonials,\" but full stories with stakes, struggle, and resolution.",
         "examples": [
           "Customer success stories",
           "\"Day in the Life\" films",
@@ -1374,7 +1374,7 @@
     ],
     "clientsLabel": "Selected clients",
     "comparisonLabel": "Why Deep Dive",
-    "comparisonSub": "Generic video agencies know marketing but can't film. Documentary filmmakers can film but don't know brands. We trained in both — and built a studio to bridge them.",
+    "comparisonSub": "Generic video agencies know marketing but can't film. Documentary filmmakers can film but don't know brands. We trained in both, and built a studio to bridge them.",
     "comparisonTitle": "The gap we fill.",
     "formats": [
       {
@@ -1411,7 +1411,7 @@
         ]
       },
       {
-        "description": "Every production includes cuts sized for how people actually consume content — platform-optimized, attention-aware.",
+        "description": "Every production includes cuts sized for how people actually consume content: platform-optimized, attention-aware.",
         "duration": "30 sec – 2 min",
         "name": "Distribution Cuts",
         "useCases": [
@@ -1424,12 +1424,12 @@
     ],
     "formatsLabel": "Formats",
     "formatsTitle": "What gets made.",
-    "heroDescription": "Branded edutainment built around what your audience wants to know — and what you need them to believe.",
+    "heroDescription": "Branded edutainment built around what your audience wants to know, and what you need them to believe.",
     "heroEyebrow": "Services",
     "heroTitle": "Three categories. One format.",
     "repurposeAssets": [
       {
-        "desc": "The anchor piece — 2 to 12 minutes, built for owned channels and long-form distribution.",
+        "desc": "The anchor piece, 2 to 12 minutes, built for owned channels and long-form distribution.",
         "label": "Hero film",
         "num": "01"
       },
@@ -1449,7 +1449,7 @@
         "num": "04"
       },
       {
-        "desc": "Unedited footage passed to your team for future use — internal comms, events, decks.",
+        "desc": "Unedited footage passed to your team for future use: internal comms, events, decks.",
         "label": "B-roll library",
         "num": "05"
       },
@@ -1464,7 +1464,7 @@
       "https://cdn.sanity.io/images/n3plha5r/production/9cd34777ebbecb005bc733c0bffba799675485f1-2400x1601.jpg"
     ],
     "repurposeLabel": "One shoot. Many assets.",
-    "repurposeSub": "Every production is built for maximum asset yield. One shoot produces a full suite — the hero film and everything that comes with it.",
+    "repurposeSub": "Every production is built for maximum asset yield. One shoot produces a full suite: the hero film and everything that comes with it.",
     "repurposeTitle": "We capture everything.\nYou keep it all."
   },
   "journalPage": {
@@ -1524,5 +1524,5 @@
     "Craft",
     "Case Studies"
   ],
-  "_pulledAt": "2026-07-07T17:01:02.171Z"
+  "_pulledAt": "2026-07-07T18:08:00.874Z"
 }
